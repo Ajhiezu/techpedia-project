@@ -17,3 +17,4 @@
 @media(min-width:1240px){.reviews-heading{padding-inline:0}}
 @media(max-width:560px){.reviews-section{padding-block:56px}.reviews-heading{align-items:start;flex-direction:column;gap:1rem}.review-card{width:285px;padding:22px}}
 @media(prefers-reduced-motion:reduce){.reviews-track{animation:none;width:auto}.reviews-viewport{overflow:auto;mask-image:none;padding-inline:1.25rem}.reviews-group[aria-hidden=true]{display:none}}
+

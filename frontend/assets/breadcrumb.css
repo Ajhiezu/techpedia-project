@@ -1,4 +1,7 @@
 .crumbs {
+  max-width: 100%;
+  flex-wrap: wrap;
+  overflow-wrap: anywhere;
   align-items: center;
   width: fit-content;
   min-height: 32px;

@@ -1,6 +1,6 @@
 /* Techpedia: cyan light, graphite, and violet from the original mascot. */
 :root{--cyan:#32d9f5;--violet:#9a7de0;--graphite:#29283e;--blue:#087e9b;--deep:#07566d}
-.hero{grid-template-columns:1.12fr 1fr;gap:2rem;min-height:650px;background:radial-gradient(ellipse at 88% 28%,#eee9fb80,transparent 45%),radial-gradient(ellipse at 65% 80%,#d9f8ff90,transparent 48%),linear-gradient(120deg,#f3f9fc,#fff 60%)}
+.hero{overflow:clip;grid-template-columns:1.12fr 1fr;gap:2rem;min-height:650px;background:radial-gradient(ellipse at 88% 28%,#eee9fb80,transparent 45%),radial-gradient(ellipse at 65% 80%,#d9f8ff90,transparent 48%),linear-gradient(120deg,#f3f9fc,#fff 60%)}
 .hero h1 em{color:#079fc7}
 .hero .eyebrow{display:inline-block;padding:.5rem .8rem;border:1px solid #ccecf3;border-radius:30px;background:#eefbfe;letter-spacing:.1em}
 .button{background:var(--cyan);border-color:var(--cyan);color:var(--graphite);box-shadow:0 4px 16px #32d9f52b}

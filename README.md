@@ -25,6 +25,12 @@ Build menyiapkan konten publik dan menghasilkan `dist/`. Tes browser memerlukan 
 
 ## Isi proyek sendiri
 
+### Publikasi website utama di Vercel
+
+Gunakan Root Directory `frontend`, Framework Preset `Other`, Build Command kosong, Install Command kosong, dan Output Directory `.` (satu titik). Konfigurasi berada di `frontend/vercel.json`; website utama dapat dipublikasikan langsung dari folder ini.
+
+Saat mengubah data di `content/site.json`, jalankan `npm.cmd run build` dari root proyek terlebih dahulu, lalu commit hasil pembaruan di `frontend/` bersama source sebelum push. Vercel akan menyajikan file siap pakai tersebut.
+
 Edit **content/site.json**. Portofolio RPK Pustaka sudah ditambahkan berdasarkan informasi dan gambar dari pemilik project. Salin [template proyek](docs/portfolio-hub/PROJECT-TEMPLATE.json), isi data karya Anda, lalu set status published dan approved true bila siap ditampilkan. Mode tersedia: full-live-demo, interactive-ui-demo dan case-study-only. Link demo/GitHub/Figma kosong tidak menghasilkan tombol mati.
 
 Panduan lengkap: [CONTENT-GUIDE.md](docs/portfolio-hub/CONTENT-GUIDE.md). JSON dalam frontend/content adalah hasil generate dan hanya memuat data publik. Berkas source draft di content/ tidak ikut build dist/.

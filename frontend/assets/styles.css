@@ -10,3 +10,9 @@
 .project-thumbnail[src$="rpk-pustaka.png"],.case-image[src$="rpk-pustaka.png"]{aspect-ratio:auto;object-fit:contain;border:1px solid var(--line)}
 
 .project-links{display:flex;flex-wrap:wrap;gap:.7rem 1rem;align-items:center;margin-top:1.25rem}.project-links a{min-height:32px;display:inline-flex;align-items:center}.project-thumbnail,.case-image{display:block;width:100%;height:auto;aspect-ratio:8/5;object-fit:cover;border-radius:8px;margin-bottom:1.25rem}.tech-stack{display:flex;flex-wrap:wrap;gap:.4rem;list-style:none;padding:0;margin:.75rem 0}.tech-stack li,.demo-badge{font-size:.78rem;color:var(--deep);background:var(--light);padding:.3rem .55rem;border-radius:6px}.demo-badge{display:inline-block}.contact-brief{margin-top:2rem}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Keep decorative effects inside the page without creating a horizontal viewport. */
+html,body{overflow-x:clip}
+body,main{min-width:0}
+@supports not (overflow:clip){html,body{overflow-x:hidden}.hero{overflow:hidden}}
+@media(max-width:560px){.header{gap:1rem}}
