@@ -6,6 +6,7 @@ import Navigation from '../components/Navigation';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
 import {indexable,publicOrigin} from '../lib/seo';
 export const metadata: Metadata = {
+ icons:{icon:[{url:'/favicon.ico?v=techpedia-2',type:'image/x-icon'}]},
  title: {default:'Techpedia Project - Jasa Pengembangan Aplikasi Custom',template:'%s | Techpedia Project'},
  description:'Jasa pengembangan aplikasi custom, website, dan sistem sesuai kebutuhan bisnis.',
  metadataBase:publicOrigin()?new URL(publicOrigin()!):undefined,
