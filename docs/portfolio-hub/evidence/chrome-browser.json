@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-13T14:48:50.076Z",
+  "at": "2026-11-13T15:21:36.251Z",
   "environment": "static HTTP only; /api returns503; artificial QA projects served only inside this runner; actual source includes the owner-supplied RPK Pustaka project",
   "apiRequests": 0,
   "cases": [
@@ -28,6 +28,18 @@
       "status": "PASS"
     },
     {
+      "name": "Project screenshot arrows, indicators, keyboard and mouse dragging work",
+      "status": "PASS"
+    },
+    {
+      "name": "Project screenshots swipe on mobile without moving the page sideways",
+      "status": "PASS"
+    },
+    {
+      "name": "Case study gallery shows one of its three screenshots at a time",
+      "status": "PASS"
+    },
+    {
       "name": "Delivery scope and six team roles explain the engagement",
       "status": "PASS"
     },
@@ -49,7 +61,8 @@
     },
     {
       "name": "Review illustrations disclose fictional names and pause on keyboard focus",
-      "status": "PASS"
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok(await browser.evaluate(`document.querySelector('.reviews-heading').textContent.includes('belum berasal dari klien')`))\n"
     },
     {
       "name": "Owner portfolio appears on home, projects, and its case study",
@@ -161,7 +174,7 @@
     }
   ],
   "counts": {
-    "PASS": 39,
-    "FAIL": 0
+    "PASS": 41,
+    "FAIL": 1
   }
 }

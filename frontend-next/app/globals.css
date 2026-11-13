@@ -8,4 +8,5 @@
 @import "../../frontend/assets/reviews.css";
 @import "../../frontend/assets/portfolio.css";
 @import "../../frontend/assets/professional.css";
+@import "../../frontend/assets/project-carousel.css";
 .content-text{white-space:pre-wrap;overflow-wrap:anywhere}.contact-form .form-note{grid-column:1/-1}.consent{display:flex;gap:.5rem}.consent input{width:auto}
