@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Antigravity\techpedia-project\backend\phpunit.xml" tests="21" assertions="42" errors="0" failures="0" skipped="0" time="1.534700">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.002601">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\Antigravity\techpedia-project\backend\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.002601">
+        <testcase name="test_that_true_is_true" file="C:\Antigravity\techpedia-project\backend\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.002601"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="20" assertions="41" errors="0" failures="0" skipped="0" time="1.532099">
+      <testsuite name="Tests\Feature\ContentApiTest" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" tests="19" assertions="40" errors="0" failures="0" skipped="0" time="1.500003">
+        <testcase name="test_public_services_exclude_drafts" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="11" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.725118"/>
+        <testcase name="test_draft_detail_is_not_public" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="15" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.046586"/>
+        <testcase name="test_future_publication_is_not_public" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="18" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.095142"/>
+        <testcase name="test_private_settings_are_not_exposed" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="23" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.028783"/>
+        <testcase name="test_anonymous_admin_request_is_unauthorized" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="27" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.032508"/>
+        <testcase name="test_regular_user_cannot_manage_content" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="30" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.028261"/>
+        <testcase name="test_admin_can_create_and_update_content_with_unique_slug_validation" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="33" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.049210"/>
+        <testcase name="test_unknown_content_resource_is_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="39" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.027938"/>
+        <testcase name="test_contact_is_disabled_until_configured" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="43" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="2" time="0.027551"/>
+        <testcase name="test_contact_is_saved_without_exposing_personal_data" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="49" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.048792"/>
+        <testcase name="test_contact_requires_consent_and_valid_email" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="54" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="5" time="0.032135"/>
+        <testcase name="test_honeypot_rejects_submission" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="58" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="2" time="0.027651"/>
+        <testcase name="test_login_rejects_non_admin_credentials" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="62" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.032932"/>
+        <testcase name="test_admin_login_and_logout" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="66" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="4" time="0.033381"/>
+        <testcase name="test_contact_notes_are_private" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="70" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.030717"/>
+        <testcase name="test_editor_cannot_promote_their_account_through_content_api" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="75" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.034330"/>
+        <testcase name="test_dotted_resource_name_is_not_a_config_lookup" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="78" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.034615"/>
+        <testcase name="test_admin_image_upload_is_stored_and_can_be_deleted" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="82" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="5" time="0.127519"/>
+        <testcase name="test_script_upload_is_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="91" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.036834"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.032096">
+        <testcase name="test_the_application_returns_a_successful_response" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.032096"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

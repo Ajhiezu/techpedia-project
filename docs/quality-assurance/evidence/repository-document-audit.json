@@ -1,0 +1,911 @@
+{
+  "method": "Complete root Markdown read and heading/open-item index; interpreted together with source/API/QA evidence",
+  "documents": [
+    {
+      "path": "ABOUT-DESIGN.md",
+      "sha256": "4f9ca28d9bdc0b09253816629ba3cf8701fe5f347c3eb4ea976c4751ea2b33c6",
+      "headings": [
+        "About Us — High-Fidelity Design",
+        "Artboard & Narrative Logic",
+        "Section Specification",
+        "Visual Language",
+        "Responsive"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "ACCESSIBILITY-GUIDELINES.md",
+      "sha256": "9e1bd27972b9c639248ea25d723a3b9f628626d70f2c60212645487d339a5065",
+      "headings": [
+        "Accessibility Guidelines — Techpedia Project",
+        "1. Target",
+        "2. Kontras & Warna",
+        "3. Keyboard & Focus",
+        "4. Semantik & Screen Reader",
+        "5. Form & Error Prevention",
+        "6. Motion, Reflow, & Input",
+        "7. QA Scenario Minimum"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "BLOG-DETAIL-DESIGN.md",
+      "sha256": "83a71bdbc77d435ee5659136a16367b8ac56ac029669a8ce032a3ca467dd5ac6",
+      "headings": [
+        "Blog Detail — High-Fidelity Design",
+        "Reading-First Composition",
+        "Section Specification",
+        "Responsive & Accessibility"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "BRAND-GUIDELINES.md",
+      "sha256": "48f1dabc83a4526efcb6c612520c1038d8bfe3532d6c63301d230d4037a08586",
+      "headings": [
+        "Brand Guidelines — Techpedia Project",
+        "1. Arah Visual",
+        "2. Palet Warna",
+        "Aturan warna",
+        "3. Tipografi",
+        "Prinsip tipografi",
+        "4. Layout & Spacing",
+        "5. Komponen Visual",
+        "Ikonografi",
+        "Imagery",
+        "Ilustrasi & dekorasi",
+        "6. Motion",
+        "7. Aksesibilitas & Kepercayaan",
+        "8. Do & Don't"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "BRAND-IDENTITY.md",
+      "sha256": "f75aef30762351a6889c001c85bc276fc95061513493a0ec12c1175f9ba3f94a",
+      "headings": [
+        "Brand Identity — Techpedia Project",
+        "1. Inti Identitas",
+        "Brand essence",
+        "2. Elemen Verbal Utama",
+        "Hierarki penggunaan",
+        "3. Arsitektur Pesan",
+        "4. Kepribadian dalam Komunikasi",
+        "5. Narasi Brand",
+        "6. Prinsip Representasi"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "BRAND-MESSAGING.md",
+      "sha256": "82f9c419a506c92bd1e8effb3fb76eed8c997ff779eee3726fe36710a0f4e1b8",
+      "headings": [
+        "Brand Messaging — Techpedia Project",
+        "1. Pesan Induk",
+        "Tagline utama",
+        "Headline utama (rekomendasi)",
+        "2. Message Pillars",
+        "3. Tone of Voice",
+        "4. Rekomendasi Headline per Layanan",
+        "5. CTA Library",
+        "6. Contoh Copy Ringkas",
+        "Intro layanan",
+        "Intro proses",
+        "Form kontak",
+        "7. Klaim yang Perlu Dihindari Sampai Terverifikasi",
+        "8. Checklist Konsistensi Pra-Publikasi"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "BRAND-STRATEGY.md",
+      "sha256": "23e79c0c363bb44c214f806c12c4b6dd39c622501f36f5ca2341d30a377c34a2",
+      "headings": [
+        "Brand Strategy — Techpedia Project",
+        "1. Ringkasan Brand",
+        "Fakta yang telah dikonfirmasi",
+        "Rekomendasi strategis",
+        "2. Brand Personality",
+        "3. Brand Positioning Statement",
+        "4. Unique Value Proposition (UVP)",
+        "5. Differensiasi Kompetitif",
+        "6. Vision & Mission",
+        "Visi",
+        "Misi",
+        "7. Brand Values",
+        "8. Prioritas Strategis Awal",
+        "9. Hal yang Perlu Dikonfirmasi Sebelum Publikasi"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "CASE-STUDY-DESIGN.md",
+      "sha256": "3eec03dce7034386cfb561d7a01787ac2f7c40ec96d4f7be4a3603b42d5572c6",
+      "headings": [
+        "Portfolio Detail / Case Study — High-Fidelity Template",
+        "Template Status",
+        "Desktop Composition",
+        "Section Specification",
+        "Evidence Matrix",
+        "Responsive & Accessibility"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "COMPONENT-INVENTORY.md",
+      "sha256": "3ef940cf2d87385a195fcd9f5aa74d6658505dec4371984f1c36a4245bd35bad",
+      "headings": [
+        "Component Inventory — Techpedia Project",
+        "1. Foundation Components",
+        "2. Navigation Components",
+        "3. Content Components",
+        "4. Conversion Components",
+        "5. Form Components & States",
+        "6. Pemakaian yang Dihindari"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "COMPONENT-SPECIFICATION.md",
+      "sha256": "37ce28aa85600461935107ddb527dbb219f25067f9bff7376e2576bb54d9c635",
+      "headings": [
+        "Component Specification — Techpedia Project",
+        "1. Global Interactive State Contract",
+        "2. Navigation",
+        "3. Actions & Disclosure",
+        "4. Cards & Informational Components",
+        "5. Form Components",
+        "6. Section & Content Components",
+        "7. Component QA Checklist"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "COMPONENT-STATES.md",
+      "sha256": "29db5d37138b30ef7b7216da8b3d497ebfe1295ef11b02c5e696d4e76576f0da",
+      "headings": [
+        "Component States — Phase 2.5"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "COMPONENT-USAGE-GUIDELINES.md",
+      "sha256": "4dc70bdc11d18f8c183f6b80acb5fe5d8f3a2b17f198b3865ce82e917c657598",
+      "headings": [
+        "Component Usage Guidelines — Phase 2.5"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "COMPONENT-VARIANTS.md",
+      "sha256": "9ca5a0fa5ebd49fd4b568a2e84313553e5f7d93f95387ec43e22d1f86da4257e",
+      "headings": [
+        "Component Variants — Phase 2.5"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "CONTACT-DESIGN.md",
+      "sha256": "1fe2da03fd28ab4142ec22f66680105215827cf4f23c95292170fce00198b68f",
+      "headings": [
+        "Contact Page — High-Fidelity Design",
+        "Page Objective",
+        "High-Fidelity Layout",
+        "Form Fields",
+        "Form State Designs",
+        "Responsive & Accessibility"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "CONVERSION-STRATEGY.md",
+      "sha256": "3377c7145b29b57db429fb14eb362aca6a1c2ee4778af505a504708334b257cd",
+      "headings": [
+        "Conversion Strategy — Techpedia Project",
+        "1. Conversion Objective",
+        "2. Conversion Hierarchy",
+        "3. Penempatan CTA",
+        "4. Pengurang Friksi",
+        "5. Conversion Opportunities yang Etis",
+        "6. Pengukuran yang Disarankan",
+        "7. Hal yang Tidak Digunakan"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "CUSTOMER-JOURNEY.md",
+      "sha256": "c040836ccc2f2762cd5b432cd0b709a9744b080fe3d5cec87c5a92e29f620150",
+      "headings": [
+        "Customer Journey — Techpedia Project",
+        "Tahapan Bersama",
+        "1. Pemilik UMKM — Membutuhkan Website",
+        "2. Startup — Membutuhkan Aplikasi Web",
+        "3. Perusahaan — Membutuhkan ERP",
+        "4. Klien — Membutuhkan Toko Online",
+        "5. Klien — Membutuhkan Maintenance Software",
+        "Momen Penentu"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "DESIGN-SYSTEM.md",
+      "sha256": "52a74a1e3b00422d5b47a16ad6e7790f683cc721123b11e0b00490f41133a9e2",
+      "headings": [
+        "Design System — Techpedia Project",
+        "1. Tujuan Sistem",
+        "2. Prinsip Desain",
+        "3. Hierarki Visual",
+        "4. Aturan Warna & Surface",
+        "5. Sistem Komposisi",
+        "6. Aturan Konsistensi",
+        "7. Motion",
+        "8. Governance Phase 2"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "DESIGN-TOKENS-FINAL.md",
+      "sha256": "a60f136f2d2f70e82946fd55237fbeecbfc4727cb7ba13d7997272d6e04337f2",
+      "headings": [
+        "Design Tokens Final — Phase 2.5",
+        "Phase 5 accessibility correction"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "DESIGN-TOKENS.md",
+      "sha256": "1fd76390525558a5ece7f0522e90da7cde2e520fb896c61dda1a720bc72ba640",
+      "headings": [
+        "Design Tokens — Techpedia Project",
+        "1. Status Token",
+        "2. Color Tokens",
+        "Brand, surface, text, & border",
+        "Semantic recommendation",
+        "Kontras terukur untuk teks putih",
+        "3. Typography Tokens",
+        "4. Spacing, Radius, Shadow",
+        "Spacing scale (kelipatan 4 px)",
+        "5. Layout Tokens",
+        "6. Breakpoint Tokens"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "DESKTOP-DESIGN-GUIDELINES.md",
+      "sha256": "ca8bc46bc85366c1a85553895962fdb5e813e84a1c65577a1a78afac6f98f218",
+      "headings": [
+        "Desktop Design Guidelines — Phase 2.6"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "ERROR-PAGE-DESIGN.md",
+      "sha256": "3750f0d7ed16bfdc7ba2f402dfd23fdc11684f93108c0a5f31f4754853f056ce",
+      "headings": [
+        "404 Error Page — High-Fidelity Design",
+        "Page Objective",
+        "Visual Specification",
+        "Interaction, Response & Technical Note"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "FAQ-DESIGN.md",
+      "sha256": "b7b6c82d9b7e9b62048f1c1138868a85e9dd3ab4b6b6cec8707fab59f16b75ff",
+      "headings": [
+        "FAQ Page — High-Fidelity Design",
+        "Composition",
+        "Section Specification",
+        "Interaction & Responsive"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "FORM-INTERACTION.md",
+      "sha256": "4975d73cb616fe5adc90dae9d399f925e27961d1ee1a78a6a2d88bfe7a451fda",
+      "headings": [
+        "Form Interaction — Techpedia Project",
+        "1. Tujuan Form",
+        "2. Field & Perilaku",
+        "3. Urutan & Progresi",
+        "4. State Form",
+        "5. Confirmation Experience",
+        "6. Empty, Error, dan Fallback State Pendukung",
+        "7. Mobile & Accessibility Requirements"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "HOMEPAGE-DESIGN.md",
+      "sha256": "e7f7441d17355f51fbf691aa01ad550fc0b55e85194369672c9ee64996f6a097",
+      "headings": [
+        "Homepage High-Fidelity Design — Techpedia Project",
+        "1. Design Objective",
+        "2. Desktop Artboard — 1440 px",
+        "3. Visual Composition",
+        "4. Required Hero Copy & Route Mapping",
+        "5. Section Order & Conversion Rationale",
+        "6. Asset & Content Constraints",
+        "7. High-Fidelity Review Checklist"
+      ],
+      "openItemLines": [
+        "| Project cards | Display only inside the design-review state with a visible `Project showcase — TBD` label; do not ship as public portfolio content. |",
+        "| Contact/social | Use `TBD` labels in artboard; show only verified routes at launch. |"
+      ]
+    },
+    {
+      "path": "HOMEPAGE-INTERACTION.md",
+      "sha256": "adebf53793cbd4e3e25efc1284fea491761d70469087cd5969df496bbe2bfd22",
+      "headings": [
+        "Homepage Interaction Specification — Techpedia Project",
+        "1. Navigation",
+        "2. Hero & Section Actions",
+        "3. FAQ Accordion",
+        "4. Feedback & State Rules",
+        "5. Motion Budget",
+        "6. Analytics Readiness (No Tracking Implementation)"
+      ],
+      "openItemLines": [
+        "| Project card | Only interactive when project detail exists. | In TBD review mode, non-interactive card includes visible status label. |",
+        "| Contact channel TBD | CTA routes to form page; do not reveal empty WhatsApp/social controls. |"
+      ]
+    },
+    {
+      "path": "HOMEPAGE-RESPONSIVE.md",
+      "sha256": "482abeeaab08e9edab394b9560ddc4e27485ebf81e94fecad34b096ca456efa0",
+      "headings": [
+        "Homepage Responsive Design — Techpedia Project",
+        "1. Breakpoint Plan",
+        "2. Section Adaptation",
+        "3. Typography & Spacing Adaptation",
+        "4. Mobile Interaction Requirements",
+        "5. Overflow & QA"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "HOMEPAGE-SECTION-SPECIFICATION.md",
+      "sha256": "36278d5e6d69a002a9628ef1aff69923290d39566e0e32185c01dd2a0f103e1a",
+      "headings": [
+        "Homepage Section Specification — Techpedia Project",
+        "Shared Design Rules",
+        "Service Card Content Structure",
+        "FAQ Content Architecture",
+        "Featured Project Fallback"
+      ],
+      "openItemLines": [
+        "| 1 | Sticky navigation | White 80 px bar; approved logo/wordmark; Home, Services disclosure, Portfolio, About Us, Insights, Contact; filled `Let's Talk`. | `Let's Talk` → Contact; Services opens keyboard-accessible menu. | Contact route is final; contact details remain TBD. |",
+        "| 6 | Featured projects | White; section intro, 3 cards at 4 columns each. Card media ratio 16:10; category badge; project name; description; technology stack text; `View Case Study`. | Project link only activates after a valid Project Detail exists. | **TBD/conditional.** For review, label every card `Project showcase — TBD`; production fallback is Approach section. |",
+        "| 12 | Footer | Deep Blue/ink surface; wordmark + short positioning; columns: Navigation, Services, Resources, Contact; social icons; legal row. | All links keyboard accessible; contact/social only if verified. | Contact and social destinations are TBD. |"
+      ]
+    },
+    {
+      "path": "INFORMATION-ARCHITECTURE.md",
+      "sha256": "0704ae562178cf416bbeea297064e6c33959fbec48a9148abc87b9d147ba25a1",
+      "headings": [
+        "Information Architecture — Techpedia Project",
+        "1. Model Informasi",
+        "2. Content Hierarchy",
+        "Tingkat 1 — Entry points",
+        "Tingkat 2 — Decision pages",
+        "Tingkat 3 — Supporting pages",
+        "3. Content Types & Metadata",
+        "4. Taksonomi yang Direkomendasikan",
+        "Portfolio categories",
+        "Insights categories",
+        "5. Aturan Konten & Kepercayaan",
+        "6. Prinsip SEO & Findability"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "INSIGHTS-DESIGN.md",
+      "sha256": "b96008bc490cb2c2a189b458f443e720e243242f27e342689e7fd6f588177712",
+      "headings": [
+        "Insights Overview — High-Fidelity Design",
+        "Purpose & Artboard",
+        "Section Specification",
+        "Interaction & Responsive"
+      ],
+      "openItemLines": [
+        "| Newsletter | Light Background inline panel with email field and privacy link. | **Optional/TBD.** Hide until consent wording, data process, and mailing workflow are approved. |"
+      ]
+    },
+    {
+      "path": "INTERACTION-SPECIFICATION.md",
+      "sha256": "c644a0f549525855bb10916af94baedd06757bc7c99bd118c3526772cb4a4c7c",
+      "headings": [
+        "Interaction Specification — Phase 2.7"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "INTERACTIVE-PROTOTYPE.md",
+      "sha256": "c9550c1645730f774d656e4786f614f83b35a181714456c495addf306587d959",
+      "headings": [
+        "Interactive Prototype — Phase 2.7",
+        "Location and boundary",
+        "Implemented interactions",
+        "Content boundary"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "LEGAL-PAGES-DESIGN.md",
+      "sha256": "659caf55ddf76db0ea03f77fd0e97f4d7d8a4b1e31ece1ca7b0ef6a4a53eeba5",
+      "headings": [
+        "Privacy Policy & Terms — High-Fidelity Design",
+        "Status",
+        "Shared Layout",
+        "Page Specification",
+        "Visual & Responsive Rules"
+      ],
+      "openItemLines": [
+        "| Hero/meta | H1, short neutral intro, `Last updated: TBD` until approved. | H1, short neutral intro, `Last updated: TBD` until approved. |",
+        "- Last-updated date is omitted or labelled TBD in design review; it is never fabricated."
+      ]
+    },
+    {
+      "path": "MOBILE-DESIGN-GUIDELINES.md",
+      "sha256": "6c3aa8ddaf3262ea60968fe0f7cf0e4de5d860f499cb0bfe97f4d9f48b820c7d",
+      "headings": [
+        "Mobile Design Guidelines — Phase 2.6"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "MOODBOARD.md",
+      "sha256": "5c83687e18657661a4f65cfe78fda0a402ad67a8de6a68bd9ef64f1596472ab7",
+      "headings": [
+        "Moodboard — Techpedia Project",
+        "Mood Statement",
+        "1. Visual Board",
+        "2. Color & Surface Swatches",
+        "3. Visual Motifs",
+        "4. Textural & Shape Rules",
+        "5. Moodboard “Do / Avoid”",
+        "6. Application by Page Type"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "NAVIGATION-STRUCTURE.md",
+      "sha256": "ab8960ed86a72b339aac3b12654699d3d97437c796d2fbe346178488abe918c3",
+      "headings": [
+        "Navigation Structure — Techpedia Project",
+        "1. Primary Navigation",
+        "2. Services Menu",
+        "3. Secondary & Footer Navigation",
+        "4. Pola Navigasi Dalam Halaman",
+        "5. URL, Label, dan Konsistensi"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PAGE-LAYOUTS.md",
+      "sha256": "5c722f3a1073a2c422cac4ec9d21abed42916f371364744d705de7f6334b45cc",
+      "headings": [
+        "Page Layouts — Techpedia Project",
+        "1. Homepage (`/`)",
+        "2. Services Overview (`/services`)",
+        "3–8. Service Detail (template bersama)",
+        "9. Portfolio Overview (`/portfolio`)",
+        "10. Portfolio Detail / Case Study (`/portfolio/[slug]`)",
+        "11. About Us (`/about`)",
+        "12. Our Process (`/process` atau anchor di `/about`)",
+        "13. Insights Overview (`/insights`)",
+        "14. Blog Detail (`/insights/[slug]`)",
+        "15. Contact (`/contact`)",
+        "16. FAQ (`/faq`)",
+        "17. Privacy Policy (`/privacy-policy`)",
+        "18. Terms & Conditions (`/terms-conditions`)",
+        "19. 404 Page (`/404`)"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PAGE-REQUIREMENTS.md",
+      "sha256": "96dcfa8a54da3568f765a1a03e25e4008292de65a0c9b181069741eba450c423",
+      "headings": [
+        "Page Requirements — Techpedia Project",
+        "A. Main Pages",
+        "1. Home (`/`)",
+        "2. Services (`/services`)",
+        "3. Portfolio (`/portfolio`)",
+        "4. About Us (`/about`)",
+        "5. Insights (`/insights`)",
+        "6. Contact (`/contact`)",
+        "B. Detail & Utility Pages",
+        "7. Service Detail (`/services/[service-slug]`)",
+        "8. Project Detail & Case Study (`/portfolio/[project-slug]`, opsional `/case-study`)",
+        "9. Blog Category & Blog Detail",
+        "10. FAQ (`/faq`)",
+        "11. Privacy Policy & Terms & Conditions",
+        "12. 404 (`/404`)"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PHASE-1-COMPLETION-REPORT.md",
+      "sha256": "bd908b62a226ca982fe26ba402e7471121bb7389d20fd2b49f102ffff7cb263f",
+      "headings": [
+        "Phase 1 Completion Report — Techpedia Project",
+        "Status",
+        "1. Deliverables",
+        "Phase 1.1 — Project Discovery & Brand Identity",
+        "Phase 1.2 — Sitemap & Information Architecture",
+        "Phase 1.3 — User Flow & Customer Journey",
+        "Phase 1.4 — Wireframe Planning",
+        "Phase 1.5 — Design System & UI Foundation",
+        "2. Keputusan Final",
+        "3. Hasil Self-Review & Konsistensi",
+        "4. TBD — Informasi yang Masih Membutuhkan Konfirmasi",
+        "5. Risiko & Rekomendasi",
+        "6. Kesiapan Memasuki Phase 2",
+        "Siap",
+        "Prasyarat sebelum Phase 2"
+      ],
+      "openItemLines": [
+        "## 4. TBD — Informasi yang Masih Membutuhkan Konfirmasi",
+        "1. Konfirmasi atau tetapkan informasi TBD yang memengaruhi konten publik, terutama kontak, proses inquiry, layanan aktual, dan legal."
+      ]
+    },
+    {
+      "path": "PHASE-2-COMPLETION-REPORT.md",
+      "sha256": "be18ba75c88e57a5e381d09ff0f8bd148ce75bccd6412e87206419084cf22716",
+      "headings": [
+        "Phase 2 Completion Report — Techpedia Project",
+        "Status",
+        "Work completed",
+        "Pages designed",
+        "Component inventory",
+        "Responsive and prototype status",
+        "Open issues / approvals required",
+        "Recommendation for Phase 3"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PHASE-2-COMPONENT-HANDOFF.md",
+      "sha256": "b792cc85d642bb01df1b4265ebe8cfcaf671f91fdaf804f38046085acce9117e",
+      "headings": [
+        "Phase 2 Component Handoff",
+        "Implementation order",
+        "Non-negotiable implementation requirements"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PHASE-2-DEVELOPMENT-HANDOFF.md",
+      "sha256": "a59ffeb0a9e9417f88a2a7592e4a2c4fb96dbf0c4624d03f972a166e64fd0801",
+      "headings": [
+        "Phase 2 Development Handoff",
+        "Reference materials",
+        "Phase 3 gate"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PHASE-2-FINAL-DECISIONS.md",
+      "sha256": "b5684a6bbb2bd3ec0e49835e95fdb1b1bede550c21c9bee2b9437fbfe9ad50c5",
+      "headings": [
+        "Phase 2 Final Decisions"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PHASE-2-ISSUES.md",
+      "sha256": "e651c319e4199bc145430d0222fa6bd2b38683d8770a666a4bb62014782476f0",
+      "headings": [
+        "Phase 2 - Current issues"
+      ],
+      "openItemLines": [
+        "Pending business input: verified contact channels/inquiry owner, approved privacy/terms, factual permitted portfolio/testimonials/team details and commercial commitments. Public content keeps honest fallback states; inquiry collection defaults off. These are content acceptance items, not missing UI components."
+      ]
+    },
+    {
+      "path": "PHASE-2-REVIEW.md",
+      "sha256": "861659031539b674acf5cb54d0d961c60f42021aa74491d868f5a8799c65743a",
+      "headings": [
+        "Phase 2 Review — Phase 2.8"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PHASE-2.1-DESIGN-REVIEW.md",
+      "sha256": "572eb06d57354825fd813831d57f91104a8908f40abdff2054fd263eacee46db",
+      "headings": [
+        "Phase 2.1 Design Review — Visual Direction & UI Foundation",
+        "Status",
+        "Scope reviewed",
+        "Decisions confirmed",
+        "Review findings",
+        "Design-review result",
+        "Approval requested"
+      ],
+      "openItemLines": [
+        "| Featured Projects, testimonials, contact/social destinations, approved logo asset, and named technology proof remain unverified. | Use the Phase 1 fallback: approach/process content, no testimonial section, `TBD` only in private review artboards, and no public-looking proof placeholders. |"
+      ]
+    },
+    {
+      "path": "PORTFOLIO-DESIGN.md",
+      "sha256": "6eec81534ef184e835a54a1a95cd57547d49267952adbb6d4b7e1b82c193b750",
+      "headings": [
+        "Portfolio Overview — High-Fidelity Design",
+        "Artboard & Page Logic",
+        "High-Fidelity Sections",
+        "Card & Empty State",
+        "Interaction & Responsive"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PROCESS-DESIGN.md",
+      "sha256": "964ec99cf9edc1d265685027c82b300e5302be2d1d7de71c51ab77a2378a37c1",
+      "headings": [
+        "Our Process — High-Fidelity Design",
+        "Information Architecture Decision",
+        "Composition",
+        "Section Specification",
+        "Interaction & Responsive"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PROTOTYPE-TESTING.md",
+      "sha256": "bccd5ab962145f78c529fd051b8ba9bdee4b4daf7e4690c9a66d4a7dec61fecc",
+      "headings": [
+        "Prototype Testing — Phase 2.7",
+        "Completed inspection",
+        "Required stakeholder test"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "PROTOTYPE-USER-FLOWS.md",
+      "sha256": "fcfd78564d3dbc8dc8c4197fea7aa82053a221e7a985276c032577a7dfa62332",
+      "headings": [
+        "Prototype User Flows — Phase 2.7"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "README.md",
+      "sha256": "0f09b34c200fe33071ee7495f43eedc2d913b7e65510341e9fc6d65a6b17c2dd",
+      "headings": [
+        "Techpedia Project",
+        "Menjalankan backend dan frontend statis",
+        "Salin .env.example ke .env hanya bila .env belum ada; pertahankan konfigurasi yang sudah ada.",
+        "Menjalankan Next.js",
+        "Pemeriksaan",
+        "Struktur",
+        "Phase 5 QA (13 November 2026)"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "RESPONSIVE-DESIGN-SPECIFICATION.md",
+      "sha256": "72a7d9008385f51b91b06ca9db560fac669d2dfa10134e90deef042ae48963d3",
+      "headings": [
+        "Responsive Design Specification — Phase 2.6"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "RESPONSIVE-GUIDELINES.md",
+      "sha256": "086967d42eb2e25edf85e85b676c2f43dff8ea79bd0cdab92671e1e7db4e0068",
+      "headings": [
+        "Responsive Guidelines — Techpedia Project",
+        "1. Responsive Principles",
+        "2. Mode Layout",
+        "3. Adaptation Rules",
+        "4. Touch, Content, & Performance",
+        "5. Overflow & Validation Checklist"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "RESPONSIVE-LAYOUT.md",
+      "sha256": "5b7e6ad9ee33d8cbfac00effcfc89af2ebc7773a7eae2d439fce783bfd0879dc",
+      "headings": [
+        "Responsive Layout — Techpedia Project",
+        "1. Breakpoint & Grid",
+        "2. Perilaku Global",
+        "3. Aturan per Komponen",
+        "4. Mobile Conversion Pattern",
+        "5. Pencegahan Overflow & Aksesibilitas"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "RESPONSIVE-REVIEW.md",
+      "sha256": "004a632aac503641dd9f4c50070741dc443e4ff9d57a8081a5de1aa29e7ede1d",
+      "headings": [
+        "Responsive Review — Phase 2.6",
+        "Design review matrix"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "SERVICE-DETAIL-DESIGN.md",
+      "sha256": "f2e5da87d4a5f14c2f1b9ade20eadab423be9ab842cc238e160205dc9c45b33b",
+      "headings": [
+        "Service Detail Pages — High-Fidelity Design",
+        "Shared Page Frame",
+        "1. Website Development",
+        "2. E-Commerce Development",
+        "3. Custom Software Development",
+        "4. ERP & Business Solutions",
+        "5. UI/UX Design",
+        "6. Maintenance & IT Support",
+        "Section Differentiation Rules",
+        "Shared Process, FAQ & CTA"
+      ],
+      "openItemLines": [
+        "TECHNOLOGY CONSIDERATIONS (TBD until confirmed)",
+        "| Technology considerations | `TBD — confirmed platform, CMS, hosting, analytics, and integration choices are defined during scope discussion.` |",
+        "| Technology considerations | `TBD — payment, shipping, platform, catalog, and inventory integrations must be confirmed per project.` |",
+        "| Technology considerations | `TBD — architecture, data model, API, integration, and deployment choices follow discovery.` |",
+        "| Technology considerations | `TBD — ERP scope, integration, access roles, migration, and online/offline requirements require discovery.` |",
+        "| Technology considerations | `TBD — design tools, handoff format, research scope, and design-system integration depend on project context.` |",
+        "| Technology considerations | `TBD — supported platforms, response terms, access process, SLA, and monitoring capability require confirmation.` |"
+      ]
+    },
+    {
+      "path": "SERVICES-DESIGN.md",
+      "sha256": "6e7505786bbae51b90435c752738eefa3fcd5a48b66ea5b8c6cf61b08a4ee274",
+      "headings": [
+        "Services Overview — High-Fidelity Design",
+        "Artboard & Composition",
+        "Section Specification",
+        "Service Card Hierarchy",
+        "Responsive & State Notes"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "SITEMAP.md",
+      "sha256": "040156b02f4ce2a903b55be889abc1b2bc48a27b6910a9ae353018e5b84b5418",
+      "headings": [
+        "Sitemap — Techpedia Project",
+        "Prinsip Struktur",
+        "URL & Indexing Rules",
+        "Catatan Konten Bersyarat"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "TABLET-DESIGN-GUIDELINES.md",
+      "sha256": "87da6bc1e4dff71f1cf913a7a8de3d1a0dc17863cc398841521a8effc5d63547",
+      "headings": [
+        "Tablet Design Guidelines — Phase 2.6"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "TARGET-AUDIENCE.md",
+      "sha256": "f3206511920a44404b22532d55b77371717f92c3dea5b2777e6dc74951503553",
+      "headings": [
+        "Target Audience — Techpedia Project",
+        "1. Segmentasi Prioritas",
+        "2. Persona Utama",
+        "Persona A — Pemilik UMKM yang sedang bertumbuh",
+        "Persona B — Founder / Product Lead Startup",
+        "Persona C — Manajer Operasional Perusahaan Menengah",
+        "3. Customer Pain Points",
+        "4. Jobs To Be Done",
+        "5. Implikasi untuk Pengalaman Digital"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "UI-COMPONENT-LIBRARY.md",
+      "sha256": "8d03beac5eb35bb635bc37218b9d3b341a7189bb8c86af05c6131559f3a5253e",
+      "headings": [
+        "UI Component Library — Phase 2.5",
+        "Source of truth",
+        "Shared construction",
+        "Content constraints"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "UI-STYLE-GUIDELINES.md",
+      "sha256": "ba9ac1fb1b091da08bd38300f8f0748211c75ab76e7fe8481c1ee5d40162690b",
+      "headings": [
+        "UI Style Guidelines — Techpedia Project",
+        "1. Foundation",
+        "2. Header & Navigation",
+        "3. Buttons & Links",
+        "4. Cards & Surfaces",
+        "5. Typography & Content Styling",
+        "6. Section Layout",
+        "7. Form & Feedback Styling",
+        "8. Iconography, Illustration & Image Usage",
+        "9. Motion & Visual QA",
+        "10. Visual Consistency Checklist"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "USER-FLOW.md",
+      "sha256": "0290575c5ccf886233690c5adf6aab947f084ec693ca3e11310849b0c6094a4d",
+      "headings": [
+        "User Flow — Techpedia Project",
+        "Prinsip Alur",
+        "Flow A — Website Inquiry",
+        "Flow B — Portfolio Exploration",
+        "Flow C — Custom Software Inquiry",
+        "Flow D — Blog Discovery",
+        "Pola Navigasi & CTA Lintas Flow"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "USER-JOURNEY.md",
+      "sha256": "2de0981c76df511f52439d6ddb1f8d707bb0aac06cc4949a814cd5c6ce6a2d46",
+      "headings": [
+        "User Journey — Techpedia Project",
+        "1. Prinsip Journey",
+        "2. Journey A — Pemilik UMKM Membutuhkan Website",
+        "3. Journey B — Founder Startup dengan Ide Produk",
+        "4. Journey C — Manajer Operasional Mencari Sistem Bisnis",
+        "5. Journey D — Pengunjung Kembali untuk Maintenance",
+        "6. Konversi & Friksi yang Harus Dikelola",
+        "7. Rekomendasi Field Project Inquiry"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "VISUAL-DIRECTION.md",
+      "sha256": "e263ec3a69743be87f5534b8a42fa2a16bb10cf8e418dbfd613b5ba72df54d89",
+      "headings": [
+        "Visual Direction — Techpedia Project",
+        "1. Direction Summary",
+        "Desired perception",
+        "2. Art Direction Formula",
+        "3. Visual Pillars",
+        "A. Structured confidence",
+        "B. Technology with business context",
+        "C. Human, not informal",
+        "D. Measured momentum",
+        "4. Color Application",
+        "5. Typography Direction",
+        "6. Image, Illustration & Icon Direction",
+        "7. Layout, Cards & Navigation",
+        "8. Motion Direction",
+        "9. Non-negotiable Consistency Rules"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "VISUAL-REFERENCE.md",
+      "sha256": "869ffd6be04e65b03e5f100a939481eae12c83f42e125a9e74412da4bfe29899",
+      "headings": [
+        "Visual Reference — Techpedia Project",
+        "1. Research Purpose",
+        "2. Reference Analysis",
+        "3. Synthesised Direction",
+        "4. Reference-to-Decision Map",
+        "5. Reference Guardrails"
+      ],
+      "openItemLines": []
+    },
+    {
+      "path": "WIREFRAME-SPECIFICATION.md",
+      "sha256": "cafdc0ce55eeff336a0342e946bd0573e70902d4c4223f2a47d4ac9b55dfda93",
+      "headings": [
+        "Wireframe Specification — Techpedia Project",
+        "1. Status & Tujuan",
+        "2. Sistem Frame Bersama",
+        "3. Token Struktur (bukan desain final)",
+        "4. Template Visual Low-Fidelity",
+        "A. Landing / Home",
+        "B. Service Detail",
+        "C. Listing / Portfolio / Insights",
+        "5. Universal Accessibility Checks"
+      ],
+      "openItemLines": []
+    }
+  ]
+}

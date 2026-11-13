@@ -1,0 +1,175 @@
+{
+  "at": "2026-11-13T06:32:40.240Z",
+  "environment": "real Laravel HTTP; disposable SQLite seeded data; Chrome headless; 390x844; CPU 4x; cache disabled; external fonts consistently blocked; unthrottled localhost network; two cold documents per route",
+  "warning": "Lab samples only; no Lighthouse score or field CWV/INP claim. Distinct timeOrigin validates separate document navigation.",
+  "samples": [
+    {
+      "page": "/",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551535467.4,
+      "navigation": {
+        "domContentLoaded": 3170,
+        "load": 3181.9000000059605,
+        "transfer": 4281
+      },
+      "FCP": 1028,
+      "LCP": 3188,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551541562.2,
+      "navigation": {
+        "domContentLoaded": 519.3999999761581,
+        "load": 586.5999999940395,
+        "transfer": 4281
+      },
+      "FCP": 392,
+      "LCP": 532,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/services",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551543746.9,
+      "navigation": {
+        "domContentLoaded": 906.0999999940395,
+        "load": 908.0999999940395,
+        "transfer": 4281
+      },
+      "FCP": 580,
+      "LCP": 936,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/services",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551546345.6,
+      "navigation": {
+        "domContentLoaded": 473.5,
+        "load": 475.30000001192093,
+        "transfer": 4281
+      },
+      "FCP": 368,
+      "LCP": 488,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/portfolio",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551548378.3,
+      "navigation": {
+        "domContentLoaded": 603.5,
+        "load": 604.7999999821186,
+        "transfer": 4281
+      },
+      "FCP": 440,
+      "LCP": 620,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/portfolio",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551550541.1,
+      "navigation": {
+        "domContentLoaded": 356,
+        "load": 356.30000001192093,
+        "transfer": 4281
+      },
+      "FCP": 288,
+      "LCP": 356,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/insights",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551552350.8,
+      "navigation": {
+        "domContentLoaded": 412.09999999403954,
+        "load": 413.5,
+        "transfer": 4281
+      },
+      "FCP": 312,
+      "LCP": 424,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/insights",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551554262.2,
+      "navigation": {
+        "domContentLoaded": 361.40000000596046,
+        "load": 362.7000000178814,
+        "transfer": 4281
+      },
+      "FCP": 296,
+      "LCP": 356,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/contact",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551556119.7,
+      "navigation": {
+        "domContentLoaded": 649.7000000178814,
+        "load": 686.2000000178814,
+        "transfer": 4281
+      },
+      "FCP": 392,
+      "LCP": 656,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/contact",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551558312.1,
+      "navigation": {
+        "domContentLoaded": 366.90000000596046,
+        "load": 368.80000001192093,
+        "transfer": 4281
+      },
+      "FCP": 264,
+      "LCP": 404,
+      "CLS": 0,
+      "INP": null
+    }
+  ],
+  "assets": [
+    {
+      "name": "app.js",
+      "bytes": 24955
+    },
+    {
+      "name": "api.js",
+      "bytes": 700
+    },
+    {
+      "name": "styles.css",
+      "bytes": 12024
+    },
+    {
+      "name": "logo.png",
+      "bytes": 22255
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-13T06:23:32.087975+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "composer",
+    "validate",
+    "--no-check-publish"
+  ],
+  "exitCode": 0,
+  "stdout": "./composer.json is valid\n",
+  "stderr": ""
+}

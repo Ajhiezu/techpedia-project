@@ -1,0 +1,12 @@
+import {access,readFile,mkdir,cp} from 'node:fs/promises';
+import path from 'node:path';
+import validator from './validate-hub-content.cjs';
+import preparation from './prepare-hub-content.cjs';
+preparation.prepare();
+validator.validate(JSON.parse(await readFile('frontend/content/site.json','utf8')));
+const required=['frontend/index.html','frontend/assets/styles.css','frontend/assets/api.js','frontend/assets/app.js','frontend/assets/hub.js','frontend/content/site.json','frontend/_headers','frontend/assets/dropdown.css','frontend/assets/breadcrumb.css','frontend/assets/logo.css','frontend/assets/logo.png','frontend/robots.txt'];
+await Promise.all(required.map(file=>access(file)));
+const html=await readFile('frontend/index.html','utf8');
+for(const match of html.matchAll(/(?:src|href)="(assets\/[^"?#]+)"/g)) await access(path.join('frontend',match[1]));
+await mkdir('dist',{recursive:true});await cp('frontend','dist',{recursive:true});
+console.log('Static frontend assets verified and copied to dist/. This is not a Next.js build.');

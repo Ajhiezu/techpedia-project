@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Antigravity\techpedia-project\backend\phpunit.xml" tests="107" assertions="272" errors="0" failures="6" skipped="0" time="5.769450">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001790">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\Antigravity\techpedia-project\backend\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001790">
+        <testcase name="test_that_true_is_true" file="C:\Antigravity\techpedia-project\backend\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.001790"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="106" assertions="271" errors="0" failures="6" skipped="0" time="5.767660">
+      <testsuite name="Tests\Feature\ContentApiTest" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" tests="19" assertions="40" errors="0" failures="0" skipped="0" time="1.338199">
+        <testcase name="test_public_services_exclude_drafts" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="11" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.673458"/>
+        <testcase name="test_draft_detail_is_not_public" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="15" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.038571"/>
+        <testcase name="test_future_publication_is_not_public" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="18" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.066220"/>
+        <testcase name="test_private_settings_are_not_exposed" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="23" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.031485"/>
+        <testcase name="test_anonymous_admin_request_is_unauthorized" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="27" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.034884"/>
+        <testcase name="test_regular_user_cannot_manage_content" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="30" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.031162"/>
+        <testcase name="test_admin_can_create_and_update_content_with_unique_slug_validation" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="33" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.047247"/>
+        <testcase name="test_unknown_content_resource_is_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="39" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.027785"/>
+        <testcase name="test_contact_is_disabled_until_configured" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="43" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="2" time="0.026816"/>
+        <testcase name="test_contact_is_saved_without_exposing_personal_data" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="49" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="3" time="0.038713"/>
+        <testcase name="test_contact_requires_consent_and_valid_email" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="54" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="5" time="0.032724"/>
+        <testcase name="test_honeypot_rejects_submission" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="58" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="2" time="0.028094"/>
+        <testcase name="test_login_rejects_non_admin_credentials" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="62" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.031176"/>
+        <testcase name="test_admin_login_and_logout" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="66" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="4" time="0.031917"/>
+        <testcase name="test_contact_notes_are_private" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="70" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.027678"/>
+        <testcase name="test_editor_cannot_promote_their_account_through_content_api" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="75" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.028595"/>
+        <testcase name="test_dotted_resource_name_is_not_a_config_lookup" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="78" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.029450"/>
+        <testcase name="test_admin_image_upload_is_stored_and_can_be_deleted" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="82" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="5" time="0.074844"/>
+        <testcase name="test_script_upload_is_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ContentApiTest.php" line="91" class="Tests\Feature\ContentApiTest" classname="Tests.Feature.ContentApiTest" assertions="1" time="0.037378"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.031161">
+        <testcase name="test_the_application_returns_a_successful_response" file="C:\Antigravity\techpedia-project\backend\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.031161"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Phase5QualityTest" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" tests="86" assertions="230" errors="0" failures="6" skipped="0" time="4.398301">
+        <testsuite name="Tests\Feature\Phase5QualityTest::test_resource_crud" tests="13" assertions="117" errors="0" failures="0" skipped="0" time="0.584735">
+          <testcase name="test_resource_crud with data set #0" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.044320"/>
+          <testcase name="test_resource_crud with data set #1" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.046022"/>
+          <testcase name="test_resource_crud with data set #2" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.054346"/>
+          <testcase name="test_resource_crud with data set #3" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.045252"/>
+          <testcase name="test_resource_crud with data set #4" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.044843"/>
+          <testcase name="test_resource_crud with data set #5" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.043391"/>
+          <testcase name="test_resource_crud with data set #6" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.041746"/>
+          <testcase name="test_resource_crud with data set #7" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.043270"/>
+          <testcase name="test_resource_crud with data set #8" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.045860"/>
+          <testcase name="test_resource_crud with data set #9" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.044145"/>
+          <testcase name="test_resource_crud with data set #10" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.042250"/>
+          <testcase name="test_resource_crud with data set #11" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.045443"/>
+          <testcase name="test_resource_crud with data set #12" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="28" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="9" time="0.043847"/>
+        </testsuite>
+        <testsuite name="Tests\Feature\Phase5QualityTest::test_empty_resource_payload_rejected" tests="13" assertions="13" errors="0" failures="0" skipped="0" time="0.426514">
+          <testcase name="test_empty_resource_payload_rejected with data set #0" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.030068"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #1" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.028476"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #2" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.035426"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #3" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.030454"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #4" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.030762"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #5" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.031140"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #6" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.043456"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #7" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.029086"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #8" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.031344"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #9" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.031214"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #10" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.030539"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #11" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.032827"/>
+          <testcase name="test_empty_resource_payload_rejected with data set #12" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="37" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041723"/>
+        </testsuite>
+        <testsuite name="Tests\Feature\Phase5QualityTest::test_resource_mutation_denies_anonymous" tests="13" assertions="13" errors="0" failures="0" skipped="0" time="0.548626">
+          <testcase name="test_resource_mutation_denies_anonymous with data set #0" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041708"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #1" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.040443"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #2" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.039344"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #3" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.044108"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #4" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041042"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #5" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.042280"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #6" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.040967"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #7" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.040947"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #8" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041191"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #9" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.043366"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #10" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.049922"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #11" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.043414"/>
+          <testcase name="test_resource_mutation_denies_anonymous with data set #12" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="39" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.039894"/>
+        </testsuite>
+        <testsuite name="Tests\Feature\Phase5QualityTest::test_resource_mutation_denies_non_admin" tests="13" assertions="13" errors="0" failures="0" skipped="0" time="0.801463">
+          <testcase name="test_resource_mutation_denies_non_admin with data set #0" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.044267"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #1" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.047304"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #2" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.250283"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #3" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.075231"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #4" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.042696"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #5" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.048121"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #6" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041706"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #7" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.040369"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #8" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041460"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #9" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041860"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #10" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.042548"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #11" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.043449"/>
+          <testcase name="test_resource_mutation_denies_non_admin with data set #12" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="41" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.042169"/>
+        </testsuite>
+        <testsuite name="Tests\Feature\Phase5QualityTest::test_invalid_inquiry_not_stored" tests="9" assertions="18" errors="0" failures="0" skipped="0" time="0.392145">
+          <testcase name="test_invalid_inquiry_not_stored with data set #0" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.044141"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #1" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.043917"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #2" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.044086"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #3" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.043109"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #4" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.044485"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #5" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.042550"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #6" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.041783"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #7" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.041804"/>
+          <testcase name="test_invalid_inquiry_not_stored with data set #8" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="45" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.046270"/>
+        </testsuite>
+        <testcase name="test_special_characters_are_stored_as_data_not_sql" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="46" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.044122"/>
+        <testcase name="test_contact_rate_limit" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="47" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.058999">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Phase5QualityTest::test_contact_rate_limit&#13;
+Expected response status code [422] but received 429.
+Failed asserting that 429 is identical to 422.
+&#13;
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:46
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:183
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\Concerns\AssertsStatusCodes.php:221
+C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php:47</failure>
+        </testcase>
+        <testcase name="test_login_rate_limit" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="48" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.049333">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Phase5QualityTest::test_login_rate_limit&#13;
+Expected response status code [422] but received 429.
+Failed asserting that 429 is identical to 422.
+&#13;
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:46
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:183
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\Concerns\AssertsStatusCodes.php:221
+C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php:48</failure>
+        </testcase>
+        <testcase name="test_unregistered_and_wrong_password_return_generic_error" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="49" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.426410"/>
+        <testcase name="test_logout_invalidates_authentication" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="50" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.061105"/>
+        <testcase name="test_password_is_hashed" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="51" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.050862"/>
+        <testcase name="test_private_user_fields_not_exposed" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="52" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.043656"/>
+        <testcase name="test_draft_and_soft_deleted_projects_are_hidden" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="53" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.037600"/>
+        <testcase name="test_soft_deleted_post_remains_hidden" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="54" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.046470"/>
+        <testcase name="test_pagination_filter_sort_and_eager_loading" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="55" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="6" time="0.056926"/>
+        <testcase name="test_invalid_pagination_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="56" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.043014"/>
+        <testcase name="test_parent_delete_nulls_child_fk" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="57" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041342"/>
+        <testcase name="test_message_delete_cascades_private_notes" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="58" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.047713"/>
+        <testcase name="test_transaction_rollback_restores_data" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="59" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.040239"/>
+        <testcase name="test_unique_slug_enforced_by_database" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="60" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.059616"/>
+        <testcase name="test_invalid_fk_is_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="61" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.058290"/>
+        <testcase name="test_mass_assignment_does_not_allow_privilege_escalation" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="62" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.045087"/>
+        <testcase name="test_post_tags_sync" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="63" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.046569"/>
+        <testcase name="test_messages_workflow_and_filter" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="64" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="6" time="0.066366"/>
+        <testcase name="test_oversized_media_rejected" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="65" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.048265"/>
+        <testcase name="test_referenced_media_cannot_be_deleted" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="66" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.057238">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Phase5QualityTest::test_referenced_media_cannot_be_deleted&#13;
+Expected response status code [409] but received 204.
+Failed asserting that 204 is identical to 409.
+&#13;
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:46
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:183
+C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php:66</failure>
+        </testcase>
+        <testcase name="test_published_date_cannot_be_accidentally_cleared" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="67" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="2" time="0.066727">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Phase5QualityTest::test_published_date_cannot_be_accidentally_cleared&#13;
+Expected response status code [200] but received 404.
+Failed asserting that 404 is identical to 200.
+&#13;
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:46
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:183
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\Concerns\AssertsStatusCodes.php:16
+C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php:67</failure>
+        </testcase>
+        <testcase name="test_category_cannot_be_its_own_parent" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="68" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.049168">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Phase5QualityTest::test_category_cannot_be_its_own_parent&#13;
+Expected response status code [422] but received 200.
+Failed asserting that 200 is identical to 422.
+&#13;
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:46
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:183
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\Concerns\AssertsStatusCodes.php:221
+C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php:68</failure>
+        </testcase>
+        <testcase name="test_public_responses_have_security_headers" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="69" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="1" time="0.041649">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Phase5QualityTest::test_public_responses_have_security_headers&#13;
+Header [X-Content-Type-Options] not present on response.
+Failed asserting that false is true.
+&#13;
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:46
+C:\Antigravity\techpedia-project\backend\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:378
+C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php:69</failure>
+        </testcase>
+        <testcase name="test_sensitive_files_are_not_public" file="C:\Antigravity\techpedia-project\backend\tests\Feature\Phase5QualityTest.php" line="70" class="Tests\Feature\Phase5QualityTest" classname="Tests.Feature.Phase5QualityTest" assertions="3" time="0.058053"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

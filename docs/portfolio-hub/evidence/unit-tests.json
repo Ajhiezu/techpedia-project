@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-11-13T07:41:32.326317+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "test"
+  ],
+  "exitCode": 0,
+  "stdout": "\n> techpedia-project@1.0.0 test\n> node --test scripts/api.test.cjs scripts/hub.test.cjs\n\n\u2714 pagination follows only the configured API origin (2.5001ms)\n\u2714 HTTP failure never looks like an empty successful response (0.9048ms)\n\u2714 invalid API payload is rejected (0.465ms)\n\u2714 configured WhatsApp, email and Fastwork match supplied details (2.5183ms)\n\u2714 actual content contains no illustrative project passed off as real (2.4389ms)\n\u2714 unsafe URL schemes and embedded credentials are rejected (1.3792ms)\n\u2714 thumbnail paths reject traversal and script files (1.5533ms)\n\u2714 live project has separate demo and public GitHub actions (1.4513ms)\n\u2714 interactive UI demo uses Live preview label (0.2323ms)\n\u2714 case-study-only projects never emit demo actions (0.2186ms)\n\u2714 no missing or unknown external action creates a dead button (0.3157ms)\n\u2714 draft, unapproved, scheduled and future projects remain hidden (0.4735ms)\n\u2714 schema rejects duplicate slugs (2.4975ms)\n\u2714 published projects require a readable case study (0.7503ms)\n\u2714 live projects require HTTPS demo URL (0.7789ms)\n\u2714 published records require explicit factual approval (1.4078ms)\n\u2714 unsafe contact URLs do not become buttons (0.2331ms)\n\u2714 public build excludes drafts and strips internal fields (2.718ms)\n\u2139 tests 18\n\u2139 suites 0\n\u2139 pass 18\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 235.5267\n",
+  "stderr": ""
+}

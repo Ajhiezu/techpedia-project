@@ -1,0 +1,46 @@
+{
+  "tool": "WCAG relative-luminance calculation from current CSS token values; not a full rendered-text audit",
+  "baselineMutedOnLight": 4.4317471350538895,
+  "cases": [
+    {
+      "id": "CONTRAST-muted on white",
+      "category": "accessibility",
+      "name": "muted on white",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 5.3397,
+      "status": "PASS",
+      "text": "#5d6c82",
+      "background": "#ffffff"
+    },
+    {
+      "id": "CONTRAST-muted on light",
+      "category": "accessibility",
+      "name": "muted on light",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 4.9727,
+      "status": "PASS",
+      "text": "#5d6c82",
+      "background": "#f4f7fc"
+    },
+    {
+      "id": "CONTRAST-primary on white",
+      "category": "accessibility",
+      "name": "primary on white",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 6.1596,
+      "status": "PASS",
+      "text": "#2457d6",
+      "background": "#ffffff"
+    },
+    {
+      "id": "CONTRAST-white on primary",
+      "category": "accessibility",
+      "name": "white on primary",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 6.1596,
+      "status": "PASS",
+      "text": "#ffffff",
+      "background": "#2457d6"
+    }
+  ]
+}

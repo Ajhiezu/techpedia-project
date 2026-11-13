@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-13T06:23:36.410612+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "exitCode": 1,
+  "stdout": "\n> build\n> next build\n\n",
+  "stderr": "'next' is not recognized as an internal or external command,\noperable program or batch file.\n"
+}

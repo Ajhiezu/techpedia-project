@@ -1,0 +1,105 @@
+{
+  "at": "2026-11-13T06:24:54.588Z",
+  "environment": "APP_ENV=qa; disposable SQLite and separate storage; real session/CSRF; notifications disabled",
+  "cases": [
+    {
+      "id": "LIVE-public",
+      "category": "api",
+      "name": "Public list uses real Laravel/database",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Six seeded services from isolated SQLite",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-pagination",
+      "category": "api",
+      "name": "Real posts paginate 20 + 1",
+      "expected": "HTTP/database assertions pass",
+      "actual": {
+        "firstPageBytes": 346161,
+        "total": 21
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-auth-deny",
+      "category": "security",
+      "name": "Unauthenticated admin endpoint returns 401",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-csrf",
+      "category": "security",
+      "name": "Login rejects missing CSRF on actual HTTP request",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-login",
+      "category": "cms",
+      "name": "Valid session login succeeds with CSRF",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-contact",
+      "category": "functional",
+      "name": "Real contact is persisted before success",
+      "expected": "HTTP/database assertions pass",
+      "actual": "201 followed by authorized read of persisted row",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-notes-private",
+      "category": "security",
+      "name": "Private notes are inaccessible publicly",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Expected values to be strictly equal:\n\n419 !== 201\n",
+      "status": "FAIL"
+    },
+    {
+      "id": "LIVE-files",
+      "category": "security",
+      "name": "Sensitive dotfile and traversal rejected",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-cors",
+      "category": "security",
+      "name": "No wildcard CORS for untrusted origin",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Expected \"actual\" to be strictly unequal to: '*'",
+      "status": "FAIL"
+    },
+    {
+      "id": "LIVE-headers",
+      "category": "security",
+      "name": "Security headers on actual public HTML",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-robots",
+      "category": "seo",
+      "name": "Actual web root robots prevents indexing",
+      "expected": "HTTP/database assertions pass",
+      "actual": "The input did not match the regular expression /Disallow:\\s*\\//. Input:\n\n'User-agent: *\\nDisallow:\\n'\n",
+      "status": "FAIL"
+    },
+    {
+      "id": "LIVE-logout",
+      "category": "cms",
+      "name": "Logout invalidates a real session",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    }
+  ]
+}

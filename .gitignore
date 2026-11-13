@@ -1,0 +1,14 @@
+.qa/
+.cache/
+dist/
+node_modules/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+!.env.production.example
+
+# Derived from frontend/assets by sync-hub-assets.mjs
+frontend-next/public/assets/
+frontend-next/out/

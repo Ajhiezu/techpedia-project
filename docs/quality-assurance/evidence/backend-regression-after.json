@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-13T06:16:51.054363+00:00",
+  "command": [
+    "php",
+    "-d",
+    "extension=pdo_sqlite",
+    "vendor/phpunit/phpunit/phpunit",
+    "--log-junit",
+    "C:\\Antigravity\\techpedia-project\\docs\\quality-assurance\\evidence\\backend-regression-after.xml"
+  ],
+  "environment": "APP_ENV=testing; SQLite :memory:; mail array; no production credentials",
+  "exitCode": 0,
+  "stdout": "{\"tool\":\"phpunit\",\"result\":\"passed\",\"tests\":107,\"passed\":107,\"assertions\":282,\"duration_ms\":6021}\n",
+  "stderr": ""
+}

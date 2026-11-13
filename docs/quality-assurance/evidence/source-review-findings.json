@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "method": "Source review recorded from pre-patch tool reads; transcribed excerpts, not a new execution",
+  "file": "frontend/assets/app.js",
+  "baselineSha256": "a2b58971bae8cb1e85644147934bd3762d94929d1364490233a1368eafdbcd5a",
+  "findings": [
+    {
+      "id": "BUG-17",
+      "sourceBefore": "back-top onclick called window.scrollTo({top:0,behavior:'smooth'}) regardless of motion preference",
+      "impact": "Explicit JS smooth behavior overrides the CSS reduced-motion intent"
+    },
+    {
+      "id": "BUG-18",
+      "sourceBefore": "pageHead(eyebrow,title,text) passed crumbs(title) rather than crumbs(eyebrow)",
+      "impact": "Current breadcrumb contained the marketing heading rather than the page name"
+    }
+  ]
+}

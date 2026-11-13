@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-11-13T07:41:35.018615+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "exitCode": 1,
+  "stdout": "\n> prebuild\n> node ../scripts/prepare-hub-content.cjs && node ../scripts/sync-hub-assets.mjs\n\nPrepared public content: 0 approved published projects.\n\n> build\n> next build\n\n",
+  "stderr": "'next' is not recognized as an internal or external command,\noperable program or batch file.\n"
+}

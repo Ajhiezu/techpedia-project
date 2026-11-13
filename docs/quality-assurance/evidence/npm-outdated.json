@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-13T06:23:35.836568+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "outdated",
+    "--json",
+    "--fetch-retries=0",
+    "--fetch-timeout=8000"
+  ],
+  "exitCode": 1,
+  "stdout": "{\n  \"error\": {\n    \"code\": \"EACCES\",\n    \"summary\": \"FetchError: request to https://registry.npmjs.org/next failed, reason:\",\n    \"detail\": \"The operation was rejected by your operating system.\\nIt's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.\\n\\nIf you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.\"\n  }\n}\n",
+  "stderr": "npm error code EACCES\nnpm error errno EACCES\nnpm error FetchError: request to https://registry.npmjs.org/next failed, reason: \nnpm error     at ClientRequest.<anonymous> (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\minipass-fetch\\lib\\index.js:130:14)\nnpm error     at ClientRequest.emit (node:events:509:28)\nnpm error     at emitErrorEvent (node:_http_client:109:11)\nnpm error     at _destroy (node:_http_client:993:9)\nnpm error     at onSocketNT (node:_http_client:1014:5)\nnpm error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {\nnpm error   code: 'EACCES',\nnpm error   errno: 'EACCES',\nnpm error   type: 'system'\nnpm error }\nnpm error\nnpm error The operation was rejected by your operating system.\nnpm error It's possible that the file was already in use (by a text editor or antivirus), or that you lack permissions to access it.\nnpm error\nnpm error If you believe this might be a permissions issue, please double-check the permissions of the file and its containing directories, or try running the command again as root/Administrator.\nnpm error Log files were not written due to an error writing to the directory: C:\\Users\\ajhie\\AppData\\Local\\npm-cache\\_logs\nnpm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal\n"
+}

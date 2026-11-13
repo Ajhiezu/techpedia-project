@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-13T06:23:37.251237+00:00",
+  "command": [
+    "node",
+    "--test",
+    "--test-reporter=tap",
+    "scripts/api.test.cjs"
+  ],
+  "exitCode": 0,
+  "stdout": "TAP version 13\n# Subtest: pagination follows only the configured API origin\nok 1 - pagination follows only the configured API origin\n  ---\n  duration_ms: 3.9507\n  type: 'test'\n  ...\n# Subtest: HTTP failure never looks like an empty successful response\nok 2 - HTTP failure never looks like an empty successful response\n  ---\n  duration_ms: 2.122\n  type: 'test'\n  ...\n# Subtest: invalid API payload is rejected\nok 3 - invalid API payload is rejected\n  ---\n  duration_ms: 0.3446\n  type: 'test'\n  ...\n1..3\n# tests 3\n# suites 0\n# pass 3\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 157.7489\n",
+  "stderr": ""
+}

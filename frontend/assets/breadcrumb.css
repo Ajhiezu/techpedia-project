@@ -1,0 +1,48 @@
+.crumbs {
+  align-items: center;
+  width: fit-content;
+  min-height: 32px;
+  padding: 4px 6px 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .78);
+  box-shadow: 0 2px 8px rgba(23, 43, 77, .04);
+}
+
+.page-hero .crumbs {
+  margin: 0 0 1.4rem;
+}
+
+.crumbs a {
+  color: var(--muted);
+  font-weight: 600;
+  transition: color .18s;
+}
+
+.crumbs a:hover { color: var(--blue); }
+
+.crumbs span:not(:last-child) {
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.crumbs span:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin: 4px 0 0 2px;
+  border-top: 1.5px solid #80bac8;
+  border-right: 1.5px solid #80bac8;
+  transform: rotate(45deg);
+}
+
+.crumbs span:last-child {
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #e6f9fd;
+  color: var(--deep);
+  font-weight: 700;
+}

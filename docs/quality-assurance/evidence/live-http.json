@@ -1,0 +1,121 @@
+{
+  "at": "2026-11-13T06:48:32.941Z",
+  "environment": "APP_ENV=qa; disposable SQLite and separate storage; real session/CSRF; notifications disabled",
+  "cases": [
+    {
+      "id": "LIVE-public",
+      "category": "api",
+      "name": "Public list uses real Laravel/database",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Six seeded services from isolated SQLite",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-pagination",
+      "category": "api",
+      "name": "Real posts paginate 20 + 1",
+      "expected": "HTTP/database assertions pass",
+      "actual": {
+        "firstPageBytes": 5894,
+        "total": 21
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-auth-deny",
+      "category": "security",
+      "name": "Unauthenticated admin endpoint returns 401",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-csrf",
+      "category": "security",
+      "name": "Login rejects missing CSRF on actual HTTP request",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-login",
+      "category": "cms",
+      "name": "Valid session login succeeds with CSRF",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-contact",
+      "category": "functional",
+      "name": "Real contact is persisted before success",
+      "expected": "HTTP/database assertions pass",
+      "actual": "201 followed by authorized read of persisted row",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-notes-private",
+      "category": "security",
+      "name": "Private notes are inaccessible publicly",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-files",
+      "category": "security",
+      "name": "Sensitive dotfile and traversal rejected",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-cors",
+      "category": "security",
+      "name": "No wildcard CORS for untrusted origin",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-headers",
+      "category": "security",
+      "name": "Security headers on actual public HTML",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-robots",
+      "category": "seo",
+      "name": "Actual web root robots prevents indexing",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-session-expiry",
+      "category": "security",
+      "name": "Expired real file session denies access",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-logout",
+      "category": "cms",
+      "name": "Logout invalidates a real session",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS"
+    },
+    {
+      "id": "LIVE-browser-contact",
+      "category": "functional",
+      "name": "Real Chrome -> Laravel -> SQLite contact",
+      "expected": "Browser success, no CSP violations, persisted second message",
+      "actual": "Real API list/detail lazy loading, publication date, tags and service detail verified.\nChrome displayed confirmed real Laravel success; no CSP violations or JS exceptions.\n Persisted browser rows: 1",
+      "status": "PASS"
+    }
+  ]
+}

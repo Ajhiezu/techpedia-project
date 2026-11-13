@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-13T06:23:34.407889+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "audit",
+    "--json",
+    "--fetch-retries=0",
+    "--fetch-timeout=8000"
+  ],
+  "exitCode": 1,
+  "stdout": "{\n  \"error\": {\n    \"code\": \"ENOLOCK\",\n    \"summary\": \"This command requires an existing lockfile.\",\n    \"detail\": \"Try creating one first with: npm i --package-lock-only\\nOriginal error: loadVirtual requires existing shrinkwrap file\"\n  }\n}\n",
+  "stderr": "npm error code ENOLOCK\nnpm error audit This command requires an existing lockfile.\nnpm error audit Try creating one first with: npm i --package-lock-only\nnpm error audit Original error: loadVirtual requires existing shrinkwrap file\nnpm error Log files were not written due to an error writing to the directory: C:\\Users\\ajhie\\AppData\\Local\\npm-cache\\_logs\nnpm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal\n"
+}

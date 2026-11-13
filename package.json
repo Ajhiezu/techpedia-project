@@ -1,0 +1,25 @@
+{
+  "name": "techpedia-project",
+  "version": "1.0.0",
+  "description": "Techpedia portfolio hub with local project data, standalone demo links and direct customer contact.",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 8081 --directory frontend",
+    "test": "node --test scripts/api.test.cjs scripts/hub.test.cjs",
+    "lint": "node --check frontend/assets/app.js && node --check frontend/assets/api.js && node --check frontend/assets/hub.js",
+    "build": "node scripts/verify-static-site.mjs",
+    "test:browser": "node scripts/qa/hub-browser.cjs",
+    "backend:test": "cd backend && php artisan test",
+    "next:dev": "npm --prefix frontend-next run dev",
+    "next:build": "npm --prefix frontend-next run build",
+    "next:typecheck": "npm --prefix frontend-next run typecheck",
+    "test:hub": "node scripts/qa/hub-browser.cjs",
+    "test:browser:api": "node scripts/browser-check.cjs",
+    "prestart": "node scripts/prepare-hub-content.cjs",
+    "prepare:content": "node scripts/prepare-hub-content.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,26 @@
+{
+  "backend/.env": {
+    "exists": true,
+    "debugEnabled": true,
+    "isProduction": false,
+    "hasApplicationKey": true,
+    "contactEnabled": false,
+    "hasPublicSiteUrl": false
+  },
+  "backend/.env.example": {
+    "exists": true,
+    "debugEnabled": true,
+    "isProduction": false,
+    "hasApplicationKey": false,
+    "contactEnabled": false,
+    "hasPublicSiteUrl": false
+  },
+  "frontend-next/.env.example": {
+    "exists": true,
+    "debugEnabled": false,
+    "isProduction": false,
+    "hasApplicationKey": false,
+    "contactEnabled": false,
+    "hasPublicSiteUrl": false
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "profile": {
+    "brand": "Techpedia Project",
+    "positioning": "Pengembangan Aplikasi Sesuai Kebutuhan",
+    "headline": "Aplikasi yang dirancang untuk bisnis Anda.",
+    "tagline": "Pengembangan aplikasi sesuai kebutuhan bisnis.",
+    "about": "Techpedia Project menyediakan pengembangan aplikasi custom dan website melalui pembagian peran manajemen proyek, desain UI/UX, frontend, backend, QA, serta peluncuran dan infrastruktur. Kebutuhan, ruang lingkup, dan hasil pekerjaan dibahas sebagai acuan koordinasi hingga serah terima.",
+    "contacts": {
+      "whatsapp": "https://wa.me/6287732774899",
+      "email": "ajhiezudesign@gmail.com",
+      "fastwork": "https://fastwork.id/user/techpedia_project",
+      "github": ""
+    }
+  },
+  "services": [
+    {
+      "id": 1,
+      "slug": "website-development",
+      "title": "Pengembangan Website",
+      "status": "published",
+      "short_description": "Website bisnis yang memperjelas layanan Anda dan memudahkan calon pelanggan menghubungi Anda.",
+      "description": "Kami menyusun struktur informasi, tampilan, dan jalur kontak sesuai tujuan bisnis. Kebutuhan pengelolaan konten dibahas agar website juga mudah dioperasikan setelah diluncurkan."
+    },
+    {
+      "id": 2,
+      "slug": "e-commerce-development",
+      "title": "Website E-Commerce",
+      "status": "published",
+      "short_description": "Pengalaman belanja online dengan katalog dan alur pembelian yang disusun sesuai kebutuhan usaha.",
+      "description": "Katalog, pemesanan, dan kebutuhan pengelola dibahas sebagai satu alur. Integrasi pembayaran, pengiriman, dan layanan pihak ketiga ditentukan berdasarkan kebutuhan serta kelayakan teknis."
+    },
+    {
+      "id": 3,
+      "slug": "custom-software-development",
+      "title": "Aplikasi Custom",
+      "status": "published",
+      "short_description": "Aplikasi yang mengikuti alur kerja bisnis Anda, dari layanan anggota hingga pengelolaan operasional.",
+      "description": "Kebutuhan diterjemahkan menjadi alur, pembagian hak akses, dan fitur yang saling terhubung. Fokusnya adalah membantu pekerjaan pengguna sekaligus memudahkan pengelola mengendalikan proses."
+    },
+    {
+      "id": 4,
+      "slug": "erp-business-solutions",
+      "title": "Sistem Operasional Bisnis",
+      "status": "published",
+      "short_description": "Sistem untuk membantu pengelolaan data, proses internal, dan pembagian akses pengguna.",
+      "description": "Kami memetakan hubungan antarproses sebelum menentukan modul aplikasi. Kebutuhan dashboard, laporan, dan pembagian akses disusun berdasarkan pekerjaan yang perlu didukung."
+    },
+    {
+      "id": 5,
+      "slug": "ui-ux-design",
+      "title": "Desain UI/UX",
+      "status": "published",
+      "short_description": "Antarmuka yang membantu pengguna menyelesaikan pekerjaan dengan alur yang mudah dipahami.",
+      "description": "Desain dimulai dari tugas yang perlu diselesaikan pengguna. Alur, struktur informasi, dan tampilan dibahas agar keputusan antarmuka memiliki dasar yang jelas."
+    },
+    {
+      "id": 6,
+      "slug": "maintenance-it-support",
+      "title": "Pemeliharaan & Dukungan IT",
+      "status": "published",
+      "short_description": "Dukungan untuk pemeliharaan dan pengembangan kebutuhan aplikasi setelah digunakan.",
+      "description": "Kami meninjau kondisi aplikasi, kendala, dan akses yang tersedia sebelum menetapkan pekerjaan. Perbaikan dan pengembangan tambahan diprioritaskan berdasarkan dampaknya terhadap penggunaan."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "slug": "rpk-pustaka",
+      "title": "RPK Pustaka - Sistem Perpustakaan & Publikasi Digital",
+      "status": "published",
+      "approved": true,
+      "short_description": "Platform perpustakaan terpadu untuk membaca online, peminjaman online dan offline, serta publikasi artikel dan esai melalui peninjauan admin. Dilengkapi pengelolaan denda dan dashboard khusus admin serta anggota.",
+      "overview": "RPK Pustaka dikembangkan untuk menjawab kebutuhan klien akan layanan perpustakaan yang menghubungkan akses bacaan digital, sirkulasi koleksi, dan publikasi karya dalam satu platform. Ruang lingkupnya mencakup pengalaman anggota sekaligus kebutuhan pengelolaan perpustakaan oleh admin, sehingga website berfungsi sebagai sistem operasional, bukan sekadar katalog koleksi.",
+      "role": "Pengembangan sistem perpustakaan sesuai kebutuhan klien, mencakup fitur baca online, alur peminjaman, publikasi artikel dan esai, pengelolaan denda, serta dashboard admin dan anggota.",
+      "challenge": "Kebutuhan klien mencakup dua layanan yang saling berkaitan: akses pengetahuan secara digital dan pengelolaan peminjaman secara online maupun offline. Di sisi publikasi, artikel dan esai yang dikirim anggota perlu melalui peninjauan admin sebelum diterbitkan. Seluruh alur tersebut perlu disusun dengan pembagian akses dan tanggung jawab yang jelas.",
+      "solution": "Baca online: anggota dapat mengakses bacaan secara daring.\n\nPeminjaman online dan offline: sistem mendukung kebutuhan peminjaman melalui dua jalur layanan, dilengkapi pengelolaan denda.\n\nPublikasi terkurasi: anggota dapat mengunggah artikel dan esai untuk ditinjau admin sebelum dipublikasikan.\n\nDashboard admin: menyediakan ruang pengelolaan layanan perpustakaan dan peninjauan kiriman anggota.\n\nDashboard anggota: menyediakan akses ke layanan serta aktivitas keanggotaan dalam satu area khusus.",
+      "results": "Rangkaian fitur ini menghadirkan platform yang mencakup kebutuhan layanan anggota, pengelolaan sirkulasi, dan kurasi publikasi. Proyek ini menunjukkan pendekatan Techpedia dalam menerjemahkan kebutuhan operasional klien menjadi alur aplikasi yang terstruktur, dengan perhatian pada pengalaman pengguna dan kebutuhan pengelola.",
+      "thumbnail": "assets/projects/rpk-pustaka.png",
+      "thumbnail_alt": "Halaman utama RPK Pustaka IMM SAINTEKMU dengan pencarian koleksi dan navigasi artikel, esai, serta panduan peminjaman.",
+      "demo_type": "full-live-demo",
+      "demo_url": "https://rpk-pustaka.com/",
+      "github_url": "",
+      "design_url": "",
+      "technologies": [],
+      "category_name": "Aplikasi Custom",
+      "featured": true
+    }
+  ],
+  "posts": [],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Bagaimana cara memulai pembuatan aplikasi?",
+      "answer": "Hubungi kami melalui WhatsApp, email, atau Fastwork. Ceritakan proses bisnis, kendala, dan gambaran aplikasi yang dibutuhkan agar ruang lingkupnya dapat dibahas."
+    },
+    {
+      "id": 2,
+      "question": "Apakah aplikasi bisa disesuaikan dengan alur kerja bisnis?",
+      "answer": "Ya. Kebutuhan pengguna, alur kerja, dan peran pengelola menjadi bahan untuk menentukan fitur serta struktur aplikasi."
+    },
+    {
+      "id": 3,
+      "question": "Berapa biaya dan waktu pengerjaannya?",
+      "answer": "Biaya dan jadwal ditentukan setelah kebutuhan, kompleksitas fitur, serta ruang lingkup pekerjaan dipahami dan disepakati bersama."
+    },
+    {
+      "id": 4,
+      "question": "Apakah ada layanan maintenance?",
+      "answer": "Maintenance dan pengembangan lanjutan dapat dibahas sesuai kebutuhan aplikasi. Cakupan dukungan ditentukan dalam kesepakatan layanan."
+    },
+    {
+      "id": 5,
+      "question": "Bagaimana revisi dan fitur tambahan ditangani?",
+      "answer": "Batas revisi dan penanganan fitur tambahan ditentukan dalam ruang lingkup agar prioritas dan arah pengerjaan tetap jelas."
+    },
+    {
+      "id": 6,
+      "question": "Apakah kode sumber dan akses aplikasi diserahkan?",
+      "answer": "Kepemilikan, penyerahan kode sumber, dokumentasi, dan akses pengelolaan ditetapkan sejak pembahasan kerja sama."
+    },
+    {
+      "id": 7,
+      "question": "Apakah domain, hosting, dan pemeliharaan sudah termasuk?",
+      "answer": "Kebutuhan infrastruktur, biaya pihak ketiga, serta bentuk dukungan setelah peluncuran dibahas terpisah sesuai kebutuhan."
+    }
+  ]
+}

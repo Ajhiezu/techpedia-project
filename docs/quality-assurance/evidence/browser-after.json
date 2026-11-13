@@ -1,0 +1,685 @@
+{
+  "at": "2026-11-13T06:23:07.950Z",
+  "environment": "chrome headless; HTTP fixtures; external fonts blocked consistently; no real DB in this runner",
+  "browser": "Chrome/157.0.8103.51",
+  "cases": [
+    {
+      "id": "PAGE-/",
+      "category": "functional",
+      "name": "Open /",
+      "expected": "Assertions pass",
+      "actual": "Transform Your Ideas Into Powerful Digital Solutions.",
+      "status": "PASS",
+      "ms": 149
+    },
+    {
+      "id": "PAGE-/services",
+      "category": "functional",
+      "name": "Open /services",
+      "expected": "Assertions pass",
+      "actual": "Digital services shaped around your business context.",
+      "status": "PASS",
+      "ms": 155
+    },
+    {
+      "id": "PAGE-/services/website-development",
+      "category": "functional",
+      "name": "Open /services/website-development",
+      "expected": "Assertions pass",
+      "actual": "Website Development",
+      "status": "PASS",
+      "ms": 108
+    },
+    {
+      "id": "PAGE-/services/e-commerce-development",
+      "category": "functional",
+      "name": "Open /services/e-commerce-development",
+      "expected": "Assertions pass",
+      "actual": "E-Commerce Development",
+      "status": "PASS",
+      "ms": 94
+    },
+    {
+      "id": "PAGE-/services/custom-software-development",
+      "category": "functional",
+      "name": "Open /services/custom-software-development",
+      "expected": "Assertions pass",
+      "actual": "Custom Software Development",
+      "status": "PASS",
+      "ms": 92
+    },
+    {
+      "id": "PAGE-/services/erp-business-solutions",
+      "category": "functional",
+      "name": "Open /services/erp-business-solutions",
+      "expected": "Assertions pass",
+      "actual": "ERP & Business Solutions",
+      "status": "PASS",
+      "ms": 81
+    },
+    {
+      "id": "PAGE-/services/ui-ux-design",
+      "category": "functional",
+      "name": "Open /services/ui-ux-design",
+      "expected": "Assertions pass",
+      "actual": "UI/UX Design",
+      "status": "PASS",
+      "ms": 94
+    },
+    {
+      "id": "PAGE-/services/maintenance-it-support",
+      "category": "functional",
+      "name": "Open /services/maintenance-it-support",
+      "expected": "Assertions pass",
+      "actual": "Maintenance & IT Support",
+      "status": "PASS",
+      "ms": 89
+    },
+    {
+      "id": "PAGE-/portfolio",
+      "category": "functional",
+      "name": "Open /portfolio",
+      "expected": "Assertions pass",
+      "actual": "Selected digital work.",
+      "status": "PASS",
+      "ms": 81
+    },
+    {
+      "id": "PAGE-/portfolio/approved-project",
+      "category": "functional",
+      "name": "Open /portfolio/approved-project",
+      "expected": "Assertions pass",
+      "actual": "QA Approved project",
+      "status": "PASS",
+      "ms": 79
+    },
+    {
+      "id": "PAGE-/about",
+      "category": "functional",
+      "name": "Open /about",
+      "expected": "Assertions pass",
+      "actual": "Digital solutions built around practical business needs.",
+      "status": "PASS",
+      "ms": 72
+    },
+    {
+      "id": "PAGE-/process",
+      "category": "functional",
+      "name": "Open /process",
+      "expected": "Assertions pass",
+      "actual": "A shared path from a question to a useful digital outcome.",
+      "status": "PASS",
+      "ms": 81
+    },
+    {
+      "id": "PAGE-/insights",
+      "category": "functional",
+      "name": "Open /insights",
+      "expected": "Assertions pass",
+      "actual": "Ideas for making digital work more understandable.",
+      "status": "PASS",
+      "ms": 111
+    },
+    {
+      "id": "PAGE-/insights/article-0",
+      "category": "functional",
+      "name": "Open /insights/article-0",
+      "expected": "Assertions pass",
+      "actual": "<img src=x onerror=\"window.injected=true\">",
+      "status": "PASS",
+      "ms": 89
+    },
+    {
+      "id": "PAGE-/contact",
+      "category": "functional",
+      "name": "Open /contact",
+      "expected": "Assertions pass",
+      "actual": "Tell us about the work you are considering.",
+      "status": "PASS",
+      "ms": 92
+    },
+    {
+      "id": "PAGE-/faq",
+      "category": "functional",
+      "name": "Open /faq",
+      "expected": "Assertions pass",
+      "actual": "Useful information before you begin.",
+      "status": "PASS",
+      "ms": 78
+    },
+    {
+      "id": "PAGE-/privacy-policy",
+      "category": "functional",
+      "name": "Open /privacy-policy",
+      "expected": "Assertions pass",
+      "actual": "Privacy Policy",
+      "status": "PASS",
+      "ms": 76
+    },
+    {
+      "id": "PAGE-/terms",
+      "category": "functional",
+      "name": "Open /terms",
+      "expected": "Assertions pass",
+      "actual": "Terms & Conditions",
+      "status": "PASS",
+      "ms": 78
+    },
+    {
+      "id": "PAGE-/missing-page",
+      "category": "functional",
+      "name": "Open /missing-page",
+      "expected": "Assertions pass",
+      "actual": "This page is not available.",
+      "status": "PASS",
+      "ms": 88
+    },
+    {
+      "id": "RESP-/",
+      "category": "responsive",
+      "name": "/ at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 221
+    },
+    {
+      "id": "RESP-/services",
+      "category": "responsive",
+      "name": "/services at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 168
+    },
+    {
+      "id": "RESP-/services/website-development",
+      "category": "responsive",
+      "name": "/services/website-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 172
+    },
+    {
+      "id": "RESP-/services/e-commerce-development",
+      "category": "responsive",
+      "name": "/services/e-commerce-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 152
+    },
+    {
+      "id": "RESP-/services/custom-software-development",
+      "category": "responsive",
+      "name": "/services/custom-software-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 203
+    },
+    {
+      "id": "RESP-/services/erp-business-solutions",
+      "category": "responsive",
+      "name": "/services/erp-business-solutions at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 186
+    },
+    {
+      "id": "RESP-/services/ui-ux-design",
+      "category": "responsive",
+      "name": "/services/ui-ux-design at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 154
+    },
+    {
+      "id": "RESP-/services/maintenance-it-support",
+      "category": "responsive",
+      "name": "/services/maintenance-it-support at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 191
+    },
+    {
+      "id": "RESP-/portfolio",
+      "category": "responsive",
+      "name": "/portfolio at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 184
+    },
+    {
+      "id": "RESP-/portfolio/approved-project",
+      "category": "responsive",
+      "name": "/portfolio/approved-project at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 181
+    },
+    {
+      "id": "RESP-/about",
+      "category": "responsive",
+      "name": "/about at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 146
+    },
+    {
+      "id": "RESP-/process",
+      "category": "responsive",
+      "name": "/process at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 206
+    },
+    {
+      "id": "RESP-/insights",
+      "category": "responsive",
+      "name": "/insights at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 214
+    },
+    {
+      "id": "RESP-/insights/article-0",
+      "category": "responsive",
+      "name": "/insights/article-0 at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 112
+    },
+    {
+      "id": "RESP-/contact",
+      "category": "responsive",
+      "name": "/contact at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 158
+    },
+    {
+      "id": "RESP-/faq",
+      "category": "responsive",
+      "name": "/faq at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 197
+    },
+    {
+      "id": "RESP-/privacy-policy",
+      "category": "responsive",
+      "name": "/privacy-policy at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 139
+    },
+    {
+      "id": "RESP-/terms",
+      "category": "responsive",
+      "name": "/terms at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 189
+    },
+    {
+      "id": "RESP-/missing-page",
+      "category": "responsive",
+      "name": "/missing-page at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "ms": 163
+    },
+    {
+      "id": "NAV-links",
+      "category": "functional",
+      "name": "All internal navigation destinations exist",
+      "expected": "Assertions pass",
+      "actual": [
+        "/",
+        "/portfolio",
+        "/about",
+        "/insights",
+        "/contact",
+        "/services",
+        "/services/website-development",
+        "/services/custom-software-development",
+        "/services/ui-ux-design",
+        "/process",
+        "/faq",
+        "/services/e-commerce-development",
+        "/privacy-policy",
+        "/terms"
+      ],
+      "status": "PASS",
+      "ms": 1225
+    },
+    {
+      "id": "NAV-images",
+      "category": "functional",
+      "name": "Image sources resolve with explicit intrinsic size",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 6
+    },
+    {
+      "id": "PORT-filter",
+      "category": "functional",
+      "name": "Portfolio filter changes cards",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 115
+    },
+    {
+      "id": "BLOG-pagination",
+      "category": "functional",
+      "name": "Article adapter reads all API pages",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 85
+    },
+    {
+      "id": "BLOG-filter",
+      "category": "functional",
+      "name": "Blog category filter hides unrelated cards",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 7
+    },
+    {
+      "id": "BLOG-metadata",
+      "category": "functional",
+      "name": "Blog detail shows date and tags",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 92
+    },
+    {
+      "id": "SEC-xss",
+      "category": "security",
+      "name": "API text is escaped on article details",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 78
+    },
+    {
+      "id": "FORM-selection",
+      "category": "functional",
+      "name": "Service selection carries to contact",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 90
+    },
+    {
+      "id": "FORM-invalid-name-",
+      "category": "functional",
+      "name": "Reject invalid name ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 122
+    },
+    {
+      "id": "FORM-invalid-email-",
+      "category": "functional",
+      "name": "Reject invalid email ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 80
+    },
+    {
+      "id": "FORM-invalid-email-invalid",
+      "category": "functional",
+      "name": "Reject invalid email invalid",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 94
+    },
+    {
+      "id": "FORM-invalid-description-",
+      "category": "functional",
+      "name": "Reject invalid description ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 104
+    },
+    {
+      "id": "FORM-invalid-description-short",
+      "category": "functional",
+      "name": "Reject invalid description short",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 121
+    },
+    {
+      "id": "FORM-invalid-consent-false",
+      "category": "functional",
+      "name": "Reject invalid consent false",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 79
+    },
+    {
+      "id": "FORM-length",
+      "category": "functional",
+      "name": "HTML form specifies maximum lengths",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 4
+    },
+    {
+      "id": "FORM-double",
+      "category": "functional",
+      "name": "Repeated submit events produce one HTTP request",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 328
+    },
+    {
+      "id": "FORM-success",
+      "category": "functional",
+      "name": "Valid special-character inquiry confirms successful HTTP persistence contract",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 349
+    },
+    {
+      "id": "FORM-failure",
+      "category": "functional",
+      "name": "Failure never produces false success: failure",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 329
+    },
+    {
+      "id": "FORM-network",
+      "category": "functional",
+      "name": "Failure never produces false success: network",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 333
+    },
+    {
+      "id": "A11Y-skip",
+      "category": "accessibility",
+      "name": "Skip link focuses content without routing to 404",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 184
+    },
+    {
+      "id": "A11Y-dropdown",
+      "category": "accessibility",
+      "name": "Dropdown Escape restores trigger focus",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 109
+    },
+    {
+      "id": "A11Y-mobile",
+      "category": "accessibility",
+      "name": "Mobile dialog traps focus and restores trigger",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 33
+    },
+    {
+      "id": "A11Y-faq",
+      "category": "accessibility",
+      "name": "FAQ expanded state matches panel visibility",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 101
+    },
+    {
+      "id": "A11Y-labels",
+      "category": "accessibility",
+      "name": "All contact inputs have accessible labels",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 110
+    },
+    {
+      "id": "A11Y-motion",
+      "category": "accessibility",
+      "name": "Reduced motion preference disables smooth scrolling",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 10
+    },
+    {
+      "id": "SEO-meta",
+      "category": "seo",
+      "name": "Distinct descriptions for home, services and contact",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 283
+    },
+    {
+      "id": "SEO-noindex",
+      "category": "seo",
+      "name": "Pre-publication site prevents indexing",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 4
+    },
+    {
+      "id": "JS-errors",
+      "category": "functional",
+      "name": "No unhandled JavaScript exceptions",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "ms": 2
+    }
+  ],
+  "performance": [
+    {
+      "page": "/",
+      "navigation": {
+        "domContentLoaded": 319.40000000596046,
+        "load": 319.69999998807907,
+        "transfer": 4281
+      },
+      "fcp": 212,
+      "lcp": 4144,
+      "cls": 1.312533610496701,
+      "INP": null
+    },
+    {
+      "page": "/services",
+      "navigation": {
+        "domContentLoaded": 319.40000000596046,
+        "load": 319.69999998807907,
+        "transfer": 4281
+      },
+      "fcp": 212,
+      "lcp": 4144,
+      "cls": 1.312533610496701,
+      "INP": null
+    },
+    {
+      "page": "/portfolio",
+      "navigation": {
+        "domContentLoaded": 319.40000000596046,
+        "load": 319.69999998807907,
+        "transfer": 4281
+      },
+      "fcp": 212,
+      "lcp": 4144,
+      "cls": 1.312533610496701,
+      "INP": null
+    },
+    {
+      "page": "/insights",
+      "navigation": {
+        "domContentLoaded": 319.40000000596046,
+        "load": 319.69999998807907,
+        "transfer": 4281
+      },
+      "fcp": 212,
+      "lcp": 4144,
+      "cls": 1.312533610496701,
+      "INP": null
+    },
+    {
+      "page": "/contact",
+      "navigation": {
+        "domContentLoaded": 319.40000000596046,
+        "load": 319.69999998807907,
+        "transfer": 4281
+      },
+      "fcp": 212,
+      "lcp": 4144,
+      "cls": 1.312533610496701,
+      "INP": null
+    }
+  ],
+  "runtimeErrors": [],
+  "counts": {
+    "PASS": 66,
+    "FAIL": 0,
+    "BLOCKED": 0,
+    "NOT TESTED": 0
+  }
+}

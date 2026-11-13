@@ -1,0 +1,163 @@
+{
+  "at": "2026-11-13T13:36:34.639Z",
+  "environment": "static HTTP only; /api returns503; artificial QA projects served only inside this runner; actual source includes the owner-supplied RPK Pustaka project",
+  "apiRequests": 0,
+  "cases": [
+    {
+      "name": "Homepage works without Laravel and retains Techpedia brand",
+      "status": "PASS"
+    },
+    {
+      "name": "Homepage presents software services with consultation as the primary action",
+      "status": "PASS"
+    },
+    {
+      "name": "Floating WhatsApp stays visible and points to the supplied number",
+      "status": "PASS"
+    },
+    {
+      "name": "WhatsApp mascot backdrop is transparent and its animation still advances",
+      "status": "PASS"
+    },
+    {
+      "name": "Transparent companion also renders without WebCodecs support",
+      "status": "PASS"
+    },
+    {
+      "name": "Delivery scope and six team roles explain the engagement",
+      "status": "PASS"
+    },
+    {
+      "name": "Article navigation and routes are taken offline",
+      "status": "PASS"
+    },
+    {
+      "name": "Mascot video loads, plays silently, and supports pause and resume",
+      "status": "PASS"
+    },
+    {
+      "name": "Mascot video respects reduced motion and stops while offscreen",
+      "status": "PASS"
+    },
+    {
+      "name": "Services dropdown closes on selection, including the current route",
+      "status": "PASS"
+    },
+    {
+      "name": "Review illustrations disclose fictional names and pause on keyboard focus",
+      "status": "PASS"
+    },
+    {
+      "name": "Owner portfolio appears on home, projects, and its case study",
+      "status": "PASS"
+    },
+    {
+      "name": "WhatsApp, email and Fastwork use exact supplied addresses",
+      "status": "PASS"
+    },
+    {
+      "name": "External contact links isolate newly opened tabs",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services/website-development",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services/e-commerce-development",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services/custom-software-development",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services/erp-business-solutions",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services/ui-ux-design",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /services/maintenance-it-support",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /portfolio",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /about",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /process",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /insights",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /contact",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /faq",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /privacy-policy",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /terms",
+      "status": "PASS"
+    },
+    {
+      "name": "Page and responsive layout /missing",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile menu and skip link preserve accessible focus",
+      "status": "PASS"
+    },
+    {
+      "name": "Project actions and publication status use local fixture records only",
+      "status": "PASS"
+    },
+    {
+      "name": "Project categories filter visible work",
+      "status": "PASS"
+    },
+    {
+      "name": "Case study remains readable without visiting unavailable demo",
+      "status": "PASS"
+    },
+    {
+      "name": "Homepage surfaces selected published work",
+      "status": "PASS"
+    },
+    {
+      "name": "Case-study-only project has no unusable demo button",
+      "status": "PASS"
+    },
+    {
+      "name": "No API calls or unhandled JavaScript exceptions",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "PASS": 38,
+    "FAIL": 0
+  }
+}

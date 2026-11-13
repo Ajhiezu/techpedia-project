@@ -1,0 +1,35 @@
+.services-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.chevron {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--blue);
+  transition: transform .18s, border-color .18s;
+}
+
+.chevron svg {
+  width: 11px;
+  height: 11px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.services-menu[aria-expanded="true"] .chevron {
+  transform: rotate(180deg);
+  border-color: var(--blue);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chevron { transition: none; }
+}

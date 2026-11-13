@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-11-13T07:41:34.039669+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "run",
+    "build"
+  ],
+  "exitCode": 0,
+  "stdout": "\n> techpedia-project@1.0.0 build\n> node scripts/verify-static-site.mjs\n\nStatic frontend assets verified and copied to dist/. This is not a Next.js build.\n",
+  "stderr": ""
+}

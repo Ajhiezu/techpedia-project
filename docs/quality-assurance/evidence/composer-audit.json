@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-13T06:23:28.646575+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "composer",
+    "audit",
+    "--locked",
+    "--format=json"
+  ],
+  "exitCode": 100,
+  "stdout": "",
+  "stderr": "Cannot create cache directory C:/Users/ajhie/AppData/Local/Composer/repo/https---repo.packagist.org/, or directory is not writable. Proceeding without cache. See also cache-read-only config if your filesystem is read-only.\n\nIn CurlDownloader.php line 402:\n                                                                                                                       \n  curl error 7 while downloading https://repo.packagist.org/packages.json: Failed to connect to repo.packagist.org:44  \n  3 after 1 ms: Could not connect to server                                                                            \n                                                                                                                       \n\naudit [--no-dev] [-f|--format FORMAT] [--locked] [--abandoned ABANDONED] [--ignore-severity IGNORE-SEVERITY] [--ignore-unreachable]\n\n"
+}

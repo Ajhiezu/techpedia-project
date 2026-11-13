@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-11-13T07:41:33.289772+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "run",
+    "lint"
+  ],
+  "exitCode": 0,
+  "stdout": "\n> techpedia-project@1.0.0 lint\n> node --check frontend/assets/app.js && node --check frontend/assets/api.js && node --check frontend/assets/hub.js\n\n",
+  "stderr": ""
+}

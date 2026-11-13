@@ -1,0 +1,175 @@
+{
+  "at": "2026-11-13T06:27:54.783Z",
+  "environment": "real Laravel HTTP; disposable SQLite seeded data; Chrome headless; 390x844; CPU 4x; cache disabled; external fonts consistently blocked; unthrottled localhost network; two cold documents per route",
+  "warning": "Lab samples only; no Lighthouse score or field CWV/INP claim. Distinct timeOrigin validates separate document navigation.",
+  "samples": [
+    {
+      "page": "/",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551252315.4,
+      "navigation": {
+        "domContentLoaded": 2543.2999999821186,
+        "load": 2546.4000000059605,
+        "transfer": 4281
+      },
+      "FCP": 1584,
+      "LCP": 2536,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551257015,
+      "navigation": {
+        "domContentLoaded": 443.2000000178814,
+        "load": 443.40000000596046,
+        "transfer": 4281
+      },
+      "FCP": 292,
+      "LCP": 476,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/services",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551259007.9,
+      "navigation": {
+        "domContentLoaded": 559.4000000059605,
+        "load": 561,
+        "transfer": 4281
+      },
+      "FCP": 364,
+      "LCP": 564,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/services",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551261110.1,
+      "navigation": {
+        "domContentLoaded": 381.80000001192093,
+        "load": 382.09999999403954,
+        "transfer": 4281
+      },
+      "FCP": 280,
+      "LCP": 404,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/portfolio",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551263049.6,
+      "navigation": {
+        "domContentLoaded": 413,
+        "load": 414.09999999403954,
+        "transfer": 4281
+      },
+      "FCP": 316,
+      "LCP": 420,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/portfolio",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551265018.7,
+      "navigation": {
+        "domContentLoaded": 368.40000000596046,
+        "load": 369.5,
+        "transfer": 4281
+      },
+      "FCP": 268,
+      "LCP": 376,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/insights",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551266937.4,
+      "navigation": {
+        "domContentLoaded": 395.5,
+        "load": 397.40000000596046,
+        "transfer": 4281
+      },
+      "FCP": 304,
+      "LCP": 388,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/insights",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551268849.6,
+      "navigation": {
+        "domContentLoaded": 434.7000000178814,
+        "load": 435.59999999403954,
+        "transfer": 4281
+      },
+      "FCP": 320,
+      "LCP": 460,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/contact",
+      "sample": 0,
+      "contentLoaded": true,
+      "timeOrigin": 1794551270829,
+      "navigation": {
+        "domContentLoaded": 501.40000000596046,
+        "load": 521,
+        "transfer": 4281
+      },
+      "FCP": 292,
+      "LCP": 504,
+      "CLS": 0,
+      "INP": null
+    },
+    {
+      "page": "/contact",
+      "sample": 1,
+      "contentLoaded": true,
+      "timeOrigin": 1794551272878,
+      "navigation": {
+        "domContentLoaded": 428.30000001192093,
+        "load": 430,
+        "transfer": 4281
+      },
+      "FCP": 312,
+      "LCP": 452,
+      "CLS": 0,
+      "INP": null
+    }
+  ],
+  "assets": [
+    {
+      "name": "app.js",
+      "bytes": 23137
+    },
+    {
+      "name": "api.js",
+      "bytes": 700
+    },
+    {
+      "name": "styles.css",
+      "bytes": 11907
+    },
+    {
+      "name": "logo.png",
+      "bytes": 22255
+    }
+  ]
+}

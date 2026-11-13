@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-13T07:32:02.485Z",
+  "kind": "Chrome headless with HTTP fixtures",
+  "checks": [
+    "Homepage renders API service data",
+    "Homepage has no horizontal overflow at eight target widths",
+    "Portfolio lists and case-study routes render published records",
+    "Article title and content cannot inject HTML",
+    "Contact validates, preserves service selection and submits actual JSON",
+    "Failed inquiry gives an error and re-enables submission",
+    "FAQ toggles accessible expanded state",
+    "Mobile navigation supports focus and Escape",
+    "Ten additional routes have no horizontal overflow at eight target widths",
+    "Unknown route displays 404"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "node",
+    "scripts/browser-check.cjs"
+  ],
+  "environment": "isolated process; APP_ENV=testing, SQLite :memory:, mail array",
+  "at": "2026-11-13T06:07:04.150768+00:00",
+  "exitCode": 0,
+  "stdout": "PASS Homepage renders API service data\nPASS Homepage has no horizontal overflow at eight target widths\nPASS Portfolio lists and case-study routes render published records\nPASS Article title and content cannot inject HTML\nPASS Contact validates, preserves service selection and submits actual JSON\nPASS Failed inquiry gives an error and re-enables submission\nPASS FAQ toggles accessible expanded state\nPASS Mobile navigation supports focus and Escape\nPASS Ten additional routes have no horizontal overflow at eight target widths\nPASS Unknown route displays 404\n",
+  "stderr": ""
+}

@@ -1,0 +1,322 @@
+{
+  "at": "2026-11-13T06:43:15.029510+00:00",
+  "cases": [
+    {
+      "id": "js-syntax",
+      "category": "technical",
+      "name": "js-syntax",
+      "expected": "Command exit 0",
+      "actual": "\n> techpedia-project@1.0.0 lint\n> node --check frontend/assets/app.js && node --check frontend/assets/api.js\n\n",
+      "status": "PASS"
+    },
+    {
+      "id": "static-build",
+      "category": "technical",
+      "name": "static-build",
+      "expected": "Command exit 0",
+      "actual": "\n> techpedia-project@1.0.0 build\n> node scripts/verify-static-site.mjs\n\nStatic frontend assets verified and copied to dist/. This is not a Next.js build.\n",
+      "status": "PASS"
+    },
+    {
+      "id": "php-syntax",
+      "category": "technical",
+      "name": "PHP syntax validation",
+      "expected": "All application and QA PHP sources parse",
+      "actual": "58 files; 0 failures",
+      "status": "PASS"
+    }
+  ],
+  "phpFiles": [
+    {
+      "path": "backend/app/Jobs/NotifyInquiryRecipient.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Jobs\\NotifyInquiryRecipient.php\n"
+    },
+    {
+      "path": "backend/app/Models/Category.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Category.php\n"
+    },
+    {
+      "path": "backend/app/Models/ContactMessage.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\ContactMessage.php\n"
+    },
+    {
+      "path": "backend/app/Models/ContactMessageNote.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\ContactMessageNote.php\n"
+    },
+    {
+      "path": "backend/app/Models/Faq.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Faq.php\n"
+    },
+    {
+      "path": "backend/app/Models/FaqCategory.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\FaqCategory.php\n"
+    },
+    {
+      "path": "backend/app/Models/Media.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Media.php\n"
+    },
+    {
+      "path": "backend/app/Models/Post.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Post.php\n"
+    },
+    {
+      "path": "backend/app/Models/Project.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Project.php\n"
+    },
+    {
+      "path": "backend/app/Models/ProjectCategory.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\ProjectCategory.php\n"
+    },
+    {
+      "path": "backend/app/Models/ProjectImage.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\ProjectImage.php\n"
+    },
+    {
+      "path": "backend/app/Models/ProjectTechnology.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\ProjectTechnology.php\n"
+    },
+    {
+      "path": "backend/app/Models/Service.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Service.php\n"
+    },
+    {
+      "path": "backend/app/Models/ServiceCategory.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\ServiceCategory.php\n"
+    },
+    {
+      "path": "backend/app/Models/SiteSetting.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\SiteSetting.php\n"
+    },
+    {
+      "path": "backend/app/Models/Tag.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Tag.php\n"
+    },
+    {
+      "path": "backend/app/Models/Testimonial.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\Testimonial.php\n"
+    },
+    {
+      "path": "backend/app/Models/User.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Models\\User.php\n"
+    },
+    {
+      "path": "backend/app/Providers/AppServiceProvider.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Providers\\AppServiceProvider.php\n"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Controller.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Controllers\\Controller.php\n"
+    },
+    {
+      "path": "backend/app/Http/Middleware/RequireAdmin.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Middleware\\RequireAdmin.php\n"
+    },
+    {
+      "path": "backend/app/Http/Middleware/SecurityHeaders.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Middleware\\SecurityHeaders.php\n"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/AuthController.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Controllers\\Api\\AuthController.php\n"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/ContactController.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Controllers\\Api\\ContactController.php\n"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/ContentController.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Controllers\\Api\\ContentController.php\n"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/MediaController.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Controllers\\Api\\MediaController.php\n"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/PublicContentController.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Http\\Controllers\\Api\\PublicContentController.php\n"
+    },
+    {
+      "path": "backend/app/Console/Commands/CreateAdmin.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\app\\Console\\Commands\\CreateAdmin.php\n"
+    },
+    {
+      "path": "backend/config/app.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\app.php\n"
+    },
+    {
+      "path": "backend/config/auth.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\auth.php\n"
+    },
+    {
+      "path": "backend/config/cache.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\cache.php\n"
+    },
+    {
+      "path": "backend/config/content.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\content.php\n"
+    },
+    {
+      "path": "backend/config/cors.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\cors.php\n"
+    },
+    {
+      "path": "backend/config/database.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\database.php\n"
+    },
+    {
+      "path": "backend/config/filesystems.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\filesystems.php\n"
+    },
+    {
+      "path": "backend/config/inquiries.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\inquiries.php\n"
+    },
+    {
+      "path": "backend/config/logging.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\logging.php\n"
+    },
+    {
+      "path": "backend/config/mail.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\mail.php\n"
+    },
+    {
+      "path": "backend/config/queue.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\queue.php\n"
+    },
+    {
+      "path": "backend/config/services.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\services.php\n"
+    },
+    {
+      "path": "backend/config/session.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\config\\session.php\n"
+    },
+    {
+      "path": "backend/routes/api.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\routes\\api.php\n"
+    },
+    {
+      "path": "backend/routes/console.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\routes\\console.php\n"
+    },
+    {
+      "path": "backend/routes/web.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\routes\\web.php\n"
+    },
+    {
+      "path": "backend/database/factories/UserFactory.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\database\\factories\\UserFactory.php\n"
+    },
+    {
+      "path": "backend/database/migrations/0001_01_01_000000_create_users_table.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\database\\migrations\\0001_01_01_000000_create_users_table.php\n"
+    },
+    {
+      "path": "backend/database/migrations/0001_01_01_000001_create_cache_table.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\database\\migrations\\0001_01_01_000001_create_cache_table.php\n"
+    },
+    {
+      "path": "backend/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\database\\migrations\\0001_01_01_000002_create_jobs_table.php\n"
+    },
+    {
+      "path": "backend/database/migrations/2026_11_13_000001_create_content_tables.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\database\\migrations\\2026_11_13_000001_create_content_tables.php\n"
+    },
+    {
+      "path": "backend/database/seeders/DatabaseSeeder.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\database\\seeders\\DatabaseSeeder.php\n"
+    },
+    {
+      "path": "backend/tests/TestCase.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\tests\\TestCase.php\n"
+    },
+    {
+      "path": "backend/tests/Feature/ContentApiTest.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\tests\\Feature\\ContentApiTest.php\n"
+    },
+    {
+      "path": "backend/tests/Feature/ExampleTest.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\tests\\Feature\\ExampleTest.php\n"
+    },
+    {
+      "path": "backend/tests/Feature/Phase5QualityTest.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\tests\\Feature\\Phase5QualityTest.php\n"
+    },
+    {
+      "path": "backend/tests/Unit/ExampleTest.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\backend\\tests\\Unit\\ExampleTest.php\n"
+    },
+    {
+      "path": "scripts/qa/isolate.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\scripts\\qa\\isolate.php\n"
+    },
+    {
+      "path": "scripts/qa/router.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\scripts\\qa\\router.php\n"
+    },
+    {
+      "path": "scripts/qa/seed-live.php",
+      "status": "PASS",
+      "output": "No syntax errors detected in C:\\Antigravity\\techpedia-project\\scripts\\qa\\seed-live.php\n"
+    }
+  ],
+  "staticBuildIsNotNext": true
+}

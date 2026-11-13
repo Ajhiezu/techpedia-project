@@ -1,0 +1,3218 @@
+{
+  "date": "2026-11-13",
+  "verdict": "NOT READY FOR DEPLOYMENT",
+  "counting": "Counts include each final PHPUnit case, browser/environment case, HTTP case and audit/gap case once. Two PHPUnit scaffold examples are included. Historical baseline failures are not counted twice. Report subsets may overlap.",
+  "total": 352,
+  "counts": {
+    "PASS": 320,
+    "FAIL": 8,
+    "BLOCKED": 11,
+    "NOT TESTED": 13
+  },
+  "cases": [
+    {
+      "id": "PHP-001",
+      "category": "api",
+      "name": "test_that_true_is_true",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-002",
+      "category": "security",
+      "name": "test_public_services_exclude_drafts",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-003",
+      "category": "security",
+      "name": "test_draft_detail_is_not_public",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-004",
+      "category": "api",
+      "name": "test_future_publication_is_not_public",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-005",
+      "category": "security",
+      "name": "test_private_settings_are_not_exposed",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-006",
+      "category": "cms",
+      "name": "test_anonymous_admin_request_is_unauthorized",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-007",
+      "category": "api",
+      "name": "test_regular_user_cannot_manage_content",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-008",
+      "category": "cms",
+      "name": "test_admin_can_create_and_update_content_with_unique_slug_validation",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-009",
+      "category": "cms",
+      "name": "test_unknown_content_resource_is_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-010",
+      "category": "api",
+      "name": "test_contact_is_disabled_until_configured",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-011",
+      "category": "api",
+      "name": "test_contact_is_saved_without_exposing_personal_data",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-012",
+      "category": "api",
+      "name": "test_contact_requires_consent_and_valid_email",
+      "expected": "Test method assertions pass",
+      "actual": "5 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-013",
+      "category": "security",
+      "name": "test_honeypot_rejects_submission",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-014",
+      "category": "cms",
+      "name": "test_login_rejects_non_admin_credentials",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-015",
+      "category": "cms",
+      "name": "test_admin_login",
+      "expected": "Test method assertions pass",
+      "actual": "4 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-016",
+      "category": "cms",
+      "name": "test_contact_notes_are_private",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-017",
+      "category": "cms",
+      "name": "test_non_admin_cannot_promote_their_account_through_content_api",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-018",
+      "category": "cms",
+      "name": "test_dotted_resource_name_is_not_a_config_lookup",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-019",
+      "category": "cms",
+      "name": "test_admin_image_upload_is_stored_and_can_be_deleted",
+      "expected": "Test method assertions pass",
+      "actual": "5 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-020",
+      "category": "api",
+      "name": "test_script_upload_is_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-021",
+      "category": "api",
+      "name": "test_the_application_returns_a_successful_response",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-022",
+      "category": "cms",
+      "name": "test_resource_crud with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-023",
+      "category": "cms",
+      "name": "test_resource_crud with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-024",
+      "category": "cms",
+      "name": "test_resource_crud with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-025",
+      "category": "cms",
+      "name": "test_resource_crud with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-026",
+      "category": "cms",
+      "name": "test_resource_crud with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-027",
+      "category": "cms",
+      "name": "test_resource_crud with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-028",
+      "category": "cms",
+      "name": "test_resource_crud with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-029",
+      "category": "cms",
+      "name": "test_resource_crud with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-030",
+      "category": "cms",
+      "name": "test_resource_crud with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-031",
+      "category": "cms",
+      "name": "test_resource_crud with data set #9",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-032",
+      "category": "cms",
+      "name": "test_resource_crud with data set #10",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-033",
+      "category": "cms",
+      "name": "test_resource_crud with data set #11",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-034",
+      "category": "cms",
+      "name": "test_resource_crud with data set #12",
+      "expected": "Test method assertions pass",
+      "actual": "9 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-035",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-036",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-037",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-038",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-039",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-040",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-041",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-042",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-043",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-044",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #9",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-045",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #10",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-046",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #11",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-047",
+      "category": "cms",
+      "name": "test_empty_resource_payload_rejected with data set #12",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-048",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-049",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-050",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-051",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-052",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-053",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-054",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-055",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-056",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-057",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #9",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-058",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #10",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-059",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #11",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-060",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_anonymous with data set #12",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-061",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-062",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-063",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-064",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-065",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-066",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-067",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-068",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-069",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-070",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #9",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-071",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #10",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-072",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #11",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-073",
+      "category": "cms",
+      "name": "test_resource_mutation_denies_non_admin with data set #12",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-074",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-075",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-076",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-077",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-078",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-079",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-080",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-081",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-082",
+      "category": "api",
+      "name": "test_invalid_inquiry_not_stored with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-083",
+      "category": "security",
+      "name": "test_special_characters_are_stored_as_data_not_sql",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-084",
+      "category": "security",
+      "name": "test_contact_rate_limit",
+      "expected": "Test method assertions pass",
+      "actual": "6 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-085",
+      "category": "cms",
+      "name": "test_login_rate_limit",
+      "expected": "Test method assertions pass",
+      "actual": "6 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-086",
+      "category": "api",
+      "name": "test_unregistered_email_returns_generic_error",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-087",
+      "category": "cms",
+      "name": "test_logout_invalidates_authentication",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-088",
+      "category": "security",
+      "name": "test_password_is_hashed",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-089",
+      "category": "security",
+      "name": "test_private_user_fields_not_exposed",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-090",
+      "category": "security",
+      "name": "test_draft_project_is_hidden",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-091",
+      "category": "database",
+      "name": "test_soft_deleted_post_remains_hidden",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-092",
+      "category": "database",
+      "name": "test_pagination_filter_sort_and_eager_loading",
+      "expected": "Test method assertions pass",
+      "actual": "6 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-093",
+      "category": "api",
+      "name": "test_invalid_pagination_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-094",
+      "category": "database",
+      "name": "test_parent_delete_nulls_child_fk",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-095",
+      "category": "cms",
+      "name": "test_message_delete_cascades_private_notes",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-096",
+      "category": "database",
+      "name": "test_transaction_rollback_restores_data",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-097",
+      "category": "database",
+      "name": "test_unique_slug_enforced_by_database",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-098",
+      "category": "database",
+      "name": "test_invalid_fk_is_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-099",
+      "category": "security",
+      "name": "test_mass_assignment_does_not_allow_privilege_escalation",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-100",
+      "category": "cms",
+      "name": "test_post_tags_sync",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-101",
+      "category": "cms",
+      "name": "test_messages_workflow_and_filter",
+      "expected": "Test method assertions pass",
+      "actual": "6 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-102",
+      "category": "cms",
+      "name": "test_oversized_media_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-103",
+      "category": "cms",
+      "name": "test_referenced_media_cannot_be_deleted",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-104",
+      "category": "api",
+      "name": "test_published_date_cannot_be_accidentally_cleared",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-105",
+      "category": "api",
+      "name": "test_category_cannot_be_its_own_parent",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-106",
+      "category": "api",
+      "name": "test_public_responses_have_security_headers",
+      "expected": "Test method assertions pass",
+      "actual": "4 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-107",
+      "category": "security",
+      "name": "test_sensitive_files_are_not_public",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-108",
+      "category": "api",
+      "name": "test_post_list_omits_heavy_body_but_detail_keeps_it",
+      "expected": "Test method assertions pass",
+      "actual": "5 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-109",
+      "category": "api",
+      "name": "test_category_ancestor_cycle_is_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-110",
+      "category": "security",
+      "name": "test_cors_does_not_allow_arbitrary_origins",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-111",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-112",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-113",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-114",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-115",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-116",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-117",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-118",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-119",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-120",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #9",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-121",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #10",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-122",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #11",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-123",
+      "category": "cms",
+      "name": "test_invalid_type_rejected_by_every_resource with data set #12",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-124",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-125",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-126",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-127",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-128",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-129",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-130",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-131",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-132",
+      "category": "cms",
+      "name": "test_duplicates_rejected_for_unique_resources with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-133",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #0",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-134",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #1",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-135",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #2",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-136",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #3",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-137",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #4",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-138",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #5",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-139",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #6",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-140",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #7",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-141",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #8",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-142",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #9",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-143",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #10",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-144",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #11",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-145",
+      "category": "cms",
+      "name": "test_anonymous_cannot_read_update_or_delete_resource with data set #12",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-146",
+      "category": "cms",
+      "name": "test_wrong_admin_password_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "3 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-147",
+      "category": "cms",
+      "name": "test_used_media_in_soft_deleted_content_is_protected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-148",
+      "category": "database",
+      "name": "test_array_foreign_key_is_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "1 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "PHP-149",
+      "category": "api",
+      "name": "test_array_service_slug_is_rejected",
+      "expected": "Test method assertions pass",
+      "actual": "2 PHPUnit assertions; SQLite :memory:",
+      "status": "PASS",
+      "evidence": "evidence/backend-final.xml"
+    },
+    {
+      "id": "CHROME-PAGE-/",
+      "category": "functional",
+      "name": "Open /",
+      "expected": "Assertions pass",
+      "actual": "Transform Your Ideas Into Powerful Digital Solutions.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services",
+      "category": "functional",
+      "name": "Open /services",
+      "expected": "Assertions pass",
+      "actual": "Digital services shaped around your business context.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services/website-development",
+      "category": "functional",
+      "name": "Open /services/website-development",
+      "expected": "Assertions pass",
+      "actual": "Website Development",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services/e-commerce-development",
+      "category": "functional",
+      "name": "Open /services/e-commerce-development",
+      "expected": "Assertions pass",
+      "actual": "E-Commerce Development",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services/custom-software-development",
+      "category": "functional",
+      "name": "Open /services/custom-software-development",
+      "expected": "Assertions pass",
+      "actual": "Custom Software Development",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services/erp-business-solutions",
+      "category": "functional",
+      "name": "Open /services/erp-business-solutions",
+      "expected": "Assertions pass",
+      "actual": "ERP & Business Solutions",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services/ui-ux-design",
+      "category": "functional",
+      "name": "Open /services/ui-ux-design",
+      "expected": "Assertions pass",
+      "actual": "UI/UX Design",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/services/maintenance-it-support",
+      "category": "functional",
+      "name": "Open /services/maintenance-it-support",
+      "expected": "Assertions pass",
+      "actual": "Maintenance & IT Support",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/portfolio",
+      "category": "functional",
+      "name": "Open /portfolio",
+      "expected": "Assertions pass",
+      "actual": "Selected digital work.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/portfolio/approved-project",
+      "category": "functional",
+      "name": "Open /portfolio/approved-project",
+      "expected": "Assertions pass",
+      "actual": "QA Approved project",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/about",
+      "category": "functional",
+      "name": "Open /about",
+      "expected": "Assertions pass",
+      "actual": "Digital solutions built around practical business needs.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/process",
+      "category": "functional",
+      "name": "Open /process",
+      "expected": "Assertions pass",
+      "actual": "A shared path from a question to a useful digital outcome.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/insights",
+      "category": "functional",
+      "name": "Open /insights",
+      "expected": "Assertions pass",
+      "actual": "Ideas for making digital work more understandable.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/insights/article-0",
+      "category": "functional",
+      "name": "Open /insights/article-0",
+      "expected": "Assertions pass",
+      "actual": "<img src=x onerror=\"window.injected=true\">",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/contact",
+      "category": "functional",
+      "name": "Open /contact",
+      "expected": "Assertions pass",
+      "actual": "Tell us about the work you are considering.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/faq",
+      "category": "functional",
+      "name": "Open /faq",
+      "expected": "Assertions pass",
+      "actual": "Useful information before you begin.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/privacy-policy",
+      "category": "functional",
+      "name": "Open /privacy-policy",
+      "expected": "Assertions pass",
+      "actual": "Privacy Policy",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/terms",
+      "category": "functional",
+      "name": "Open /terms",
+      "expected": "Assertions pass",
+      "actual": "Terms & Conditions",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PAGE-/missing-page",
+      "category": "functional",
+      "name": "Open /missing-page",
+      "expected": "Assertions pass",
+      "actual": "This page is not available.",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/",
+      "category": "responsive",
+      "name": "/ at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services",
+      "category": "responsive",
+      "name": "/services at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services/website-development",
+      "category": "responsive",
+      "name": "/services/website-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services/e-commerce-development",
+      "category": "responsive",
+      "name": "/services/e-commerce-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services/custom-software-development",
+      "category": "responsive",
+      "name": "/services/custom-software-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services/erp-business-solutions",
+      "category": "responsive",
+      "name": "/services/erp-business-solutions at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services/ui-ux-design",
+      "category": "responsive",
+      "name": "/services/ui-ux-design at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/services/maintenance-it-support",
+      "category": "responsive",
+      "name": "/services/maintenance-it-support at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/portfolio",
+      "category": "responsive",
+      "name": "/portfolio at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/portfolio/approved-project",
+      "category": "responsive",
+      "name": "/portfolio/approved-project at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/about",
+      "category": "responsive",
+      "name": "/about at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/process",
+      "category": "responsive",
+      "name": "/process at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/insights",
+      "category": "responsive",
+      "name": "/insights at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/insights/article-0",
+      "category": "responsive",
+      "name": "/insights/article-0 at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/contact",
+      "category": "responsive",
+      "name": "/contact at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/faq",
+      "category": "responsive",
+      "name": "/faq at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/privacy-policy",
+      "category": "responsive",
+      "name": "/privacy-policy at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/terms",
+      "category": "responsive",
+      "name": "/terms at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-RESP-/missing-page",
+      "category": "responsive",
+      "name": "/missing-page at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-NAV-breadcrumb",
+      "category": "functional",
+      "name": "Contact breadcrumb uses the page name",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-NAV-links",
+      "category": "functional",
+      "name": "All internal navigation destinations exist",
+      "expected": "Assertions pass",
+      "actual": [
+        "/",
+        "/portfolio",
+        "/about",
+        "/insights",
+        "/contact",
+        "/services",
+        "/services/website-development",
+        "/services/custom-software-development",
+        "/services/ui-ux-design",
+        "/process",
+        "/faq",
+        "/services/e-commerce-development",
+        "/privacy-policy",
+        "/terms"
+      ],
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-NAV-images",
+      "category": "functional",
+      "name": "Image sources resolve with explicit intrinsic size",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PORT-filter",
+      "category": "functional",
+      "name": "Portfolio filter changes cards",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-BLOG-pagination",
+      "category": "functional",
+      "name": "Article adapter reads all API pages",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-BLOG-filter",
+      "category": "functional",
+      "name": "Blog category filter hides unrelated cards",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-BLOG-metadata",
+      "category": "functional",
+      "name": "Blog detail shows date and tags",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-SEC-xss",
+      "category": "security",
+      "name": "API text is escaped on article details",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-selection",
+      "category": "functional",
+      "name": "Service selection carries to contact",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-invalid-name-",
+      "category": "functional",
+      "name": "Reject invalid name ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-invalid-email-",
+      "category": "functional",
+      "name": "Reject invalid email ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-invalid-email-invalid",
+      "category": "functional",
+      "name": "Reject invalid email invalid",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-invalid-description-",
+      "category": "functional",
+      "name": "Reject invalid description ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-invalid-description-short",
+      "category": "functional",
+      "name": "Reject invalid description short",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-invalid-consent-false",
+      "category": "functional",
+      "name": "Reject invalid consent false",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-length",
+      "category": "functional",
+      "name": "HTML form specifies maximum lengths",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-double",
+      "category": "functional",
+      "name": "Repeated submit events produce one HTTP request",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-success",
+      "category": "functional",
+      "name": "Valid special-character inquiry confirms successful HTTP persistence contract",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-failure",
+      "category": "functional",
+      "name": "Failure never produces false success: failure",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-FORM-network",
+      "category": "functional",
+      "name": "Failure never produces false success: network",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-A11Y-skip",
+      "category": "accessibility",
+      "name": "Skip link focuses content without routing to 404",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-A11Y-dropdown",
+      "category": "accessibility",
+      "name": "Dropdown Escape restores trigger focus",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-A11Y-mobile",
+      "category": "accessibility",
+      "name": "Mobile dialog traps focus and restores trigger",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-A11Y-faq",
+      "category": "accessibility",
+      "name": "FAQ expanded state matches panel visibility",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-A11Y-labels",
+      "category": "accessibility",
+      "name": "All contact inputs have accessible labels",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-A11Y-motion",
+      "category": "accessibility",
+      "name": "Reduced motion preference disables smooth scrolling",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-NAV-backtop",
+      "category": "accessibility",
+      "name": "Back-to-top honors reduced motion",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-SEO-meta",
+      "category": "seo",
+      "name": "Distinct descriptions for home, services and contact",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-SEO-noindex",
+      "category": "seo",
+      "name": "Pre-publication site prevents indexing",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-JS-errors",
+      "category": "functional",
+      "name": "No unhandled JavaScript exceptions",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-DATA-unavailable",
+      "category": "functional",
+      "name": "Unavailable API produces visible fallback without uncaught error",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "CHROME-PORT-empty",
+      "category": "functional",
+      "name": "Empty portfolio uses honest empty state",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/browser-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/",
+      "category": "functional",
+      "name": "Open /",
+      "expected": "Assertions pass",
+      "actual": "Transform Your Ideas Into Powerful Digital Solutions.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services",
+      "category": "functional",
+      "name": "Open /services",
+      "expected": "Assertions pass",
+      "actual": "Digital services shaped around your business context.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services/website-development",
+      "category": "functional",
+      "name": "Open /services/website-development",
+      "expected": "Assertions pass",
+      "actual": "Website Development",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services/e-commerce-development",
+      "category": "functional",
+      "name": "Open /services/e-commerce-development",
+      "expected": "Assertions pass",
+      "actual": "E-Commerce Development",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services/custom-software-development",
+      "category": "functional",
+      "name": "Open /services/custom-software-development",
+      "expected": "Assertions pass",
+      "actual": "Custom Software Development",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services/erp-business-solutions",
+      "category": "functional",
+      "name": "Open /services/erp-business-solutions",
+      "expected": "Assertions pass",
+      "actual": "ERP & Business Solutions",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services/ui-ux-design",
+      "category": "functional",
+      "name": "Open /services/ui-ux-design",
+      "expected": "Assertions pass",
+      "actual": "UI/UX Design",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/services/maintenance-it-support",
+      "category": "functional",
+      "name": "Open /services/maintenance-it-support",
+      "expected": "Assertions pass",
+      "actual": "Maintenance & IT Support",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/portfolio",
+      "category": "functional",
+      "name": "Open /portfolio",
+      "expected": "Assertions pass",
+      "actual": "Selected digital work.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/portfolio/approved-project",
+      "category": "functional",
+      "name": "Open /portfolio/approved-project",
+      "expected": "Assertions pass",
+      "actual": "QA Approved project",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/about",
+      "category": "functional",
+      "name": "Open /about",
+      "expected": "Assertions pass",
+      "actual": "Digital solutions built around practical business needs.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/process",
+      "category": "functional",
+      "name": "Open /process",
+      "expected": "Assertions pass",
+      "actual": "A shared path from a question to a useful digital outcome.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/insights",
+      "category": "functional",
+      "name": "Open /insights",
+      "expected": "Assertions pass",
+      "actual": "Ideas for making digital work more understandable.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/insights/article-0",
+      "category": "functional",
+      "name": "Open /insights/article-0",
+      "expected": "Assertions pass",
+      "actual": "<img src=x onerror=\"window.injected=true\">",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/contact",
+      "category": "functional",
+      "name": "Open /contact",
+      "expected": "Assertions pass",
+      "actual": "Tell us about the work you are considering.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/faq",
+      "category": "functional",
+      "name": "Open /faq",
+      "expected": "Assertions pass",
+      "actual": "Useful information before you begin.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/privacy-policy",
+      "category": "functional",
+      "name": "Open /privacy-policy",
+      "expected": "Assertions pass",
+      "actual": "Privacy Policy",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/terms",
+      "category": "functional",
+      "name": "Open /terms",
+      "expected": "Assertions pass",
+      "actual": "Terms & Conditions",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PAGE-/missing-page",
+      "category": "functional",
+      "name": "Open /missing-page",
+      "expected": "Assertions pass",
+      "actual": "This page is not available.",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/",
+      "category": "responsive",
+      "name": "/ at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services",
+      "category": "responsive",
+      "name": "/services at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services/website-development",
+      "category": "responsive",
+      "name": "/services/website-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services/e-commerce-development",
+      "category": "responsive",
+      "name": "/services/e-commerce-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services/custom-software-development",
+      "category": "responsive",
+      "name": "/services/custom-software-development at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services/erp-business-solutions",
+      "category": "responsive",
+      "name": "/services/erp-business-solutions at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services/ui-ux-design",
+      "category": "responsive",
+      "name": "/services/ui-ux-design at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/services/maintenance-it-support",
+      "category": "responsive",
+      "name": "/services/maintenance-it-support at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/portfolio",
+      "category": "responsive",
+      "name": "/portfolio at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/portfolio/approved-project",
+      "category": "responsive",
+      "name": "/portfolio/approved-project at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/about",
+      "category": "responsive",
+      "name": "/about at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/process",
+      "category": "responsive",
+      "name": "/process at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/insights",
+      "category": "responsive",
+      "name": "/insights at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/insights/article-0",
+      "category": "responsive",
+      "name": "/insights/article-0 at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/contact",
+      "category": "responsive",
+      "name": "/contact at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/faq",
+      "category": "responsive",
+      "name": "/faq at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/privacy-policy",
+      "category": "responsive",
+      "name": "/privacy-policy at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/terms",
+      "category": "responsive",
+      "name": "/terms at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-RESP-/missing-page",
+      "category": "responsive",
+      "name": "/missing-page at eight viewport widths",
+      "expected": "Assertions pass",
+      "actual": "8/8 widths without horizontal overflow",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-NAV-breadcrumb",
+      "category": "functional",
+      "name": "Contact breadcrumb uses the page name",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-NAV-links",
+      "category": "functional",
+      "name": "All internal navigation destinations exist",
+      "expected": "Assertions pass",
+      "actual": [
+        "/",
+        "/portfolio",
+        "/about",
+        "/insights",
+        "/contact",
+        "/services",
+        "/services/website-development",
+        "/services/custom-software-development",
+        "/services/ui-ux-design",
+        "/process",
+        "/faq",
+        "/services/e-commerce-development",
+        "/privacy-policy",
+        "/terms"
+      ],
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-NAV-images",
+      "category": "functional",
+      "name": "Image sources resolve with explicit intrinsic size",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PORT-filter",
+      "category": "functional",
+      "name": "Portfolio filter changes cards",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-BLOG-pagination",
+      "category": "functional",
+      "name": "Article adapter reads all API pages",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-BLOG-filter",
+      "category": "functional",
+      "name": "Blog category filter hides unrelated cards",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-BLOG-metadata",
+      "category": "functional",
+      "name": "Blog detail shows date and tags",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-SEC-xss",
+      "category": "security",
+      "name": "API text is escaped on article details",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-selection",
+      "category": "functional",
+      "name": "Service selection carries to contact",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-invalid-name-",
+      "category": "functional",
+      "name": "Reject invalid name ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-invalid-email-",
+      "category": "functional",
+      "name": "Reject invalid email ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-invalid-email-invalid",
+      "category": "functional",
+      "name": "Reject invalid email invalid",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-invalid-description-",
+      "category": "functional",
+      "name": "Reject invalid description ",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-invalid-description-short",
+      "category": "functional",
+      "name": "Reject invalid description short",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-invalid-consent-false",
+      "category": "functional",
+      "name": "Reject invalid consent false",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-length",
+      "category": "functional",
+      "name": "HTML form specifies maximum lengths",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-double",
+      "category": "functional",
+      "name": "Repeated submit events produce one HTTP request",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-success",
+      "category": "functional",
+      "name": "Valid special-character inquiry confirms successful HTTP persistence contract",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-failure",
+      "category": "functional",
+      "name": "Failure never produces false success: failure",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-FORM-network",
+      "category": "functional",
+      "name": "Failure never produces false success: network",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-A11Y-skip",
+      "category": "accessibility",
+      "name": "Skip link focuses content without routing to 404",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-A11Y-dropdown",
+      "category": "accessibility",
+      "name": "Dropdown Escape restores trigger focus",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-A11Y-mobile",
+      "category": "accessibility",
+      "name": "Mobile dialog traps focus and restores trigger",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-A11Y-faq",
+      "category": "accessibility",
+      "name": "FAQ expanded state matches panel visibility",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-A11Y-labels",
+      "category": "accessibility",
+      "name": "All contact inputs have accessible labels",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-A11Y-motion",
+      "category": "accessibility",
+      "name": "Reduced motion preference disables smooth scrolling",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-NAV-backtop",
+      "category": "accessibility",
+      "name": "Back-to-top honors reduced motion",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-SEO-meta",
+      "category": "seo",
+      "name": "Distinct descriptions for home, services and contact",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-SEO-noindex",
+      "category": "seo",
+      "name": "Pre-publication site prevents indexing",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-JS-errors",
+      "category": "functional",
+      "name": "No unhandled JavaScript exceptions",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-DATA-unavailable",
+      "category": "functional",
+      "name": "Unavailable API produces visible fallback without uncaught error",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "EDGE-PORT-empty",
+      "category": "functional",
+      "name": "Empty portfolio uses honest empty state",
+      "expected": "Assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/edge-final.json"
+    },
+    {
+      "id": "LIVE-public",
+      "category": "api",
+      "name": "Public list uses real Laravel/database",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Six seeded services from isolated SQLite",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-pagination",
+      "category": "api",
+      "name": "Real posts paginate 20 + 1",
+      "expected": "HTTP/database assertions pass",
+      "actual": {
+        "firstPageBytes": 5894,
+        "total": 21
+      },
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-auth-deny",
+      "category": "security",
+      "name": "Unauthenticated admin endpoint returns 401",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-csrf",
+      "category": "security",
+      "name": "Login rejects missing CSRF on actual HTTP request",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-login",
+      "category": "cms",
+      "name": "Valid session login succeeds with CSRF",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-contact",
+      "category": "functional",
+      "name": "Real contact is persisted before success",
+      "expected": "HTTP/database assertions pass",
+      "actual": "201 followed by authorized read of persisted row",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-notes-private",
+      "category": "security",
+      "name": "Private notes are inaccessible publicly",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-files",
+      "category": "security",
+      "name": "Sensitive dotfile and traversal rejected",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-cors",
+      "category": "security",
+      "name": "No wildcard CORS for untrusted origin",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-headers",
+      "category": "security",
+      "name": "Security headers on actual public HTML",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-robots",
+      "category": "seo",
+      "name": "Actual web root robots prevents indexing",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-session-expiry",
+      "category": "security",
+      "name": "Expired real file session denies access",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-logout",
+      "category": "cms",
+      "name": "Logout invalidates a real session",
+      "expected": "HTTP/database assertions pass",
+      "actual": "Assertions passed",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "LIVE-browser-contact",
+      "category": "functional",
+      "name": "Real Chrome -> Laravel -> SQLite contact",
+      "expected": "Browser success, no CSP violations, persisted second message",
+      "actual": "Real API list/detail lazy loading, publication date, tags and service detail verified.\nChrome displayed confirmed real Laravel success; no CSP violations or JS exceptions.\n Persisted browser rows: 1",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "CONTRAST-muted on white",
+      "category": "accessibility",
+      "name": "muted on white",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 5.3397,
+      "status": "PASS",
+      "evidence": "evidence/contrast.json"
+    },
+    {
+      "id": "CONTRAST-muted on light",
+      "category": "accessibility",
+      "name": "muted on light",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 4.9727,
+      "status": "PASS",
+      "evidence": "evidence/contrast.json"
+    },
+    {
+      "id": "CONTRAST-primary on white",
+      "category": "accessibility",
+      "name": "primary on white",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 6.1596,
+      "status": "PASS",
+      "evidence": "evidence/contrast.json"
+    },
+    {
+      "id": "CONTRAST-white on primary",
+      "category": "accessibility",
+      "name": "white on primary",
+      "expected": "WCAG normal-text ratio >=4.5:1",
+      "actual": 6.1596,
+      "status": "PASS",
+      "evidence": "evidence/contrast.json"
+    },
+    {
+      "id": "js-syntax",
+      "category": "technical",
+      "name": "js-syntax",
+      "expected": "Command exit 0",
+      "actual": "\n> techpedia-project@1.0.0 lint\n> node --check frontend/assets/app.js && node --check frontend/assets/api.js\n\n",
+      "status": "PASS",
+      "evidence": "evidence/final-checks.json"
+    },
+    {
+      "id": "static-build",
+      "category": "technical",
+      "name": "static-build",
+      "expected": "Command exit 0",
+      "actual": "\n> techpedia-project@1.0.0 build\n> node scripts/verify-static-site.mjs\n\nStatic frontend assets verified and copied to dist/. This is not a Next.js build.\n",
+      "status": "PASS",
+      "evidence": "evidence/final-checks.json"
+    },
+    {
+      "id": "php-syntax",
+      "category": "technical",
+      "name": "PHP syntax validation",
+      "expected": "All application and QA PHP sources parse",
+      "actual": "58 files; 0 failures",
+      "status": "PASS",
+      "evidence": "evidence/final-checks.json"
+    },
+    {
+      "id": "ADAPTER-1",
+      "category": "api",
+      "name": "Pagination stays on configured origin",
+      "expected": "Node assertions pass",
+      "actual": "Node test runner exit 0",
+      "status": "PASS",
+      "evidence": "evidence/unit-adapter.json"
+    },
+    {
+      "id": "ADAPTER-2",
+      "category": "api",
+      "name": "HTTP failure rejects",
+      "expected": "Node assertions pass",
+      "actual": "Node test runner exit 0",
+      "status": "PASS",
+      "evidence": "evidence/unit-adapter.json"
+    },
+    {
+      "id": "ADAPTER-3",
+      "category": "api",
+      "name": "Malformed payload rejects",
+      "expected": "Node assertions pass",
+      "actual": "Node test runner exit 0",
+      "status": "PASS",
+      "evidence": "evidence/unit-adapter.json"
+    },
+    {
+      "id": "AUDIT-manifest",
+      "category": "technical",
+      "name": "Composer manifest validation",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "composer validate executed",
+      "status": "PASS",
+      "evidence": "evidence/composer-validate.json"
+    },
+    {
+      "id": "AUDIT-secrets",
+      "category": "security",
+      "name": "Limited embedded-secret pattern scan",
+      "expected": "No matches to explicitly scanned patterns; not a full secret/history certification",
+      "actual": {
+        "scope": "first-party source only, pattern scan; not proof of no secrets; git metadata unavailable",
+        "findings": []
+      },
+      "status": "PASS",
+      "evidence": "evidence/secret-scan.json"
+    },
+    {
+      "id": "AUDIT-ignore",
+      "category": "security",
+      "name": "Environment ignore configuration",
+      "expected": "Ignore rules present; no claim about unavailable Git history",
+      "actual": "Root and backend ignore .env; tracking/history remains unverified",
+      "status": "PASS",
+      "evidence": "../../.gitignore"
+    },
+    {
+      "id": "AUDIT-prod",
+      "category": "security",
+      "name": "Production template safety",
+      "expected": "Safe production template, not a deployed configuration",
+      "actual": "Debug disabled, secure cookies, no production secrets",
+      "status": "PASS",
+      "evidence": "../../backend/.env.production.example"
+    },
+    {
+      "id": "BUILD-next",
+      "category": "technical",
+      "name": "Next.js production build",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Attempted command failed: unavailable dependencies/registry or missing npm lockfile",
+      "status": "BLOCKED",
+      "evidence": "evidence/next-build.json"
+    },
+    {
+      "id": "TYPE-next",
+      "category": "technical",
+      "name": "Next.js type check",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Attempted command failed: unavailable dependencies/registry or missing npm lockfile",
+      "status": "BLOCKED",
+      "evidence": "evidence/next-typecheck.json"
+    },
+    {
+      "id": "DEP-composer",
+      "category": "technical",
+      "name": "Composer advisory audit",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Attempted command failed: unavailable dependencies/registry or missing npm lockfile",
+      "status": "BLOCKED",
+      "evidence": "evidence/composer-audit.json"
+    },
+    {
+      "id": "DEP-npm",
+      "category": "technical",
+      "name": "npm advisory audit",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Attempted command failed: unavailable dependencies/registry or missing npm lockfile",
+      "status": "BLOCKED",
+      "evidence": "evidence/npm-audit.json"
+    },
+    {
+      "id": "DEP-outdated",
+      "category": "technical",
+      "name": "npm outdated review",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Attempted command failed: unavailable dependencies/registry or missing npm lockfile",
+      "status": "BLOCKED",
+      "evidence": "evidence/npm-outdated.json"
+    },
+    {
+      "id": "QA-boost",
+      "category": "technical",
+      "name": "Required Laravel Boost setup",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Installation attempted; Packagist connection rejected. Available vendor still allowed runtime tests.",
+      "status": "BLOCKED",
+      "evidence": "../../backend/AGENTS.md"
+    },
+    {
+      "id": "CMS-dashboard",
+      "category": "cms",
+      "name": "Visual CMS dashboard",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P1: no dashboard UI exists.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "CMS-roles",
+      "category": "security",
+      "name": "Super Admin/Admin/Editor permissions",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P1: only users.is_admin exists; granular roles are absent.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "CMS-stats",
+      "category": "cms",
+      "name": "Database-driven statistics and recent activity",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P1: statistics/activity endpoint and UI absent.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "API-taxonomy",
+      "category": "api",
+      "name": "Public homepage/categories/tags endpoints",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P2: dedicated endpoints are absent from implemented route registry.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "RELATED-services",
+      "category": "functional",
+      "name": "Related services",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P2: no related-services module.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "RELATED-projects",
+      "category": "functional",
+      "name": "Related/featured portfolio",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P2: no related-project module; home portfolio remains empty-pattern content.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "RELATED-articles",
+      "category": "functional",
+      "name": "Related articles",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P2: no related-articles module.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "SEO-hash",
+      "category": "seo",
+      "name": "Production crawlable route acceptance",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "P1: static fallback uses hash routes; production SSR/canonical acceptance depends on unbuilt Next.js.",
+      "status": "FAIL",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "CONTENT-legal",
+      "category": "functional",
+      "name": "Final legal/contact/inquiry operations",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Legal drafts and unverified official contact remain; actual project collection stays disabled.",
+      "status": "BLOCKED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "SEO-domain",
+      "category": "seo",
+      "name": "Production canonical/domain/sitemap",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "No verified public origin; configurable Next.js source is uncompiled.",
+      "status": "BLOCKED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "NEXT-e2e",
+      "category": "functional",
+      "name": "Next.js -> Laravel end-to-end",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Next.js packages unavailable; static frontend -> Laravel -> SQLite tested separately.",
+      "status": "BLOCKED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "MAIL-delivery",
+      "category": "cms",
+      "name": "Production mail/queue delivery",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Recipient/provider unavailable; real notifications deliberately off.",
+      "status": "BLOCKED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "LIGHTHOUSE",
+      "category": "performance",
+      "name": "Lighthouse on five routes",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Lighthouse not installed; npm access blocked. CDP metrics are not Lighthouse scores.",
+      "status": "BLOCKED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "DB-mysql",
+      "category": "database",
+      "name": "MySQL target integrity/performance",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Only isolated SQLite tested; no dedicated MySQL target supplied.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "DB-concurrency",
+      "category": "database",
+      "name": "True multi-worker concurrency/load",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Single-process PHP dev server and PHPUnit do not establish production concurrent behavior.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "A11Y-reader",
+      "category": "accessibility",
+      "name": "Manual screen reader compatibility",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "No manual screen-reader session available.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "A11Y-full",
+      "category": "accessibility",
+      "name": "Full WCAG 2.2 AA acceptance",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Keyboard/DOM/selected contrast checks are partial; no full manual/axe certification.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "RESP-firefox",
+      "category": "responsive",
+      "name": "Firefox",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Executable unavailable.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "RESP-safari",
+      "category": "responsive",
+      "name": "Safari",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Unavailable on Windows.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "RESP-device",
+      "category": "responsive",
+      "name": "Physical devices and manual 200% zoom",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Emulated viewport tests do not replace physical-device/assistive review.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "PERF-field",
+      "category": "performance",
+      "name": "Field CWV/INP at p75",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "No real-user dataset; INP remains null.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "SEC-https",
+      "category": "security",
+      "name": "Actual TLS/HSTS edge configuration",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "No HTTPS staging/production deployment performed.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "SEC-history",
+      "category": "security",
+      "name": "Tracked files and Git history secret review",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "No accessible .git; ignore rules cannot prove tracking status.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "CMS-password",
+      "category": "cms",
+      "name": "Password change/forgot/reset UI",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Optional screens/endpoints are absent.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "CMS-media-edit",
+      "category": "cms",
+      "name": "Separate media metadata editor",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Alt text on upload tested; no separate metadata-edit endpoint.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "OPS-backup",
+      "category": "technical",
+      "name": "Backup/restore drill",
+      "expected": "Implemented behavior meets the stated requirement",
+      "actual": "Not executed; prerequisite for approved staging/deployment.",
+      "status": "NOT TESTED",
+      "evidence": "PHASE-5-TEST-PLAN.md"
+    },
+    {
+      "id": "PERF-payload",
+      "category": "performance",
+      "name": "Measured list over-fetch reduction",
+      "expected": "Smaller representative list without breaking detail",
+      "actual": "346161 -> 5894 bytes; 98.30% smaller; full detail remains available",
+      "status": "PASS",
+      "evidence": "evidence/live-http.json"
+    },
+    {
+      "id": "PERF-lab",
+      "category": "performance",
+      "name": "Cold-document lab measurements",
+      "expected": "Independent timeOrigin and all content loaded",
+      "actual": "Five routes, two independent documents each; localhost, CPU4x, external fonts blocked; no field/production claim",
+      "status": "PASS",
+      "evidence": "evidence/performance-after.json"
+    },
+    {
+      "id": "VISUAL",
+      "category": "responsive",
+      "name": "Representative mobile/desktop visual review",
+      "expected": "Representative layout readable and consistent",
+      "actual": "Screenshots inspected for brand/readability/clipping. Full device certification is not claimed; breadcrumb corrected and tested.",
+      "status": "PASS",
+      "evidence": "evidence/live-contact-mobile.png"
+    }
+  ]
+}

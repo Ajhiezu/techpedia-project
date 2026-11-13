@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-11-13T07:41:35.694858+00:00",
+  "command": [
+    "cmd",
+    "/c",
+    "npm.cmd",
+    "run",
+    "typecheck"
+  ],
+  "exitCode": 1,
+  "stdout": "\n> typecheck\n> tsc --noEmit\n\n",
+  "stderr": "'tsc' is not recognized as an internal or external command,\noperable program or batch file.\n"
+}

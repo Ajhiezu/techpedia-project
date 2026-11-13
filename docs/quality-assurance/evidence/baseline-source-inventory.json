@@ -1,0 +1,410 @@
+{
+  "at": "2026-11-13T06:06:48.507192+00:00",
+  "files": [
+    {
+      "path": "frontend/index.html",
+      "bytes": 3785,
+      "sha256": "47852f71c496bfe3b78d321983949f5e25e5dd4bffea45e011ccd8fc3caa6630"
+    },
+    {
+      "path": "frontend/robots.txt",
+      "bytes": 101,
+      "sha256": "ec628ccbda54c070bc8b892eccc1dc9ebd1f137c112c59fb2d87ad7d9f7ceea4"
+    },
+    {
+      "path": "frontend/assets/api.js",
+      "bytes": 700,
+      "sha256": "569e32fe8d6111626ee2ebed662081cb19906780292a7a4ecefef31a1d5e39a4"
+    },
+    {
+      "path": "frontend/assets/app.js",
+      "bytes": 21646,
+      "sha256": "a2b58971bae8cb1e85644147934bd3762d94929d1364490233a1368eafdbcd5a"
+    },
+    {
+      "path": "frontend/assets/breadcrumb.css",
+      "bytes": 1007,
+      "sha256": "26d17839311ce7f7c07ebce799cf5084b7e8a71240ca28deeb4a220c7bd59895"
+    },
+    {
+      "path": "frontend/assets/dropdown.css",
+      "bytes": 623,
+      "sha256": "76abed30863874a527ac858fe5c7fd89d7ea28df32d82a358a250cf4cd2f417c"
+    },
+    {
+      "path": "frontend/assets/logo.css",
+      "bytes": 248,
+      "sha256": "1a80eaea5c5816a790158f49261dd7f580780c2d2b7379b85f0d5a2fc77da533"
+    },
+    {
+      "path": "frontend/assets/logo.png",
+      "bytes": 22255,
+      "sha256": "e1354fd449d45bc5876338fd8af973b0b4258822d87995607a71d5f282741d7c"
+    },
+    {
+      "path": "frontend/assets/styles.css",
+      "bytes": 11907,
+      "sha256": "5f93cb84c4763c01303d34fcf0316863ead6fde1c65f5211ab6640c0be703243"
+    },
+    {
+      "path": "frontend-next/.gitignore",
+      "bytes": 60,
+      "sha256": "abdffed2718e95d55aa46ec42b5008d21dd01282b868e67cf3f644158b0ddac4"
+    },
+    {
+      "path": "frontend-next/next-env.d.ts",
+      "bytes": 83,
+      "sha256": "42f2417a1cf85d03a10379df6333e1e7c49a62d7100fd03e9035e091af25adfe"
+    },
+    {
+      "path": "frontend-next/next.config.ts",
+      "bytes": 340,
+      "sha256": "d0253539cc288a82e9fa69408e0b2785007cf77835b5cfd9c1f57fbbf2d4fb02"
+    },
+    {
+      "path": "frontend-next/package.json",
+      "bytes": 518,
+      "sha256": "7593203cce8fc82f33f0e6d75ef03780a60e755182da0c72f69fc7e557c5e206"
+    },
+    {
+      "path": "frontend-next/postcss.config.mjs",
+      "bytes": 61,
+      "sha256": "a88f889cfe137cf7162e3a28faffec8e4e8e88ad61b2cee451c8e9a8e6d5edd4"
+    },
+    {
+      "path": "frontend-next/tsconfig.json",
+      "bytes": 643,
+      "sha256": "ba6efd25037749dfe9971139d702c93dfff25d79b29179a715f240c5aabee12d"
+    },
+    {
+      "path": "frontend-next/app/error.tsx",
+      "bytes": 273,
+      "sha256": "4eb228d54e111430028cb3235f2cb0c33240b7e050d53f1e3964404d05254343"
+    },
+    {
+      "path": "frontend-next/app/globals.css",
+      "bytes": 272,
+      "sha256": "2cb90c1fe70a18328103ba9a975bc75d94955b6caa41ac8475878ca13433900d"
+    },
+    {
+      "path": "frontend-next/app/layout.tsx",
+      "bytes": 1351,
+      "sha256": "681128c5d7e8dd1dd40362a501b216b464bd4dddaf1944af4487bbdfc7804066"
+    },
+    {
+      "path": "frontend-next/app/loading.tsx",
+      "bytes": 96,
+      "sha256": "880c771aa660bd0f00b1e46d0bd751e309f4d479f08dea1125746073dae1ea95"
+    },
+    {
+      "path": "frontend-next/app/not-found.tsx",
+      "bytes": 236,
+      "sha256": "ebbdfeeb7b4645cc98e87ce9eb0151f30c8eae2fbb56b4222609b7a87433d961"
+    },
+    {
+      "path": "frontend-next/components/Catalog.tsx",
+      "bytes": 1126,
+      "sha256": "f38df793f384a17bd5cc519d2cf9b8c5cba5d0899ffb60a2bed42a36d0ce5661"
+    },
+    {
+      "path": "frontend-next/components/ContactForm.tsx",
+      "bytes": 2614,
+      "sha256": "fca1258855cf28e5f6ac03e67ffeedbae457b6ee1370dc46410e35aac4e01449"
+    },
+    {
+      "path": "frontend-next/components/Content.tsx",
+      "bytes": 990,
+      "sha256": "1555a524bb9c6ade797785b19a88b861f3b56258a68443ddd421fee6170fc3c3"
+    },
+    {
+      "path": "frontend-next/components/Navigation.tsx",
+      "bytes": 1975,
+      "sha256": "ade58d0a3adcc6e454c8cf381e7c4ff8e6cf73667fee4b656d0f33d63b45345b"
+    },
+    {
+      "path": "frontend-next/lib/api.ts",
+      "bytes": 1372,
+      "sha256": "ede97f3f321c6ea9ae2384d2ea6df7b4343732735b0921f4df74ccfa9d078db6"
+    },
+    {
+      "path": "frontend-next/public/logo.png",
+      "bytes": 22255,
+      "sha256": "e1354fd449d45bc5876338fd8af973b0b4258822d87995607a71d5f282741d7c"
+    },
+    {
+      "path": "frontend-next/app/[[...slug]]/page.tsx",
+      "bytes": 6009,
+      "sha256": "dfd9a7facdab9a0ae4b7756511ac85df302e302cc1297e035e2bfdf684aca008"
+    },
+    {
+      "path": "backend/app/Jobs/NotifyInquiryRecipient.php",
+      "bytes": 921,
+      "sha256": "8152a1a560cf051c34339bfdd64fd30acaa53c5c23931566cfb153bfae2c1014"
+    },
+    {
+      "path": "backend/app/Models/Category.php",
+      "bytes": 459,
+      "sha256": "5ea331b3fda27626e79d1372a9948f4012d57181362bf3d6e0457d13f7804390"
+    },
+    {
+      "path": "backend/app/Models/ContactMessage.php",
+      "bytes": 355,
+      "sha256": "9e8a5c8fe6d8567b484d746c3c0ca3288dc30b14b6e0c83120de68d55ca9271e"
+    },
+    {
+      "path": "backend/app/Models/ContactMessageNote.php",
+      "bytes": 443,
+      "sha256": "56b8faa5df4a032b3c9bcb785b8525ff08da26453f0678f67cb7531f90220003"
+    },
+    {
+      "path": "backend/app/Models/Faq.php",
+      "bytes": 364,
+      "sha256": "020279da6d1755ffd8ad754313ca0ee7d21d0ad6ce3fd39a6eda32f753b17cd3"
+    },
+    {
+      "path": "backend/app/Models/FaqCategory.php",
+      "bytes": 382,
+      "sha256": "a92080e6adb74c1a64934d913ba3eb440454c46337a4fbaa37fec6cd2a0779a6"
+    },
+    {
+      "path": "backend/app/Models/Media.php",
+      "bytes": 327,
+      "sha256": "929e879d846e71e112030455a9edfa827e071a2d9469b7417c91b68dc0af8244"
+    },
+    {
+      "path": "backend/app/Models/Post.php",
+      "bytes": 620,
+      "sha256": "a4a51d9a97808366c44ad92cbe5ff4d4053da722edcb51cf0d29ad9a47d196b9"
+    },
+    {
+      "path": "backend/app/Models/Project.php",
+      "bytes": 679,
+      "sha256": "0830450edb3faea42d1739d2d3bae30fed3fe0368f7ed6ab79924519f66848a1"
+    },
+    {
+      "path": "backend/app/Models/ProjectCategory.php",
+      "bytes": 398,
+      "sha256": "87599e8c16e8d7a8e39fcfe83a04db101be981315a0f294532a2b8bcc2f11e5c"
+    },
+    {
+      "path": "backend/app/Models/ProjectImage.php",
+      "bytes": 354,
+      "sha256": "dcf33f3a9d538bf49c725fbb6bafa45283983f5889d1fad6ad7fff584a98c248"
+    },
+    {
+      "path": "backend/app/Models/ProjectTechnology.php",
+      "bytes": 365,
+      "sha256": "b1020c7bd85e2caf9a6813dd9ffd4a31e86bc266fa151573c9789af015c389cb"
+    },
+    {
+      "path": "backend/app/Models/Service.php",
+      "bytes": 420,
+      "sha256": "5c8637b51875e63b4893aea64d56f711dab3d620fb0a00025ca0710900a73c4c"
+    },
+    {
+      "path": "backend/app/Models/ServiceCategory.php",
+      "bytes": 398,
+      "sha256": "308155df7a1094f55b23da43a5e970ab2d29ffe78afe866d88c159dca6dba974"
+    },
+    {
+      "path": "backend/app/Models/SiteSetting.php",
+      "bytes": 257,
+      "sha256": "d04117d6dcf070ddc242ab7d66d7511814c116b0eb08baec6928e77bda87e077"
+    },
+    {
+      "path": "backend/app/Models/Tag.php",
+      "bytes": 311,
+      "sha256": "a3534bd6da2badfaa33ba4c53f7be16b8d1f625a0936f0a8c8e9c392cd67b059"
+    },
+    {
+      "path": "backend/app/Models/Testimonial.php",
+      "bytes": 327,
+      "sha256": "2080e4e4402690e47ff62e71f1d0de5e9fb00d5e08ce92e44079b86f8ad7c31b"
+    },
+    {
+      "path": "backend/app/Models/User.php",
+      "bytes": 1079,
+      "sha256": "292feae63986793bae734a50f30aaf8d57efa5dd95f86cb8642a87519b36411e"
+    },
+    {
+      "path": "backend/app/Providers/AppServiceProvider.php",
+      "bytes": 361,
+      "sha256": "caf306ef6a25a547bbb7edd5508a39b51c365083eb6dd58378cf2242018e94c7"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Controller.php",
+      "bytes": 77,
+      "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "path": "backend/app/Http/Middleware/RequireAdmin.php",
+      "bytes": 250,
+      "sha256": "2d4b3e93e8ac490469b91630baf13f430314f1986146c0ad8b07c056d79244c3"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/AuthController.php",
+      "bytes": 1296,
+      "sha256": "73d569d039eea46b680154af02c1ee7fbed5fb4400a0fd1241d7dda8e18d65f9"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/ContactController.php",
+      "bytes": 2269,
+      "sha256": "858679115ec5123a375c85b7ca38e7203ead52f3cf594abe0ca834c8326f70d6"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/ContentController.php",
+      "bytes": 3167,
+      "sha256": "a690238d300e5e2814430f62034612ba5851e0037a3e70611d1a994e182e7166"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/MediaController.php",
+      "bytes": 1143,
+      "sha256": "f1ac61c5e1cb6902b3d50846f45dc446b1510ec8c496168ddedb57cd3fb15513"
+    },
+    {
+      "path": "backend/app/Http/Controllers/Api/PublicContentController.php",
+      "bytes": 2948,
+      "sha256": "79ba9c1d5339a33c3ce0d27b3839a72ce71f029e2b7ec60d56b355764fbc7744"
+    },
+    {
+      "path": "backend/app/Console/Commands/CreateAdmin.php",
+      "bytes": 1045,
+      "sha256": "c17b8f952d9721e8efcb4f9c7cd692d66f0d68cc49d3dc8cb1dfa9fc2079d0f1"
+    },
+    {
+      "path": "backend/routes/api.php",
+      "bytes": 2148,
+      "sha256": "7cdb6b8a8c4a1f7be86bfcdfb311ed88d380573c2d86a5b279692d75c0d1c0ad"
+    },
+    {
+      "path": "backend/routes/console.php",
+      "bytes": 497,
+      "sha256": "e1428e0e98b22320fd5f2e4febdc992785adfae13b75d3bc0465bdd1d0b01b93"
+    },
+    {
+      "path": "backend/routes/web.php",
+      "bytes": 726,
+      "sha256": "24af1be05ec2b1789c8d1078992f0ce2a71834e505409828852879037c0ea54f"
+    },
+    {
+      "path": "backend/config/app.php",
+      "bytes": 4281,
+      "sha256": "b4b25e15efa76846a7f2e19fd1044fec4945e4e928c4098126a2b0042b034383"
+    },
+    {
+      "path": "backend/config/auth.php",
+      "bytes": 4040,
+      "sha256": "c7e204e9785c9f596d66fb884b493f658f2327f157646bdb4088efd6b3a7773f"
+    },
+    {
+      "path": "backend/config/cache.php",
+      "bytes": 4370,
+      "sha256": "5030cdf171704e58b96f2cf17f1c6d5921b27d5c63c2cefb730eeb2da49a8240"
+    },
+    {
+      "path": "backend/config/content.php",
+      "bytes": 4591,
+      "sha256": "1a209bd66db5b5f45ad1fe13959b96664e894e62bde042eb4bb087ce2bff07df"
+    },
+    {
+      "path": "backend/config/database.php",
+      "bytes": 6876,
+      "sha256": "02cd62f589b43d33f9ceac740705dac1dec9740eb2bb9e6e202d4b66a15244cf"
+    },
+    {
+      "path": "backend/config/filesystems.php",
+      "bytes": 2532,
+      "sha256": "ba7060d7a23e490c3ce830656f6d24ad3ccf5b868e3293f2a12e411959dc5635"
+    },
+    {
+      "path": "backend/config/inquiries.php",
+      "bytes": 195,
+      "sha256": "92861190b07e04b22a1ccf3aee548d4c0fdbdb7d3e6128b77cae48363f35457f"
+    },
+    {
+      "path": "backend/config/logging.php",
+      "bytes": 4606,
+      "sha256": "beb1ffd0db910f6f0b4f75214c3d5aa385d692733ece8a450f4c169d2c99ce38"
+    },
+    {
+      "path": "backend/config/mail.php",
+      "bytes": 3631,
+      "sha256": "c43ff49a31c5f32ce21eb7159f2a4b3cd2f4074eaed5838d265646dbfedd3474"
+    },
+    {
+      "path": "backend/config/queue.php",
+      "bytes": 4199,
+      "sha256": "6101774da7c8b79af46d0028f2b8b31a484c3f7eda10b76e5b27b6093ad364a4"
+    },
+    {
+      "path": "backend/config/services.php",
+      "bytes": 1039,
+      "sha256": "b7ee786ea1adbc92db9f229f479431c94503527c47051da3862eb0e4d7db70aa"
+    },
+    {
+      "path": "backend/config/session.php",
+      "bytes": 8423,
+      "sha256": "64272cfbef6f47c65bf857f1c5b1e853700c0d0278de46b86663fd83ef4aeed8"
+    },
+    {
+      "path": "backend/database/.gitignore",
+      "bytes": 10,
+      "sha256": "e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7"
+    },
+    {
+      "path": "backend/database/database.sqlite",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/database/factories/UserFactory.php",
+      "bytes": 1044,
+      "sha256": "50bdc543f1b09d1a57260be55ad0e1a68aee4b34f63e1109dc94d9bcd3080526"
+    },
+    {
+      "path": "backend/database/migrations/0001_01_01_000000_create_users_table.php",
+      "bytes": 1473,
+      "sha256": "10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f"
+    },
+    {
+      "path": "backend/database/migrations/0001_01_01_000001_create_cache_table.php",
+      "bytes": 873,
+      "sha256": "fbb4665e5a977e71df4e74ec75b3c06ca4f17ad0de7138fe9786639189978e77"
+    },
+    {
+      "path": "backend/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "bytes": 1883,
+      "sha256": "df4910687180313a14a3f96a8bddd808ae145ed1b107cd772caf865c0dc2b746"
+    },
+    {
+      "path": "backend/database/migrations/2026_11_13_000001_create_content_tables.php",
+      "bytes": 8904,
+      "sha256": "9b26a8404e8ebcfa0c458923f100e319deb64b6902a571a235d522a3f238b2dc"
+    },
+    {
+      "path": "backend/database/seeders/DatabaseSeeder.php",
+      "bytes": 2269,
+      "sha256": "030b1fdd9743756c9ee436e6a5ca9ec0ed55ae83c90193cb06c2339bd8c8501d"
+    },
+    {
+      "path": "backend/tests/TestCase.php",
+      "bytes": 142,
+      "sha256": "c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc"
+    },
+    {
+      "path": "backend/tests/Feature/ContentApiTest.php",
+      "bytes": 6500,
+      "sha256": "77c3041e599ebeeb403f07520e3f40fa689cf81e2d19adade29b068794fc2ee7"
+    },
+    {
+      "path": "backend/tests/Feature/ExampleTest.php",
+      "bytes": 359,
+      "sha256": "aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8"
+    },
+    {
+      "path": "backend/tests/Unit/ExampleTest.php",
+      "bytes": 243,
+      "sha256": "ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf"
+    }
+  ]
+}
