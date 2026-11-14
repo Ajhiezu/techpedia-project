@@ -106,6 +106,28 @@
       "technologies": [],
       "category_name": "E-Commerce",
       "featured": true
+    },
+    {
+      "id": 3,
+      "slug": "stayease",
+      "title": "StayEase - Website Booking Hotel & Pengelolaan Reservasi",
+      "status": "published",
+      "approved": true,
+      "short_description": "Website booking hotel dengan pencarian dan filter penginapan, akses akun, serta riwayat reservasi pelanggan. Dilengkapi dashboard admin dan owner untuk menyajikan informasi hotel, booking, dan pendapatan.",
+      "overview": "StayEase merupakan website booking hotel yang mempertemukan kebutuhan pelanggan dalam mencari penginapan dengan kebutuhan pengelola dalam memantau reservasi. Cakupan tampilannya meliputi beranda pencarian, katalog hotel, login, dashboard administrator, dashboard pemilik hotel, dan daftar booking pelanggan. Pembagian area ini membantu menyusun informasi sesuai tugas setiap peran, dari menemukan hotel hingga meninjau aktivitas pemesanan.",
+      "role": "Perancangan dan pengembangan website booking hotel, mencakup pengalaman pencarian penginapan, penyajian katalog dan filter, halaman login, riwayat booking pelanggan, serta dashboard khusus admin dan pemilik hotel.",
+      "challenge": "Pelanggan membutuhkan informasi lokasi, harga, rating, fasilitas, dan jadwal menginap untuk memilih hotel. Di sisi pengelolaan, admin memerlukan gambaran aktivitas platform, sedangkan pemilik hotel membutuhkan ringkasan reservasi dan keuangan. Ketiga kebutuhan tersebut perlu disajikan dengan hierarki informasi dan navigasi yang jelas dalam satu identitas visual.",
+      "solution": "Pencarian penginapan: beranda menyediakan form destinasi serta tanggal check-in dan check-out sebagai titik awal eksplorasi.\n\nKatalog hotel: kartu hotel menyajikan lokasi, rating, dan harga per malam, didukung filter lokasi, rentang harga, bintang, rating tamu, serta fasilitas.\n\nAkses akun: form login email dan password dilengkapi pilihan ingat saya serta tautan pendaftaran dan pemulihan akun.\n\nDashboard admin: ringkasan pengguna, hotel, booking, dan pendapatan disertai grafik pendapatan bulanan, area persetujuan, serta navigasi pengelolaan platform.\n\nDashboard owner: ringkasan booking, pesanan tertunda, pendapatan, dan rating dilengkapi grafik pendapatan versus pengeluaran serta ringkasan laba bersih.\n\nRiwayat booking: pelanggan dapat meninjau hotel, tipe kamar, tanggal menginap, durasi, total biaya, dan status reservasi melalui daftar yang dilengkapi filter status dan akses detail.",
+      "results": "StayEase menghadirkan rangkaian tampilan yang menghubungkan pencarian hotel, akses akun, peninjauan reservasi pelanggan, dan pemantauan operasional oleh admin serta pemilik hotel. Proyek ini menunjukkan pendekatan Techpedia dalam menyusun aplikasi dengan beberapa peran pengguna melalui tampilan yang konsisten dan informasi yang sesuai dengan kebutuhan masing-masing. Angka pada screenshot dashboard merupakan data tampilan proyek, bukan ukuran hasil bisnis.",
+      "thumbnail": "assets/projects/stayease-beranda.png",
+      "thumbnail_alt": "Beranda StayEase dengan pencarian destinasi serta tanggal menginap di atas latar kolam hotel.",
+      "demo_type": "full-live-demo",
+      "demo_url": "https://booking-hotel-tech.vercel.app/",
+      "github_url": "",
+      "design_url": "",
+      "technologies": [],
+      "category_name": "Aplikasi Custom",
+      "featured": true
     }
   ],
   "posts": [],

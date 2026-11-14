@@ -3,8 +3,9 @@ import type {Content} from '../lib/api';
 import {safeUrl,thumbnailUrl} from './ProjectLinks';
 import presentation from '../../frontend/assets/rpk-presentation.json';
 import techcommers from '../../frontend/assets/techcommers-presentation.json';
+import stayease from '../../frontend/assets/stayease-presentation.json';
 import ProjectCarousel from './ProjectCarousel';
-const projectPresentation=(item:Content)=>item.slug==='techcommers'?techcommers:presentation;
+const projectPresentation=(item:Content)=>item.slug==='stayease'?stayease:item.slug==='techcommers'?techcommers:presentation;
 function Live({item}:{item:Content}){const url=safeUrl(item.demo_url);return url?<a className="button" href={url} target="_blank" rel="noopener noreferrer">Kunjungi website <span aria-hidden="true">↗</span><span className="sr-only"> (dibuka di tab baru)</span></a>:null;}
 function Preview({item,detail=false}:{item:Content;detail?:boolean}){const d=projectPresentation(item);const image=thumbnailUrl(item.thumbnail);return <div className="rpk-browser"><div className="rpk-browser-bar" aria-hidden="true"><i/><i/><i/><span>{d.host}</span></div>{detail?(image&&<img className="case-image" src={image} alt={item.thumbnail_alt||item.title} width={1365} height={637} loading="eager" fetchPriority="high"/>):<ProjectCarousel compact name={d.name} items={[{src:item.thumbnail||'',title:'Halaman utama',alt:item.thumbnail_alt||item.title},...d.gallery.filter(slide=>slide.src!==item.thumbnail)]}/>}</div>;}
 

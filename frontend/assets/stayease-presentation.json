@@ -1,0 +1,36 @@
+{
+  "name": "StayEase",
+  "label": "BOOKING HOTEL & DASHBOARD PENGELOLA",
+  "projectTag": "PROYEK WEBSITE",
+  "host": "booking-hotel-tech.vercel.app",
+  "headline": "Temukan penginapan. Kelola reservasi dalam satu platform.",
+  "intro": "Website booking hotel dengan pencarian berdasarkan destinasi, filter hotel, akses akun, dan riwayat pemesanan pelanggan. Dashboard admin dan owner menyajikan ringkasan reservasi, pendapatan, serta pengelolaan hotel sesuai peran pengguna.",
+  "projectType": "Website booking hotel",
+  "audience": "Pelanggan, pemilik hotel & admin",
+  "scope": "Pencarian hotel, reservasi & dashboard",
+  "caption": "StayEase · Tampilan beranda pencarian penginapan",
+  "storyLabel": "KONSEP PROYEK",
+  "storyTitle": "Menghubungkan pencarian penginapan dengan pengelolaan hotel.",
+  "galleryTitle": "Dari pencarian hotel hingga pemantauan reservasi.",
+  "galleryIntro": "Enam tampilan StayEase memperlihatkan beranda, katalog pencarian hotel, login, dashboard admin, dashboard owner, dan daftar booking pelanggan.",
+  "featuresTitle": "Satu platform untuk tiga peran pengguna.",
+  "featuresIntro": "Pengalaman pelanggan, pemilik hotel, dan administrator disusun dalam area yang mendukung kebutuhan masing-masing.",
+  "outcomeTitle": "Alur reservasi yang jelas. Informasi operasional yang terpusat.",
+  "tags": ["Booking hotel", "Dashboard admin & owner", "Riwayat reservasi"],
+  "features": [
+    {"number": "01", "title": "Beranda pencarian penginapan", "text": "Area pencarian menempatkan destinasi serta tanggal check-in dan check-out sebagai titik awal untuk menemukan penginapan."},
+    {"number": "02", "title": "Katalog dan filter hotel", "text": "Daftar hotel menyajikan lokasi, rating, dan harga per malam, dilengkapi filter lokasi, rentang harga, bintang, rating tamu, serta fasilitas."},
+    {"number": "03", "title": "Akses akun", "text": "Halaman login memusatkan perhatian pada email dan password, dengan pilihan ingat saya serta tautan pendaftaran dan pemulihan akun."},
+    {"number": "04", "title": "Dashboard administrator", "text": "Ringkasan pengguna, hotel, booking, dan pendapatan dilengkapi grafik bulanan serta area persetujuan dan navigasi pengelolaan platform."},
+    {"number": "05", "title": "Dashboard pemilik hotel", "text": "Owner memperoleh ringkasan booking, pesanan tertunda, pendapatan, dan rating, disertai grafik pendapatan versus pengeluaran serta ringkasan laba bersih."},
+    {"number": "06", "title": "Riwayat booking pelanggan", "text": "Daftar reservasi menampilkan hotel, kamar, tanggal menginap, durasi, total biaya, dan status pesanan, dengan filter status serta akses detail booking."}
+  ],
+  "gallery": [
+    {"src": "assets/projects/stayease-beranda.png", "title": "Beranda StayEase", "label": "PENCARIAN PENGINAPAN", "text": "Visual penginapan dan form destinasi serta tanggal menginap menjadi pintu masuk untuk menjelajahi hotel.", "alt": "Beranda StayEase dengan latar kolam hotel, pencarian destinasi, tanggal check-in dan check-out, serta tombol Search."},
+    {"src": "assets/projects/stayease-katalog-hotel.png", "title": "Katalog pencarian hotel", "label": "KATALOG & FILTER", "text": "Kartu hotel menampilkan lokasi, rating, dan harga per malam dengan filter pencarian di sisi kiri.", "alt": "Katalog hotel StayEase dengan filter lokasi, harga, bintang, rating tamu, fasilitas, dan kartu pilihan hotel."},
+    {"src": "assets/projects/stayease-login.png", "title": "Halaman login", "label": "AKSES AKUN", "text": "Form login yang terfokus dilengkapi pilihan ingat saya serta tautan pemulihan password dan pendaftaran akun.", "alt": "Halaman login StayEase dengan form email dan password, pilihan Remember me, serta tombol Sign in securely."},
+    {"src": "assets/projects/stayease-dashboard-admin.png", "title": "Dashboard admin", "label": "PENGELOLAAN PLATFORM", "text": "Statistik pengguna, hotel, booking, dan pendapatan disertai grafik pendapatan bulanan serta panel persetujuan.", "alt": "Dashboard admin StayEase dengan sidebar pengelolaan, statistik pengguna dan hotel, grafik pendapatan, serta panel Pending Approvals."},
+    {"src": "assets/projects/stayease-dashboard-owner.png", "title": "Dashboard owner", "label": "OPERASIONAL HOTEL", "text": "Pemilik hotel melihat ringkasan booking, rating, pendapatan, pengeluaran, dan laba bersih dalam area khusus owner.", "alt": "Dashboard owner StayEase dengan ringkasan booking, pendapatan, rating, grafik pendapatan versus pengeluaran, dan ringkasan bulanan."},
+    {"src": "assets/projects/stayease-booking-customer.png", "title": "Daftar booking pelanggan", "label": "RIWAYAT RESERVASI", "text": "Pelanggan dapat meninjau daftar booking berdasarkan status, lengkap dengan informasi hotel, jadwal menginap, biaya, dan akses detail.", "alt": "Daftar booking pelanggan StayEase dengan filter status, kartu reservasi hotel, tanggal menginap, total biaya, dan tombol View Details."}
+  ]
+}
