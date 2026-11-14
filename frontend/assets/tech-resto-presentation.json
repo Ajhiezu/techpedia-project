@@ -1,0 +1,93 @@
+{
+  "name": "Tech Resto",
+  "label": "SISTEM RESTORAN & KASIR",
+  "projectTag": "PROYEK APLIKASI",
+  "host": "tech-resto.vercel.app",
+  "headline": "Dari pilihan menu hingga pencatatan pesanan dan pemantauan bisnis.",
+  "intro": "Aplikasi restoran yang menghubungkan katalog menu pelanggan, pencatatan pesanan kasir, dan pemantauan bisnis oleh owner. Konsep pemesanan berbasis meja dan QR dipadukan dengan pembagian area kerja sesuai peran pengguna.",
+  "projectType": "Aplikasi manajemen restoran",
+  "audience": "Pelanggan, kasir & pemilik usaha",
+  "scope": "Katalog menu, kasir & dashboard owner",
+  "caption": "Tech Resto · Beranda restoran dan pengenalan pemesanan melalui QR",
+  "storyLabel": "KONSEP PROYEK",
+  "storyTitle": "Menyusun pengalaman pelanggan dan operasional restoran dalam satu platform.",
+  "galleryTitle": "Lima tampilan untuk kebutuhan pelanggan, kasir, dan owner.",
+  "galleryIntro": "Jelajahi dashboard owner, beranda restoran, input pesanan kasir, katalog menu, serta halaman login melalui galeri berikut.",
+  "featuresTitle": "Alur kerja yang disusun sesuai peran pengguna.",
+  "featuresIntro": "Pelanggan membutuhkan pilihan menu yang jelas, kasir membutuhkan area pencatatan pesanan yang terfokus, dan owner membutuhkan ringkasan bisnis yang mudah ditinjau.",
+  "outcomeTitle": "Pengalaman pemesanan yang terarah. Informasi operasional yang terpusat.",
+  "tags": [
+    "Katalog & pemesanan",
+    "Kasir restoran",
+    "Dashboard owner"
+  ],
+  "features": [
+    {
+      "number": "01",
+      "title": "Beranda dan akses menu",
+      "text": "Beranda membangun identitas restoran sekaligus menyediakan jalur menuju katalog hidangan, menu populer, dan pengenalan pemesanan melalui QR di meja."
+    },
+    {
+      "number": "02",
+      "title": "Katalog menu terstruktur",
+      "text": "Kategori, nama menu, dan harga disusun dalam kartu yang mudah ditinjau, disertai penanda popularitas untuk menonjolkan pilihan hidangan."
+    },
+    {
+      "number": "03",
+      "title": "Pencatatan pesanan kasir",
+      "text": "Area input order mempertemukan filter kategori dan daftar menu dengan panel detail pelanggan, jenis layanan, pilihan meja, serta total pesanan."
+    },
+    {
+      "number": "04",
+      "title": "Dashboard pemilik usaha",
+      "text": "Ringkasan pendapatan, jumlah pesanan, menu aktif, dan pengeluaran menjadi titik awal untuk meninjau informasi operasional restoran."
+    },
+    {
+      "number": "05",
+      "title": "Navigasi pengelolaan restoran",
+      "text": "Area owner menyediakan navigasi laporan, kategori, menu, meja dan QR code, pegawai, serta pengeluaran dalam satu struktur administrasi."
+    },
+    {
+      "number": "06",
+      "title": "Akses owner dan kasir",
+      "text": "Halaman login dan navigasi peran memisahkan kebutuhan pemilik usaha dari tugas kasir, dengan akses demo untuk menjelajahi tampilan aplikasi."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "assets/projects/tech-resto-dashboard-owner.png",
+      "title": "Dashboard owner",
+      "label": "RINGKASAN BISNIS",
+      "text": "Ringkasan pendapatan, pesanan, menu aktif, dan pengeluaran disandingkan dengan area grafik penjualan serta daftar menu berdasarkan popularitas.",
+      "alt": "Dashboard owner Tech Resto dengan ringkasan bisnis, area grafik penjualan bulanan, dan daftar menu terlaris."
+    },
+    {
+      "src": "assets/projects/tech-resto-beranda.png",
+      "title": "Beranda Tech Resto",
+      "label": "PENGALAMAN PELANGGAN",
+      "text": "Halaman pembuka memperkenalkan restoran dan mengarahkan pelanggan ke katalog, menu populer, serta konsep pemesanan melalui QR di meja.",
+      "alt": "Beranda Tech Resto dengan identitas oranye, tombol Lihat Menu dan Menu Populer, serta panel Scan dan Pesan."
+    },
+    {
+      "src": "assets/projects/tech-resto-kasir.png",
+      "title": "Input pesanan kasir",
+      "label": "OPERASIONAL KASIR",
+      "text": "Pilihan menu dikelompokkan berdasarkan kategori. Panel detail order menyediakan nama pelanggan, jenis layanan, pilihan meja, total, dan tombol proses pesanan.",
+      "alt": "Tampilan kasir Tech Resto dengan filter kategori, daftar menu dan harga, serta panel detail order."
+    },
+    {
+      "src": "assets/projects/tech-resto-katalog-menu.png",
+      "title": "Katalog menu",
+      "label": "PENEMUAN MENU",
+      "text": "Kartu menu menyajikan kategori, nama hidangan, harga, serta penanda menu terlaris untuk membantu pelanggan meninjau pilihan.",
+      "alt": "Katalog menu terlaris Tech Resto dengan kartu hidangan, kategori, harga, dan jumlah terjual pada tampilan demo."
+    },
+    {
+      "src": "assets/projects/tech-resto-login.png",
+      "title": "Login owner dan kasir",
+      "label": "AKSES BERDASARKAN PERAN",
+      "text": "Halaman login menyediakan form email dan password, pilihan ingat saya, serta akses demo menuju area owner dan kasir.",
+      "alt": "Halaman login Tech Resto dengan form email dan password serta pilihan akses demo owner dan kasir."
+    }
+  ]
+}
