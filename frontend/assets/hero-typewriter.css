@@ -1,0 +1,4 @@
+.hero h1.hero-title{display:grid}
+.hero-title-reserve,.hero-title-copy{grid-area:1 / 1;min-width:0}
+.hero-title-reserve{visibility:hidden;pointer-events:none}
+.hero-title-copy{align-self:start}
