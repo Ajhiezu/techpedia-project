@@ -62,5 +62,18 @@
       "text": "Halaman pengelolaan status, jenis koleksi, tenggat, dan denda untuk mendukung administrasi peminjaman.",
       "alt": "Halaman peminjaman RPK Pustaka dengan filter transaksi, status, tenggat, dan kolom denda."
     }
-  ]
+  ],
+  "projectTag": "PROYEK KLIEN",
+  "host": "rpk-pustaka.com",
+  "projectType": "Perpustakaan & publikasi digital",
+  "audience": "Anggota & administrator",
+  "scope": "Online & offline",
+  "caption": "RPK Pustaka IMM SAINTEKMU · Tampilan halaman utama",
+  "storyLabel": "KEBUTUHAN KLIEN",
+  "storyTitle": "Lebih dari katalog. Sebuah layanan yang terhubung.",
+  "galleryTitle": "Dari katalog sampai pengelolaan operasional.",
+  "galleryIntro": "Tiga tampilan RPK Pustaka memperlihatkan bagaimana kebutuhan pengguna dan pengelola diterjemahkan menjadi halaman aplikasi.",
+  "featuresTitle": "Dirancang mengikuti cara perpustakaan bekerja.",
+  "featuresIntro": "Enam area layanan yang menghubungkan kebutuhan anggota dengan operasional pengelola.",
+  "outcomeTitle": "Kebutuhan nyata. Solusi yang terstruktur."
 }

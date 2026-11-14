@@ -1,5 +1,5 @@
 /* Project presentation: generous image area, clear hierarchy, and useful detail. */
-.grid.three:has(>.rpk-featured:only-child){grid-template-columns:minmax(0,1fr)}
+.grid.three:has(>.rpk-featured){grid-template-columns:minmax(0,1fr)}
 .portfolio-heading{padding-top:40px;padding-bottom:40px}
 .portfolio-heading h1{font-size:clamp(2.3rem,4.5vw,3.5rem);max-width:900px}
 .portfolio-heading .lead{font-size:1rem;max-width:680px}

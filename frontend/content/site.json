@@ -84,6 +84,28 @@
       "technologies": [],
       "category_name": "Aplikasi Custom",
       "featured": true
+    },
+    {
+      "id": 2,
+      "slug": "techcommers",
+      "title": "TechCommers - Platform E-Commerce dengan Desain Neobrutalism",
+      "status": "published",
+      "approved": true,
+      "short_description": "Demo platform e-commerce bergaya neobrutalism dengan katalog produk, halaman login, dan dashboard admin. Warna kontras, garis tebal, serta bayangan solid membentuk identitas visual yang konsisten.",
+      "overview": "TechCommers merupakan proyek demo e-commerce yang mengeksplorasi penerapan desain neobrutalism pada pengalaman belanja dan pengelolaan marketplace. Cakupannya meliputi landing page promosi, katalog produk, halaman login, serta dashboard admin. Setiap area disusun untuk memperlihatkan hubungan antara kebutuhan pembeli, identitas visual platform, dan penyajian informasi bagi pengelola.",
+      "role": "Perancangan dan pengembangan antarmuka e-commerce, mencakup struktur halaman, katalog produk, halaman login, dashboard admin, serta penerapan gaya neobrutalism secara konsisten pada area publik dan administrasi.",
+      "challenge": "Menghadirkan karakter visual yang berani tanpa mengaburkan hierarki informasi. Promosi dan penemuan produk perlu mendapat perhatian di halaman publik, sementara form login dan ringkasan operasional membutuhkan penyajian yang terfokus. Perbedaan kebutuhan ini perlu diakomodasi dalam satu bahasa desain.",
+      "solution": "Etalase dan katalog: landing page menampilkan promosi, pencarian, dan kategori pilihan sebagai pintu masuk menuju eksplorasi produk.\n\nAkses akun: halaman login memusatkan perhatian pada form email dan password, dengan pilihan ingat saya serta tautan pendaftaran dan pemulihan akun.\n\nDashboard admin: kartu ringkasan menyajikan pengguna, toko, produk, dan pesanan, disertai menu menuju area pengelolaan marketplace.\n\nSistem visual: palet kuning dan biru, border hitam, tipografi tegas, serta bayangan solid digunakan untuk menjaga karakter neobrutalism di seluruh tampilan.",
+      "results": "TechCommers menyajikan demo antarmuka e-commerce dengan identitas visual yang konsisten, dari etalase dan katalog produk hingga akses akun dan dashboard admin. Proyek ini menunjukkan pendekatan Techpedia dalam menghubungkan eksplorasi desain dengan struktur informasi yang sesuai untuk pembeli dan pengelola. Angka pada dashboard merupakan bagian dari tampilan demo.",
+      "thumbnail": "assets/projects/techcommers-landing.png",
+      "thumbnail_alt": "Landing page TechCommers bergaya neobrutalism dengan banner promosi, pencarian produk, dan kategori pilihan.",
+      "demo_type": "interactive-ui-demo",
+      "demo_url": "https://tech-commers-xi.vercel.app/",
+      "github_url": "",
+      "design_url": "",
+      "technologies": [],
+      "category_name": "E-Commerce",
+      "featured": true
     }
   ],
   "posts": [],
