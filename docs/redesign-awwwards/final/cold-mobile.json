@@ -1,0 +1,13 @@
+{
+  "conditions": "fresh browser context, cache disabled, 4x CPU, 150ms latency, 1.6Mbps download",
+  "report": {
+    "metrics": {
+      "lcp": 8404,
+      "cls": 0
+    },
+    "overflow": false,
+    "fontsLoaded": true,
+    "h1": "Kebutuhan nyata.\nSistem yang tepat.↗"
+  },
+  "errors": []
+}

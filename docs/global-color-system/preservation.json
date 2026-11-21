@@ -1,0 +1,29 @@
+{
+  "sourceStylesheetsChecked": [
+    "styles.css",
+    "dropdown.css",
+    "breadcrumb.css",
+    "logo.css",
+    "reviews.css",
+    "portfolio.css",
+    "professional.css",
+    "project-carousel.css",
+    "cursor.css",
+    "studio-v3.css",
+    "brand-menu.css",
+    "legal.css",
+    "internal-pages.css",
+    "awwwards.css",
+    "color-system.css",
+    "hero-typewriter.css"
+  ],
+  "noncolorDeclarationChanges": 0,
+  "gradientFunctionChanges": 0,
+  "geometrySnapshots": 46,
+  "geometryDifferences": 0,
+  "viewports": [
+    390,
+    1440
+  ],
+  "routes": 23
+}

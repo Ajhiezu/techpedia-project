@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-13T15:21:36.251Z",
+  "at": "2026-11-17T01:32:42.745Z",
   "environment": "static HTTP only; /api returns503; artificial QA projects served only inside this runner; actual source includes the owner-supplied RPK Pustaka project",
   "apiRequests": 0,
   "cases": [
@@ -24,7 +24,7 @@
       "status": "PASS"
     },
     {
-      "name": "Rotating mascot cannot widen the page and mobile companion aligns above WhatsApp",
+      "name": "Rotating mascot cannot widen the page and mobile contact stays compact",
       "status": "PASS"
     },
     {
@@ -40,6 +40,10 @@
       "status": "PASS"
     },
     {
+      "name": "Trust journey presents evidence, illustrative progress, coordinator and agreements in order",
+      "status": "PASS"
+    },
+    {
       "name": "Delivery scope and six team roles explain the engagement",
       "status": "PASS"
     },
@@ -49,7 +53,8 @@
     },
     {
       "name": "Mascot video loads, plays silently, and supports pause and resume",
-      "status": "PASS"
+      "status": "FAIL",
+      "actual": "The expression evaluated to a falsy value:\n\n  assert.ok(result.muted&&result.loop&&result.inline&&result.label)\n"
     },
     {
       "name": "Mascot video respects reduced motion and stops while offscreen",
@@ -175,6 +180,6 @@
   ],
   "counts": {
     "PASS": 41,
-    "FAIL": 1
+    "FAIL": 2
   }
 }

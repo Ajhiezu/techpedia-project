@@ -5,21 +5,31 @@
   "private": true,
   "scripts": {
     "start": "python -m http.server 8081 --directory frontend",
-    "test": "node --test scripts/api.test.cjs scripts/hub.test.cjs",
-    "lint": "node --check frontend/assets/app.js && node --check frontend/assets/api.js && node --check frontend/assets/hub.js",
+    "test": "node --test scripts/api.test.cjs scripts/hub.test.cjs scripts/cro-static.test.cjs",
+    "lint": "node --check frontend/assets/app.js && node --check frontend/assets/api.js && node --check frontend/assets/hub.js && node --check frontend/assets/conversion.js && node --check frontend/assets/analytics.js && node --check frontend/assets/portfolio.js && node --check frontend/assets/professional.js && node --check frontend/assets/studio-v3.js && node --check frontend/assets/pricing.js && node --check scripts/prerender-site.mjs",
     "build": "node scripts/verify-static-site.mjs",
-    "test:browser": "node scripts/qa/hub-browser.cjs",
+    "test:browser": "node scripts/qa/awwwards-browser.cjs",
     "backend:test": "cd backend && php artisan test",
     "next:dev": "npm --prefix frontend-next run dev",
     "next:build": "npm --prefix frontend-next run build",
     "next:typecheck": "npm --prefix frontend-next run typecheck",
-    "test:hub": "node scripts/qa/hub-browser.cjs",
+    "test:hub": "node scripts/qa/awwwards-browser.cjs",
     "test:browser:api": "node scripts/browser-check.cjs",
     "prestart": "node scripts/prepare-hub-content.cjs",
-    "prepare:content": "node scripts/prepare-hub-content.cjs"
+    "prepare:content": "node scripts/prepare-hub-content.cjs",
+    "test:cro": "node scripts/qa/awwwards-browser.cjs",
+    "lint:awwwards": "node --check frontend/assets/awwwards-motion.js && node --check scripts/qa/awwwards-browser.cjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "^3.15.1",
+    "lenis": "^1.3.27"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.1",
+    "playwright": "^1.65.1"
+  }
 }

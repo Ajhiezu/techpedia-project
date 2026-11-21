@@ -1,6 +1,13 @@
 (function () {
   'use strict';
   const root = document.documentElement;
+  const theme = getComputedStyle(root);
+  const cursorColors = {
+    primary: theme.getPropertyValue('--primary-rgb').trim().replace(/\s+/g, ','),
+    accent: theme.getPropertyValue('--accent-rgb').trim().replace(/\s+/g, ','),
+    subtle: theme.getPropertyValue('--primary-subtle-rgb').trim().replace(/\s+/g, ','),
+    surface: theme.getPropertyValue('--surface-rgb').trim().replace(/\s+/g, ',')
+  };
   const fine = matchMedia('(hover: hover) and (pointer: fine)');
   const pending = new Set();
 
@@ -60,8 +67,8 @@
     context.quadraticCurveTo(size * .13, size * .13, 0, size);
     context.quadraticCurveTo(-size * .13, size * .13, -size * .72, 0);
     context.quadraticCurveTo(-size * .13, -size * .13, 0, -size);
-    context.fillStyle = violet ? `rgba(154,125,224,${alpha})` : `rgba(27,193,225,${alpha})`;
-    context.shadowColor = `rgba(50,217,245,${alpha * .35})`;
+    context.fillStyle = violet ? `rgba(${cursorColors.accent},${alpha})` : `rgba(${cursorColors.primary},${alpha})`;
+    context.shadowColor = `rgba(${cursorColors.primary},${alpha * .35})`;
     context.shadowBlur = 4;
     context.fill();
     context.restore();
@@ -91,11 +98,11 @@
     context.closePath();
     const head = points[0], tail = points[points.length - 1];
     const gradient = context.createLinearGradient(head.x, head.y, tail.x + .01, tail.y + .01);
-    gradient.addColorStop(0, `rgba(18,179,211,${alpha * .5})`);
-    gradient.addColorStop(.55, `rgba(40,190,219,${alpha * .3})`);
-    gradient.addColorStop(1, `rgba(131,143,218,${alpha * .04})`);
+    gradient.addColorStop(0, `rgba(${cursorColors.primary},${alpha * .5})`);
+    gradient.addColorStop(.55, `rgba(${cursorColors.primary},${alpha * .3})`);
+    gradient.addColorStop(1, `rgba(${cursorColors.accent},${alpha * .04})`);
     context.fillStyle = gradient;
-    context.shadowColor = `rgba(50,217,245,${alpha * .16})`;
+    context.shadowColor = `rgba(${cursorColors.primary},${alpha * .16})`;
     context.shadowBlur = 6;
     context.fill();
     context.shadowBlur = 0;
@@ -108,16 +115,16 @@
         spark.size * (1 - age * .45), strength, spark.angle + age * .4, spark.violet);
     }
     const light = context.createRadialGradient(targetX, targetY, 0, targetX, targetY, 13);
-    light.addColorStop(0, `rgba(163,245,255,${alpha * .65})`);
-    light.addColorStop(.15, `rgba(50,217,245,${alpha * .28})`);
-    light.addColorStop(.55, `rgba(50,217,245,${alpha * .06})`);
-    light.addColorStop(1, 'rgba(50,217,245,0)');
+    light.addColorStop(0, `rgba(${cursorColors.subtle},${alpha * .65})`);
+    light.addColorStop(.15, `rgba(${cursorColors.primary},${alpha * .28})`);
+    light.addColorStop(.55, `rgba(${cursorColors.primary},${alpha * .06})`);
+    light.addColorStop(1, `rgba(${cursorColors.primary},0)`);
     context.fillStyle = light;
     context.beginPath();
     context.arc(targetX, targetY, 13, 0, Math.PI * 2);
     context.fill();
     sparkle(targetX, targetY, 7.5 + Math.sin(time / 420) * .6, alpha * .78, .15);
-    context.fillStyle = `rgba(207,252,255,${alpha * .8})`;
+    context.fillStyle = `rgba(${cursorColors.surface},${alpha * .8})`;
     context.beginPath();
     context.arc(targetX, targetY, 1.25, 0, Math.PI * 2);
     context.fill();

@@ -1,0 +1,44 @@
+{
+  "reports": [
+    {
+      "name": "desktop",
+      "metrics": {
+        "lcp": 1468,
+        "cls": 0
+      },
+      "overflow": false,
+      "axe": [],
+      "font": "500 109.44px / 110.534px \"Inter Tight\", Inter, Arial, sans-serif",
+      "fontsLoaded": true
+    },
+    {
+      "name": "mobile",
+      "metrics": {
+        "lcp": 1028,
+        "cls": 0
+      },
+      "overflow": false,
+      "axe": [],
+      "font": "500 33.93px / 36.3051px \"Inter Tight\", Inter, Arial, sans-serif",
+      "fontsLoaded": true
+    },
+    {
+      "name": "reduced",
+      "metrics": {
+        "lcp": 424,
+        "cls": 0
+      },
+      "overflow": false,
+      "axe": [],
+      "font": "500 33.93px / 36.3051px \"Inter Tight\", Inter, Arial, sans-serif",
+      "fontsLoaded": true
+    },
+    {
+      "anchor": {
+        "hash": "#pricing",
+        "top": 99.65625
+      }
+    }
+  ],
+  "errors": []
+}

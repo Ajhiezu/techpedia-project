@@ -1,0 +1,149 @@
+/* Color declarations only: no layout, dimensions, typography or motion changes. */
+html,body,main,.header,.footer,.service-popover,.mobile-nav,.page-hero,
+.hero.v3-hero.aw-hero,.v3-section,.v3-light,.v3-services,.v3-process,.v3-faq,
+.v3-work,.v3-pricing,.v3-about,.v3-capabilities,.v3-services-hero,.v3-page-hero,
+.v3-internal>.v3-section:not(.v3-process),.rpk-detail,.rpk-detail-hero,
+.service-detail-page,.legal-page,.legal-page .page-hero,.legal-page .article.legal,
+.card,.section .card,.delivery-card,.agreement-card,.feature-panel,.coordinator-card,
+.progress-report,.contact-form,.v3-process-visual,.v3-process-visual figcaption,
+.v3-inquiry-panel,.v3-inquiry-panel>div,.v3-internal .v3-related-services article,
+.rpk-feature,.rpk-end,.project-carousel,.carousel-slide,.carousel-controls,
+.rpk-detail .carousel-slide,.rpk-detail .carousel-slide figcaption,.rpk-detail .carousel-controls,
+.agreement-example,.agreement-example>div,.not-found {
+  color:var(--foreground);
+  background-color:var(--surface);
+  border-color:var(--border);
+}
+.soft,.muted-bg,.report-header,.rpk-brief,.rpk-showcase,.rpk-detail .rpk-features,
+.rpk-detail .rpk-outcome,.service-scope,.scope-estimate,.project-facts,
+.v3-project-image,.v3-project:nth-child(2) .v3-project-image,
+.v3-project:nth-child(3) .v3-project-image,.v3-project:nth-child(4) .v3-project-image {
+  color:var(--foreground);background-color:var(--muted);border-color:var(--border);
+}
+h1,h2,h3,h4,h5,h6,.hero.aw-hero h1.aw-title,.aw-title em,.aw-title .aw-hero-arrow,
+.page-hero h1,.rpk-detail h1,.rpk-detail-intro .rpk-card-lead,.legal-page .page-hero h1,
+.legal-page .legal h2,.service-menu-grid strong,.service-menu-heading>p,
+.delivery-card h3,.coordinator-card h3,.progress-guide h3,.report-header h3,
+.report-row dt,.rpk-story h3,.rpk-detail .rpk-story h3,.rpk-end h2,
+.v3-process-steps h3,.v3-process-steps li.step-active h3,.rpk-detail .rpk-outcome h2,
+.v3-questions summary,.faq button,.footer h2,.footer-wordmark {color:var(--foreground)}
+.aw-hero-bottom>.lead,.aw-hero-top,.aw-hero-foot,.v3-heading>p:last-child:not(.eyebrow),
+.v3-project-copy,.v3-pricing-terms,.v3-about>div:last-child>p,.page-hero .lead,
+.rpk-detail-intro .lead,.v3-inquiry-panel p,.v3-internal .v3-related-services p,
+.v3-process-visual p,.v3-process-steps p:last-child,.v3-process-steps .v3-step-label,
+.v3-questions details>p,.delivery-card p,.coordinator-card>p:not(.eyebrow),
+.report-row dd,.report-header>p:last-child,.progress-guide p,.progress-guide li,
+.rpk-brief dd,.rpk-showcase figcaption,.rpk-end p,.project-facts dd,
+.rpk-detail .rpk-story-copy p,.rpk-detail .rpk-gallery-intro>p:last-child,
+.rpk-detail .carousel-slide p,.rpk-detail .rpk-outcome p,
+.legal-page .page-hero .lead,.legal-page .legal>p,.service-menu-grid small,
+.agreement-example>div>p:not(.example-label),.agreement-example>div li,
+.footer p,.footer a,.footer-bottom {color:var(--body-foreground)}
+.v3-project-status,.v3-project-meta,.work-facts,.v3-step-number,.delivery-card small,
+.crumbs,.crumbs a,.rpk-detail .crumbs,.rpk-detail .crumbs a,.legal-page .crumbs a {color:var(--muted-foreground)}
+.brand-name,.header .brand-name,.footer .brand-name {color:var(--foreground)!important}
+.brand-name i,.header .brand-name i,.footer .brand-name i {color:var(--muted-foreground)!important}
+.footer .brand-logo {background-color:var(--foreground)}
+.eyebrow,.v3-light .eyebrow,.v3-process .eyebrow,.page-hero .eyebrow,
+.rpk-detail-hero .eyebrow,.rpk-detail .eyebrow,.rpk-detail .carousel-slide p.eyebrow,
+.text-link,.rpk-detail [data-project-carousel] figcaption a,.rpk-detail .carousel-count,
+.service-menu-heading>span,.service-menu-arrow,.delivery-heading .eyebrow,
+.coordinator-card .eyebrow,.report-header .example-label,.rpk-brief>p,.rpk-brief dt,
+.agreement-example>div .example-label {color:var(--link)}
+.desktop-nav a:hover,.desktop-nav a[aria-current],.desktop-nav .services-menu[aria-expanded=true],
+.desktop-nav .services-menu:hover,.text-link:hover,.text-link:focus-visible,
+.footer a:hover,.footer a:focus-visible,.legal-page .legal a {color:var(--link)}
+.button,.header .header-cta,.v3-light .button,.v3-inquiry-panel .button,
+.pricing-featured .button.outline,.service-scope .button,.mobile-nav .button {
+  color:var(--primary-foreground);background-color:var(--primary);border-color:var(--primary-hover);
+}
+.button:hover,.button:focus-visible,.header .header-cta:hover,.header .header-cta:focus-visible,
+.v3-light .button:hover,.v3-light .button:focus-visible,.v3-inquiry-panel .button:hover,
+.v3-inquiry-panel .button:focus-visible,.pricing-featured .button.outline:hover,
+.pricing-featured .button.outline:focus-visible,.service-scope .button:hover,
+.mobile-nav .button:hover,.mobile-nav .button:focus-visible {
+  color:var(--primary-foreground);background-color:var(--primary-hover);border-color:var(--primary-active);
+}
+.button.outline,.button.light,.v3-light .button.outline,.v3-cta .button,.cta .button,
+.aw-screen-action,.aw-study .aw-project-type,.aw-study .v3-showcase-controls button[aria-pressed=true] {
+  color:var(--secondary-foreground);background-color:var(--secondary);border-color:var(--border-interactive);
+}
+.button.outline:hover,.button.outline:focus-visible,.button.light:hover,.button.light:focus-visible,
+.v3-light .button.outline:hover,.v3-light .button.outline:focus-visible,
+.v3-cta .button:hover,.v3-cta .button:focus-visible,.cta .button:hover,.cta .button:focus-visible,
+.aw-screen-link:hover .aw-screen-action,.aw-screen-link:focus-visible .aw-screen-action,
+.aw-study .v3-showcase-controls button[aria-pressed=true]:hover,
+.aw-study .v3-showcase-controls button[aria-pressed=true]:focus-visible {
+  color:var(--secondary-foreground);background-color:var(--secondary-hover);border-color:var(--primary-active);
+}
+.pricing-featured .button.outline {background-color:var(--primary);color:var(--primary-foreground)}
+.pricing-featured .button.outline:hover,.pricing-featured .button.outline:focus-visible {background-color:var(--primary-hover);color:var(--primary-foreground)}
+.button:active,.header .header-cta:active,.v3-light .button:active,.v3-inquiry-panel .button:active,
+.pricing-featured .button.outline:active,.service-scope .button:active,.mobile-nav .button:active {
+  background-color:var(--primary-active);color:var(--primary-active-foreground);border-color:var(--primary-active);
+}
+.button.outline:active,.button.light:active,.v3-cta .button:active,.cta .button:active {background-color:var(--secondary-active);color:var(--secondary-foreground)}
+.button:disabled,.button[aria-disabled=true],button:disabled,button[aria-busy=true],
+.button[aria-busy=true],input:disabled,textarea:disabled,select:disabled {
+  background-color:var(--disabled);color:var(--disabled-foreground);border-color:var(--border);
+}
+.aw-project-type,.v3-project-meta>span,.rpk-meta .rpk-project-tag,.rpk-project-tag,
+.rpk-tags li,.team-role-pills li,.service-menu-index,.rpk-detail .rpk-feature>span {
+  background-color:var(--primary-subtle);color:var(--link);border-color:var(--border-interactive);
+}
+.aw-study .aw-project-type {background-color:var(--surface);color:var(--link)}
+.pricing-featured-badge {background-color:var(--accent);color:var(--accent-foreground);border-color:var(--accent-hover)}
+.demo-badge {background-color:var(--accent-subtle);color:var(--accent);border-color:var(--accent)}
+.aw-status,.v3-project-image>span {background-color:var(--primary);color:var(--primary-foreground)}
+.v3-project-image:hover>span,.v3-project-image:focus-visible>span {background-color:var(--secondary-hover);color:var(--link)}
+.v3-showcase.aw-study,.v3-cta,.cta {background-color:var(--primary);color:var(--primary-foreground)}
+.aw-study .aw-small-label,.v3-showcase-top,.aw-study-caption p,.aw-study-note,.aw-study-credit,
+.aw-study .text-link,.v3-showcase-top a,.aw-study .v3-showcase-controls button,
+.v3-cta .eyebrow,.v3-cta>div>p:not(.eyebrow),.cta .eyebrow,.cta>div>p:not(.eyebrow) {color:var(--primary-foreground)}
+.aw-study .v3-showcase-controls button:hover,.aw-study .v3-showcase-controls button:focus-visible {background-color:var(--primary-subtle-hover);color:var(--link)}
+.service-menu-heading,.service-popover .service-menu-all {background-color:var(--muted);border-color:var(--border)}
+.service-menu-grid>a:hover,.service-menu-grid>a:focus-visible,
+.mobile-nav a:not(.button):hover,.mobile-nav a:not(.button):focus-visible {
+  background-color:var(--primary-subtle);color:var(--link);border-color:var(--border-hover);
+}
+.service-menu-grid>a:hover .service-menu-index,.service-menu-grid>a:focus-visible .service-menu-index {background-color:var(--primary);color:var(--primary-foreground)}
+.service-popover .service-menu-all:hover,.service-popover .service-menu-all:focus-visible {background-color:var(--primary-subtle-hover);color:var(--link)}
+.mobile-nav a:not(.button),.mobile-close,.menu-toggle {color:var(--foreground)}
+.v3-round-arrow,.v3-questions summary>.faq-toggle,.carousel-arrow,.back-top {background-color:var(--surface);color:var(--link);border-color:var(--border-interactive)}
+.v3-service:hover .v3-round-arrow,.v3-service:focus-visible .v3-round-arrow,
+.v3-questions summary:hover>.faq-toggle,.v3-questions details[open] summary>.faq-toggle {
+  background-color:var(--primary);color:var(--primary-foreground);border-color:var(--primary-hover);
+}
+.v3-portfolio-list .filter,.filter {background-color:var(--surface);color:var(--link);border-color:var(--border)}
+.v3-portfolio-list .filter.selected,.filter.selected {background-color:var(--primary);color:var(--primary-foreground);border-color:var(--primary-hover)}
+.v3-portfolio-list .filter:hover,.v3-portfolio-list .filter:focus-visible,.filter:hover {background-color:var(--primary-subtle);color:var(--link);border-color:var(--border-interactive)}
+.v3-portfolio-list .filter.selected:hover,.v3-portfolio-list .filter.selected:focus-visible {background-color:var(--primary-hover);color:var(--primary-foreground)}
+.contact-form input,.contact-form textarea,.contact-form select,input,textarea,select {
+  background-color:var(--surface);color:var(--foreground);border-color:var(--border);accent-color:var(--primary);
+}
+input::placeholder,textarea::placeholder {color:var(--muted-foreground)}
+input:focus,textarea:focus,select:focus {border-color:var(--border-interactive);outline-color:var(--focus-ring)}
+input[aria-invalid=true],textarea[aria-invalid=true],select[aria-invalid=true] {border-color:var(--destructive)}
+.form-note.error,.content-warning.error,[role=alert].error {background-color:var(--destructive-subtle);color:var(--destructive)}
+.form-note.success {background-color:var(--success-subtle);color:var(--success)}
+.content-warning,.draft,.legal-page .legal>.draft {background-color:var(--warning-subtle);color:var(--warning);border-color:var(--warning)}
+.status-dot.done {background-color:var(--success)}
+.status-dot.active {background-color:var(--primary)}
+.status-dot.waiting {background-color:var(--warning)}
+.status-dot.blocked {background-color:var(--destructive)}
+.analytics-consent {background-color:var(--surface);color:var(--foreground);border-color:var(--border)}
+.analytics-consent p {color:var(--body-foreground)}
+.analytics-consent button[data-consent=accepted] {background-color:var(--primary);color:var(--primary-foreground);border-color:var(--primary-hover)}
+.analytics-consent button[data-consent=declined] {background-color:var(--surface);color:var(--link);border-color:var(--border-interactive)}
+.analytics-consent button[data-consent=accepted]:hover {background-color:var(--primary-hover)}
+.analytics-consent button[data-consent=declined]:hover {background-color:var(--secondary-hover)}
+.analytics-consent a {color:var(--link)}
+.carousel-dot {background-color:transparent}
+.carousel-dot::after {background-color:var(--border-hover)}
+.carousel-dot[aria-current=true]::after {background-color:var(--primary-active)}
+.carousel-track:focus-visible,a:focus-visible,button:focus-visible,summary:focus-visible {outline-color:var(--focus-ring)}
+::selection {background-color:var(--primary-subtle-hover);color:var(--foreground)}
+.cta>div>.eyebrow {color:var(--primary-foreground)}
+.coordinator-mark {background-color:var(--primary-subtle);color:var(--link)}
+.mascot-chip,.mascot-caption {color:var(--link)}
+.mascot-video-toggle {background-color:var(--surface);color:var(--link);border-color:var(--border-interactive)}

@@ -1,0 +1,796 @@
+{
+  "download.htm": {
+    "sections": [
+      {
+        "id": "heroSection",
+        "class": "hero-section 123456789"
+      },
+      {
+        "class": "videos-section relative overflow-hidden behind-cursor"
+      },
+      {
+        "class": "py_80 sm_py_32 relative behind-cursor",
+        "style": "background-color: var(--color-cream-white)"
+      },
+      {
+        "class": "py_80 sm_py_32"
+      },
+      {
+        "class": "ff_inter_tight py_80 sm_py_32 relative behind-cursor",
+        "style": "background-color: var(--color-black-300)"
+      },
+      {
+        "class": "yellow-gradient-section"
+      },
+      {
+        "class": "py_80 sm_py_32 relative behind-cursor",
+        "style": "background-color: var(--color-black-300)"
+      },
+      {
+        "class": "py_80 sm_py_32 relative behind-cursor",
+        "style": "background-color: var(--color-cream-white)"
+      },
+      {
+        "id": "contact",
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section"
+      },
+      {
+        "id": "footerTop",
+        "class": "footer-top"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css",
+      "https://zeeframes.com/frontend-assets/css/home.css",
+      "https://zeeframes.com/frontend-assets/css/common.css"
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "class": "fs_36 sm_fs_28 lh_40 fw_500 text_black section-heading",
+        "text": "UI UX Design and Product Experience Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_28 sm_fs_22 lh_normal text_gray_03 servic-title",
+        "text": "Saas UI UX Design              For Startups & Existing Companies  Product Revamp              FOR VISUAL STORYTELLERS  Brand Design              FOR RAPID APP BUILDERS  No Code Development              FOR STARTUPS & FOUNDERS  MVP Design              Dedicated ux ui Team  Team Extension                  Our process, Your Advantage  "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_28 lh_40 fw_500 text_white section-heading",
+        "text": "From Idea To Execution "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_28 lh_40 fw_500 text_white section-heading",
+        "text": "Our Creative Showcase "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_24 lh_normal fw_600 text_white",
+        "text": "Your project here "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_32 sm_lh_36 lh_48 fw_500 text_black ",
+        "text": "Your next great product decision starts with one conversation. "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_28 lh_40 fw_500 capitalize",
+        "text": "Questions? We\u2019ve Got Answers "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_28 lh_40 fw_500 text_gray_800",
+        "text": "Insights That Inspire Vision Forward "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_24 sm_fs_20 sm_lh_30 lh_32 fw_600 text_gray_800",
+        "text": "What Our Customers Say "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_18 sm_lh_28 fw_400 ff_inter_tight contact-heading text_white",
+        "text": "Let's work on what you care about! "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "North America "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Europe "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Asia "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Company "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Industries "
+      }
+    ]
+  },
+  "services.htm": {
+    "sections": [
+      {
+        "class": "service-hero-sec service-hero-index"
+      },
+      {
+        "class": "hero-audience-section"
+      },
+      {
+        "class": "hero-audience-section"
+      },
+      {
+        "class": "hero-audience-section"
+      },
+      {
+        "id": "use-cases",
+        "class": "process-section  py_60 sm_py_24"
+      },
+      {
+        "id": "why-us",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "contact",
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section"
+      },
+      {
+        "id": "footerTop",
+        "class": "footer-top"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      "https://zeeframes.com/frontend-assets/css/service-page.css",
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "class": "service-title ff_inter_tight fs_48 lh_60 fw_500 text_white",
+        "text": "Growth-Driven Product Services "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_18 sm_fs_16 lh_28 sm_lh_24 text_white ff_500 white-space-break",
+        "text": "Ready to build a product  users love? "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_fff agency-section-title mt-0",
+        "text": "UI UX Design "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_fff agency-section-title mt-0",
+        "text": "Brand Design "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_fff agency-section-title mt-0",
+        "text": "No Code Development "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "What sets our approach apart "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_36 lh_44 sm_fs_24 sm_lh_32 fw_500 text_white sm_w_full agency-section-title",
+        "text": "Why choose ZeeFrames as your product design partner "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_48 fw_500 lh_60 text_gray_800 sub_title",
+        "text": "See how we've helped others win "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_24 sm_fs_20 sm_lh_30 lh_32 fw_600 text_gray_800",
+        "text": "What Our Customers Say "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_18 sm_lh_28 fw_400 ff_inter_tight contact-heading text_white",
+        "text": "Let's work on what you care about! "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "North America "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Europe "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Asia "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Company "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Industries "
+      }
+    ]
+  },
+  "work.htm": {
+    "sections": [
+      {
+        "class": "hero-section py_80 sm_py_48"
+      },
+      {
+        "class": "work-section",
+        "style": "padding-bottom: 80px;"
+      },
+      {
+        "id": "contact",
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section"
+      },
+      {
+        "id": "footerTop",
+        "class": "footer-top"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "class": "work-hero-title text_white text-center ff_inter mx-auto",
+        "text": "Our recent work. A sample of products we've shipped worldwide. "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_24 sm_fs_20 sm_lh_30 lh_32 fw_600 text_gray_800",
+        "text": "What Our Customers Say "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_18 sm_lh_28 fw_400 ff_inter_tight contact-heading text_white",
+        "text": "Let's work on what you care about! "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "North America "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Europe "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Asia "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Company "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Industries "
+      }
+    ]
+  },
+  "ai-solutions.htm": {
+    "sections": [
+      {
+        "id": "ai-hero",
+        "class": "service-hero-sec"
+      },
+      {
+        "id": "ai-edge",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "what-we-do",
+        "class": "process-section py_60 sm_py_24"
+      },
+      {
+        "id": "how-we-help",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "ai-use-cases",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "work",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "process",
+        "class": "process-section py_60 sm_py_24 "
+      },
+      {
+        "id": "ai-talent",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "client-words",
+        "class": " py_60 sm_py_24 "
+      },
+      {
+        "id": "tools",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "faq",
+        "class": "process-section py_80 sm_py_24"
+      },
+      {
+        "class": "yellow-gradient-section"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor blogs-section",
+        "style": "background-color: var(--color-cream-white)"
+      },
+      {
+        "id": "contact",
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section"
+      },
+      {
+        "id": "footerTop",
+        "class": "footer-top"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      "https://zeeframes.com/frontend-assets/css/service-page.css",
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "class": "service-title ff_inter_tight fs_48 lh_60 fw_500 text_white",
+        "text": "Designing Better Products With AI "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_18 sm_fs_16 lh_28 sm_lh_24 text_white ff_500 white-space-break",
+        "text": "Let's Build Your AI Product "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_36 lh_44 fw_500 text_white agency-section-title",
+        "text": "Designers built for the AI era. "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "From AI Ideas to Real Product Experiences "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Where Can AI Make a Difference in Your Product? "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Designing Experiences Around Real AI Capabilities "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Real software projects we've shipped "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "Our AI Product Design Process "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_36 lh_44 fw_500 text_white agency-section-title",
+        "text": "Hire AI-Enabled Product Designers "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "What clients say "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Tools & Technologies We Use "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "Frequently Asked Questions "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_40 sm_fs_32 sm_lh_36 lh_48 text_black ",
+        "text": "Your next great product decision starts with one conversation. "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_40 sm_fs_28 lh_40 fw_700 text_gray_800 insight-title",
+        "text": "Insights That Inspire Vision Forward "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_24 sm_fs_20 sm_lh_30 lh_32 fw_600 text_gray_800",
+        "text": "What Our Customers Say "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_18 sm_lh_28 fw_400 ff_inter_tight contact-heading text_white",
+        "text": "Let's work on what you care about! "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "North America "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Europe "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Asia "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Company "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Industries "
+      }
+    ]
+  },
+  "fintech-design-agency.htm": {
+    "sections": [
+      {
+        "class": "service-hero-sec"
+      },
+      {
+        "id": "services",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "class": "py_80 sm_py_32 bg-base"
+      },
+      {
+        "id": "use-cases",
+        "class": "process-section  py_60 sm_py_24"
+      },
+      {
+        "id": "tools",
+        "class": " py_60 sm_py_24 "
+      },
+      {
+        "id": "work",
+        "class": " py_60 sm_py_24 "
+      },
+      {
+        "id": "services",
+        "class": "py_60 sm_py_24"
+      },
+      {
+        "id": "process",
+        "class": "process-section py_60 sm_py_24 "
+      },
+      {
+        "id": "tools",
+        "class": " py_60 sm_py_24 "
+      },
+      {
+        "id": "client-words",
+        "class": " py_60 sm_py_24 "
+      },
+      {
+        "id": "faq",
+        "class": "process-section py_80 sm_py_24"
+      },
+      {
+        "class": "yellow-gradient-section"
+      },
+      {
+        "id": "contact",
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section"
+      },
+      {
+        "id": "footerTop",
+        "class": "footer-top"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      "https://zeeframes.com/frontend-assets/css/service-page.css",
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "class": "service-title ff_inter_tight fs_48 lh_60 fw_500 text_white",
+        "text": "Fintech Design Agency "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_18 sm_fs_16 lh_28 sm_lh_24 text_white ff_500 white-space-break",
+        "text": "Let's Build Your Fintech "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_36 lh_44 fw_500 text_white agency-section-title ",
+        "text": "Designers built for the AI era. "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_36 lh_44 fw_500 text_white agency-section-title max-w-full ",
+        "text": "Real problems. Real design solutions. "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "Products we design for fintech teams "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Fintech use cases we design for "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Real software projects we've shipped "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_36 lh_44 fw_500 text_white agency-section-title max-w-full ",
+        "text": "Fintech sub sectors we know well "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "Our UI UX Design Process "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "Tools & Technologies We Use "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_white agency-section-title",
+        "text": "What clients say "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fw_500 text_gray_03 agency-section-title",
+        "text": "Fintech design FAQs "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_40 sm_fs_32 sm_lh_36 lh_48 text_black ",
+        "text": "Your next great product decision starts with one conversation. "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_24 sm_fs_20 sm_lh_30 lh_32 fw_600 text_gray_800",
+        "text": "What Our Customers Say "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_18 sm_lh_28 fw_400 ff_inter_tight contact-heading text_white",
+        "text": "Let's work on what you care about! "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "North America "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Europe "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Asia "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Company "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Industries "
+      }
+    ]
+  },
+  "ZeeFrames Insights _ UI UX & Branding Articles.html": {
+    "sections": [
+      {
+        "class": "insights-hero-section py_80 sm_py_32"
+      },
+      {
+        "class": "blogs-oversview-section py_60 sm_py_32"
+      },
+      {
+        "class": "trending-blogs-section py_60"
+      },
+      {
+        "class": "yellow-gradient-section"
+      },
+      {
+        "id": "contact",
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section"
+      },
+      {
+        "id": "footerTop",
+        "class": "footer-top"
+      }
+    ],
+    "css": [
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/css2",
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/colors.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/style.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/common.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/chatbot.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/swiper-bundle.min.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/insight-page.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/font-override.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/css2(1)",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/intlTelInput.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/toastr.min.css",
+      "./ZeeFrames Insights _ UI UX & Branding Articles_files/custom-animations.css"
+    ],
+    "headings": [
+      {
+        "tag": "h1",
+        "class": "insights-heading text-center sm_text_start relative fw_500 lh_60 fs_48 sm_fs_36 sm_lh_54 ff_inter_tight mt_24 uppercase",
+        "text": "Ideas, Insights & Design Intelligence "
+      },
+      {
+        "tag": "h2",
+        "class": "blog-heading ff_inter_tight lh_34",
+        "text": "Why Your AI-Designed Product Looks Like Everyone Else's "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_40 sm_fs_32 sm_lh_36 lh_48 text_black ",
+        "text": "Your next great product decision starts with one conversation. "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_24 sm_fs_20 sm_lh_30 lh_32 fw_600 text_gray_800",
+        "text": "What Our Customers Say "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_36 sm_fs_18 sm_lh_28 fw_400 ff_inter_tight contact-heading text_white",
+        "text": "Let's work on what you care about! "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "North America "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Europe "
+      },
+      {
+        "tag": "h2",
+        "class": "ff_inter_tight fs_20 sm_fs_18 lh_normal sm_lh_28 fw_500 text_white",
+        "text": "Asia "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Company "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Services "
+      },
+      {
+        "tag": "h2",
+        "class": "fs_16 lh_20 fw_600 ff_inter text_white",
+        "text": "Industries "
+      }
+    ]
+  }
+}

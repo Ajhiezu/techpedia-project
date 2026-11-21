@@ -1,0 +1,229 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "errors": [
+    "[desktop] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[desktop] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[desktop] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[keyboard] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[hover] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[mobile] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[reduced] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "[reduced] Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+  ],
+  "failed": [
+    "[desktop] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[desktop] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[desktop] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[keyboard] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[hover] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[mobile] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[reduced] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED",
+    "[reduced] https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;650;700;750;800&display=swap net::ERR_NETWORK_ACCESS_DENIED"
+  ],
+  "desktop": {
+    "loadMs": 14510,
+    "loaderMs": null,
+    "settledMs": 20776,
+    "vitals": {
+      "lcpMs": 17968,
+      "lcpElement": "img",
+      "cls": 0
+    },
+    "height": 9789,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Kebutuhan nyata.\nSistem yang tepat.↗"
+    ],
+    "smallTargets": [
+      "Dari kebutuhan ke sistem 176x20",
+      "Semua karya ↗ 90x21",
+      "Temukan layanan Anda ↗ 137x20",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x16"
+    ],
+    "glHidden": [],
+    "title": "Techpedia Project - Jasa Pengembangan Aplikasi Custom",
+    "glOn": false,
+    "scrollFps": {
+      "fps": 60,
+      "worstFrameMs": 17
+    },
+    "nav": {
+      "href": "/work/",
+      "scrollYAfter": 0,
+      "title": "Proyek Nyata.Aplikasi Bermanfaat. — Techpedia Project"
+    },
+    "idleMotion": true,
+    "idleAt": "35%"
+  },
+  "mobile": {
+    "throttled": true,
+    "loadMs": 14785,
+    "loaderMs": null,
+    "settledMs": 17070,
+    "vitals": {
+      "lcpMs": 14568,
+      "lcpElement": "p.lead",
+      "cls": 0
+    },
+    "height": 13049,
+    "overflowX": false,
+    "offenders": [],
+    "h1": [
+      "Kebutuhan nyata.\nSistem yang tepat.↗"
+    ],
+    "smallTargets": [
+      "Dari kebutuhan ke sistem 130x17",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x23",
+      "Lihat studi kasus ↗ 118x16",
+      "Kenali Techpedia ↗ 121x23",
+      "Mari diskusikan proyek A 192x23"
+    ],
+    "glHidden": [],
+    "title": "Techpedia Project - Jasa Pengembangan Aplikasi Custom",
+    "glOn": false,
+    "scrollFps": {
+      "fps": 60,
+      "worstFrameMs": 17
+    }
+  },
+  "files": [
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-00-firstpaint.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-01-hero.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-02-scroll.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-03-scroll.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-04-scroll.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-90-transition-a.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-90-transition-b.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-90-transition-c.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-91-after-nav.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\d-92-back.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\k-01-focus.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\k-02-focus.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\k-03-focus.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\k-04-focus.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-01-rest.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-01-hover.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-02-rest.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-02-hover.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-03-rest.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-03-hover.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-04-rest.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\h-04-hover.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\m-01-hero.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\m-02-scroll.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\m-03-scroll.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\m-04-scroll.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\r-01-hero.png",
+    "C:\\Antigravity\\techpedia-project\\docs\\redesign-awwwards\\pass-1\\r-02-mid.png"
+  ],
+  "notes": [
+    "desktop FPS runs headless on a software GPU: treat it as a floor, not a measurement of real hardware",
+    "mobile runs at 4x CPU slowdown on slow 4G: mobile.vitals and mobile.scrollFps are the numbers that count",
+    "loadMs: ms from navigation to the load event, null if it had not fired after 30 s (desktop) or 60 s (phone); a heavy page takes long, while visitors see content at vitals.lcpMs. loaderMs: ms until the #loader ended, null when the page has none",
+    "settledMs: ms from navigation by which the first screen stopped changing, never before the fixed wait. null: still changing at the cap, either a long intro or continuous motion (a live shader, video); d-01-hero / m-01-hero tell which. reduced.moving: the screen was still changing 1.5 s after load with reduced motion on"
+  ],
+  "keyboard": {
+    "stops": [
+      "a \"Langsung ke konten\"",
+      "a \"Techpedia Project\"",
+      "a \"Tentang\"",
+      "button \"Layanan\"",
+      "a \"Karya\"",
+      "a \"Paket\""
+    ],
+    "skipLinkFirst": false,
+    "noVisibleFocus": [],
+    "invisibleFocus": [],
+    "stuck": false
+  },
+  "hover": {
+    "targets": [
+      {
+        "shot": "h-01",
+        "label": "button \"Layanan\"",
+        "interactive": true,
+        "primary": true,
+        "react": "color",
+        "changed": [
+          "color",
+          "borderColor",
+          "textDecorationColor"
+        ]
+      },
+      {
+        "shot": "h-02",
+        "label": "button \"01 Perpustakaan\"",
+        "interactive": true,
+        "primary": true,
+        "react": "none",
+        "changed": []
+      },
+      {
+        "shot": "h-03",
+        "label": "a \"Ceritakan Kebutuhan Anda\"",
+        "interactive": true,
+        "primary": true,
+        "react": "masked",
+        "changed": []
+      },
+      {
+        "shot": "h-04",
+        "label": "a \"Jelajahi Karya\"",
+        "interactive": true,
+        "primary": true,
+        "react": "moves",
+        "changed": [
+          "borderColor",
+          "translate"
+        ]
+      }
+    ],
+    "noHoverChange": [
+      "h-02 button \"01 Perpustakaan\""
+    ],
+    "colorOnly": [
+      "h-01 button \"Layanan\""
+    ],
+    "covered": [],
+    "cursorFollower": false
+  },
+  "reduced": {
+    "hiddenText": 0,
+    "moving": false
+  },
+  "a11y": {
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "count": 7,
+        "nodes": [
+          "button[data-showcase=\"1\"] > .aw-index (#1e6a79 on #00d9ff, 3.64:1, needs 4.5:1)",
+          "button[data-showcase=\"2\"] > .aw-index (#1e6a79 on #00d9ff, 3.64:1, needs 4.5:1)",
+          "button[data-showcase=\"3\"] > .aw-index (#1e6a79 on #00d9ff, 3.64:1, needs 4.5:1)",
+          "#services > .v3-heading > .eyebrow (#007c92 on #e6ece7, 4.07:1, needs 4.5:1)"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "count": 1,
+        "nodes": [
+          ".aw-screen-link[aria-label=\"Lihat studi kasus RPK Pustaka\"][href$=\"rpk-pustaka/\"]"
+        ]
+      }
+    ],
+    "serious": 2,
+    "contrastNeedsReview": 10
+  }
+}

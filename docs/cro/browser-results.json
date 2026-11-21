@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Requested hero, six services, process and no sample reviews",
+    "pass": true
+  },
+  {
+    "name": "Desktop screenshot",
+    "pass": true
+  },
+  {
+    "name": "Responsive views and accessible CTA sizes",
+    "pass": true
+  },
+  {
+    "name": "Mobile screenshot",
+    "pass": true
+  },
+  {
+    "name": "Mobile menu opens, traps focus, and closes with Escape",
+    "pass": true
+  },
+  {
+    "name": "Service selection reaches real WhatsApp message; no local dummy form",
+    "pass": true
+  },
+  {
+    "name": "All project details render galleries, facts, contribution and stack disclosure",
+    "pass": true
+  },
+  {
+    "name": "Carousel controls advance gallery",
+    "pass": true
+  },
+  {
+    "name": "FAQ expands",
+    "pass": true
+  },
+  {
+    "name": "Legacy hash route still works",
+    "pass": true
+  },
+  {
+    "name": "Analytics disabled without configuration",
+    "pass": true
+  },
+  {
+    "name": "Configured analytics waits for consent and emits one event per contact click",
+    "pass": true
+  },
+  {
+    "name": "Mascot video plays on normal motion and pauses on request",
+    "pass": true
+  },
+  {
+    "name": "No runtime exceptions",
+    "pass": true
+  }
+]

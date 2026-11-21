@@ -4,22 +4,22 @@
   "projectTag": "PROYEK APLIKASI",
   "host": "tech-resto.vercel.app",
   "headline": "Dari pilihan menu hingga pencatatan pesanan dan pemantauan bisnis.",
-  "intro": "Aplikasi restoran yang menghubungkan katalog menu pelanggan, pencatatan pesanan kasir, dan pemantauan bisnis oleh owner. Konsep pemesanan berbasis meja dan QR dipadukan dengan pembagian area kerja sesuai peran pengguna.",
+  "intro": "Aplikasi restoran yang menghubungkan katalog menu pelanggan, pencatatan pesanan kasir, dan pemantauan bisnis oleh pemilik. Konsep pemesanan berbasis meja dan QR dipadukan dengan pembagian area kerja sesuai peran pengguna.",
   "projectType": "Aplikasi manajemen restoran",
   "audience": "Pelanggan, kasir & pemilik usaha",
-  "scope": "Katalog menu, kasir & dashboard owner",
+  "scope": "Katalog menu, kasir & panel kendali pemilik",
   "caption": "Tech Resto · Beranda restoran dan pengenalan pemesanan melalui QR",
   "storyLabel": "KONSEP PROYEK",
   "storyTitle": "Menyusun pengalaman pelanggan dan operasional restoran dalam satu platform.",
-  "galleryTitle": "Lima tampilan untuk kebutuhan pelanggan, kasir, dan owner.",
-  "galleryIntro": "Jelajahi dashboard owner, beranda restoran, input pesanan kasir, katalog menu, serta halaman login melalui galeri berikut.",
+  "galleryTitle": "Lima tampilan untuk kebutuhan pelanggan, kasir, dan pemilik.",
+  "galleryIntro": "Jelajahi panel kendali pemilik, beranda restoran, input pesanan kasir, katalog menu, serta halaman masuk melalui galeri berikut.",
   "featuresTitle": "Alur kerja yang disusun sesuai peran pengguna.",
-  "featuresIntro": "Pelanggan membutuhkan pilihan menu yang jelas, kasir membutuhkan area pencatatan pesanan yang terfokus, dan owner membutuhkan ringkasan bisnis yang mudah ditinjau.",
+  "featuresIntro": "Pelanggan membutuhkan pilihan menu yang jelas, kasir membutuhkan area pencatatan pesanan yang terfokus, dan pemilik membutuhkan ringkasan bisnis yang mudah ditinjau.",
   "outcomeTitle": "Pengalaman pemesanan yang terarah. Informasi operasional yang terpusat.",
   "tags": [
     "Katalog & pemesanan",
     "Kasir restoran",
-    "Dashboard owner"
+    "Panel kendali pemilik"
   ],
   "features": [
     {
@@ -39,27 +39,27 @@
     },
     {
       "number": "04",
-      "title": "Dashboard pemilik usaha",
+      "title": "Panel kendali pemilik usaha",
       "text": "Ringkasan pendapatan, jumlah pesanan, menu aktif, dan pengeluaran menjadi titik awal untuk meninjau informasi operasional restoran."
     },
     {
       "number": "05",
       "title": "Navigasi pengelolaan restoran",
-      "text": "Area owner menyediakan navigasi laporan, kategori, menu, meja dan QR code, pegawai, serta pengeluaran dalam satu struktur administrasi."
+      "text": "Area pemilik menyediakan navigasi laporan, kategori, menu, meja dan QR code, pegawai, serta pengeluaran dalam satu struktur administrasi."
     },
     {
       "number": "06",
-      "title": "Akses owner dan kasir",
-      "text": "Halaman login dan navigasi peran memisahkan kebutuhan pemilik usaha dari tugas kasir, dengan akses demo untuk menjelajahi tampilan aplikasi."
+      "title": "Akses pemilik dan kasir",
+      "text": "Halaman masuk dan navigasi peran memisahkan kebutuhan pemilik usaha dari tugas kasir, dengan akses demo untuk menjelajahi tampilan aplikasi."
     }
   ],
   "gallery": [
     {
       "src": "assets/projects/tech-resto-dashboard-owner.png",
-      "title": "Dashboard owner",
+      "title": "Panel kendali pemilik",
       "label": "RINGKASAN BISNIS",
       "text": "Ringkasan pendapatan, pesanan, menu aktif, dan pengeluaran disandingkan dengan area grafik penjualan serta daftar menu berdasarkan popularitas.",
-      "alt": "Dashboard owner Tech Resto dengan ringkasan bisnis, area grafik penjualan bulanan, dan daftar menu terlaris."
+      "alt": "Panel kendali pemilik Tech Resto dengan ringkasan bisnis, area grafik penjualan bulanan, dan daftar menu terlaris."
     },
     {
       "src": "assets/projects/tech-resto-beranda.png",
@@ -84,10 +84,10 @@
     },
     {
       "src": "assets/projects/tech-resto-login.png",
-      "title": "Login owner dan kasir",
+      "title": "Masuk pemilik dan kasir",
       "label": "AKSES BERDASARKAN PERAN",
-      "text": "Halaman login menyediakan form email dan password, pilihan ingat saya, serta akses demo menuju area owner dan kasir.",
-      "alt": "Halaman login Tech Resto dengan form email dan password serta pilihan akses demo owner dan kasir."
+      "text": "Halaman masuk menyediakan form email dan kata sandi, pilihan ingat saya, serta akses demo menuju area pemilik dan kasir.",
+      "alt": "Halaman masuk Tech Resto dengan form email dan kata sandi serta pilihan akses demo pemilik dan kasir."
     }
   ]
 }

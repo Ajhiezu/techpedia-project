@@ -1,0 +1,132 @@
+/* Brand hierarchy: white surfaces / Digital Blue actions / navy emphasis.
+   Exact shade values are owned by theme-tokens.css, from the supplied Coolors file. */
+:root {
+  --brand-primary:var(--surface);
+  --brand-secondary:var(--primary);
+  --brand-accent:var(--accent);
+}
+/* Large surfaces stay quiet so project imagery and content remain the focus. */
+.v3-showcase.aw-study,.v3-cta,.cta {
+  background:var(--surface);
+  color:var(--foreground);
+}
+.v3-showcase.aw-study {border-block:1px solid var(--border);}
+.aw-study .aw-small-label,.v3-showcase-top,.aw-study-caption p,
+.aw-study-note,.aw-study-credit,.v3-cta>div>p:not(.eyebrow),.cta>div>p:not(.eyebrow) {
+  color:var(--body-foreground);
+}
+.aw-study .text-link,.v3-showcase-top a {color:var(--link);}
+.aw-study .v3-showcase-controls button {
+  color:var(--body-foreground);
+  background:transparent;
+  border-color:var(--border);
+}
+.aw-study .v3-showcase-controls button[aria-pressed=true] {
+  color:var(--link);
+  background:var(--primary-subtle);
+  border-color:var(--primary-hover);
+}
+.aw-study .v3-showcase-controls button:hover,
+.aw-study .v3-showcase-controls button:focus-visible,
+.aw-study .v3-showcase-controls button[aria-pressed=true]:hover {
+  color:var(--link);
+  background:var(--primary-subtle-hover);
+  border-color:var(--primary-hover);
+}
+.aw-screen-link {border-color:var(--surface-active);background:var(--muted);box-shadow:0 8px 24px rgb(var(--shadow-rgb) / .06);}
+.aw-screen-action {background:var(--surface);color:var(--link);border-color:var(--border);}
+.aw-screen-link:hover .aw-screen-action {background:var(--primary-subtle);color:var(--link);}
+.aw-study .aw-project-type {background:var(--muted);color:var(--body-foreground);border-color:var(--border);}
+.v3-capabilities {background:var(--surface);border-color:var(--border);color:var(--body-foreground);}
+.v3-capabilities>div span {color:var(--body-foreground);}
+.v3-process,.v3-internal>.v3-section.v3-process {background:var(--muted);}
+.v3-process-visual,.v3-process-visual figcaption {background:var(--surface);}
+.v3-cta,.cta {background:var(--primary-subtle);border-block:1px solid var(--border);}
+.v3-cta h2,.cta h2 {color:var(--foreground);}
+.v3-cta-art {color:var(--muted-foreground);}
+.v3-cta-art::after {color:var(--muted-foreground);}
+.v3-cta-art img {mix-blend-mode:multiply;}
+.eyebrow,.v3-light .eyebrow,.v3-process .eyebrow,.v3-about .eyebrow,.page-hero .eyebrow,
+.rpk-detail-hero .eyebrow,.rpk-detail .eyebrow,.delivery-heading .eyebrow,
+.v3-cta .eyebrow,.cta .eyebrow,.cta>div>.eyebrow {color:var(--muted-foreground);}
+/* Use blue 500 with white text for actions and neutral outlines for alternatives. */
+.button:where(:not(.outline):not(.light)),.v3-light .button:where(:not(.outline)),
+.v3-inquiry-panel .button,.service-scope .button {
+  background:var(--primary);
+  color:var(--primary-foreground);
+  border-color:var(--primary);
+}
+.button:where(:not(.outline):not(.light)):hover,.v3-light .button:where(:not(.outline)):hover,
+.v3-inquiry-panel .button:hover,.service-scope .button:hover {
+  background:var(--primary-hover);color:var(--primary-foreground);border-color:var(--primary-hover);
+}
+.button.outline,.button.light,.v3-light .button.outline {
+  background:var(--surface);color:var(--foreground);border-color:var(--border-hover);
+}
+.button.outline:hover,.button.light:hover,.v3-light .button.outline:hover {
+  background:var(--primary-subtle);color:var(--link);border-color:var(--primary-hover);
+}
+.v3-cta .button,.cta .button {
+  background:var(--primary);color:var(--primary-foreground);border-color:var(--primary);
+}
+.v3-cta .button:hover,.cta .button:hover {background:var(--primary-hover);border-color:var(--primary-hover);color:var(--primary-foreground);}
+/* The featured badge uses blue 100 / 700, within the same supplied hue family. */
+.pricing-card.pricing-featured {
+  background:var(--muted);
+  border-color:var(--border);
+  padding-inline:24px;
+  border-radius:16px;
+}
+.pricing-featured-badge {background:var(--accent-subtle-hover);color:var(--accent-active);border-color:transparent;}
+.pricing-featured .button.outline {background:var(--primary);color:var(--primary-foreground);border-color:var(--primary);}
+.pricing-featured .button.outline:hover {background:var(--primary-hover);color:var(--primary-foreground);}
+.aw-project-type,.v3-project-meta>span,.rpk-project-tag,.rpk-meta .rpk-project-tag,
+.rpk-tags li,.team-role-pills li,.tech-stack li {
+  background:var(--muted);color:var(--body-foreground);border-color:var(--border);
+}
+.demo-badge {background:var(--muted);color:var(--body-foreground);border-color:var(--border);}
+.v3-project-image,.v3-project:nth-child(2) .v3-project-image,.v3-project:nth-child(3) .v3-project-image,
+.v3-project:nth-child(4) .v3-project-image {background:var(--muted);border-color:var(--muted);}
+.v3-project-image>span {background:var(--surface);color:var(--link);border-color:var(--border);}
+.v3-project-image:hover>span {background:var(--primary-subtle);color:var(--link);}
+.card,.section .card,.delivery-card,.agreement-card,.feature-panel,
+.coordinator-card,.progress-report,.contact-form,.v3-related-services article {
+  background:var(--surface);border-color:var(--border);
+}
+.card:hover,.section .card:hover {border-color:var(--primary-hover);box-shadow:0 8px 28px rgb(var(--shadow-rgb) / .04);}
+.icon,.coordinator-mark {background:var(--primary-subtle);color:var(--link);}
+.service-scope,.scope-estimate,.project-facts,.rpk-brief {background:var(--muted);border-color:var(--border);}
+.report-header {background:var(--muted);border-color:var(--border);}
+.rpk-detail .rpk-features,.rpk-detail .rpk-outcome,.rpk-showcase {background:var(--muted);}
+.contact-form input,.contact-form textarea,.contact-form select {
+  background:var(--surface);border-color:var(--border);color:var(--foreground);
+}
+.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus {
+  border-color:var(--primary-hover);outline-color:var(--focus-ring);
+}
+.v3-questions details[open] summary>.faq-toggle {background:var(--primary-subtle);color:var(--link);border-color:var(--primary-hover);}
+.footer {background:var(--surface);border-top:1px solid var(--border);}
+.footer .brand-logo {background:var(--surface);filter:none;mix-blend-mode:multiply;}
+.footer .brand-name i {color:var(--accent)!important;}
+.footer h2 {color:var(--foreground);}
+.footer-wordmark {color:var(--muted-foreground);border-color:var(--border);}
+.footer-bottom {color:var(--muted-foreground);border-color:var(--border);}
+.back-top,.carousel-arrow {background:var(--surface);color:var(--link);border-color:var(--border);}
+.back-top:hover,.carousel-arrow:hover {background:var(--primary-subtle);border-color:var(--primary-hover);}
+.button:disabled,.button[aria-disabled=true],.button[aria-busy=true] {
+  background:var(--disabled);color:var(--disabled-foreground);border-color:var(--border);
+}
+/* Headings stay navy. Blue guides interactions, rather than coloring every label. */
+.hero.aw-hero h1.aw-title em {color:var(--foreground);background:none;}
+.aw-title em::after {background:none;}
+.text-link,.aw-study .text-link,.v3-showcase-top a,.footer a,
+.rpk-detail [data-project-carousel] figcaption a,.crumbs a,.rpk-detail .crumbs a {
+  color:var(--body-foreground);
+}
+.text-link,.aw-study .text-link {text-decoration-color:var(--primary);text-decoration-thickness:2px;}
+.text-link:hover,.aw-study .text-link:hover,.v3-showcase-top a:hover,.footer a:hover,
+.rpk-detail [data-project-carousel] figcaption a:hover {color:var(--link);}
+.pricing-card .eyebrow,.v3-process-visual figcaption>span {color:var(--muted-foreground);}
+@media(max-width:760px) {
+  .pricing-featured {padding-inline:18px;border-radius:16px;}
+}

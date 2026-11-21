@@ -1,3 +1,3 @@
-# Pre-publication: update only after content and deployment acceptance.
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://techpedia-project.vercel.app/sitemap.xml

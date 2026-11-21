@@ -1,0 +1,191 @@
+/* One breadcrumb treatment across service, studio, contact and project pages. */
+.agreement-example {
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:var(--surface);
+  color:var(--body-foreground);
+}
+.agreement-example summary {
+  padding:20px 24px;
+  color:var(--body-foreground);
+  font-weight:500;
+}
+.agreement-example[open] summary {
+  background:var(--surface);
+  color:var(--body-foreground);
+}
+.agreement-example>div {
+  padding:24px;
+  border-top:1px solid var(--border);
+  background:var(--surface);
+  color:var(--body-foreground);
+  font-size:14px;
+  line-height:1.9;
+}
+.agreement-example>div>p:not(.example-label),.agreement-example>div li {
+  color:var(--body-foreground);
+  font-size:14px;
+  line-height:1.9;
+}
+.agreement-example>div strong {
+  color:var(--foreground);
+  font-weight:600;
+}
+.agreement-example>div .example-label {
+  color:var(--body-foreground);
+  font-size:11px;
+  letter-spacing:1px;
+}
+.agreement-example ol {
+  padding-left:22px;
+  margin:20px 0;
+}
+.agreement-example li+li {
+  margin-top:14px;
+}
+.crumbs,.rpk-detail .crumbs {
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+  width:auto;
+  min-height:32px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:none;
+  box-shadow:none;
+  font-size:12px;
+  line-height:1.7;
+  color:var(--link);
+}
+.crumbs a,.rpk-detail .crumbs a {
+  color:var(--link);
+  font-weight:400;
+}
+.crumbs a:hover,.rpk-detail .crumbs a:hover {
+  color:var(--link-hover);
+}
+.crumbs span:last-child,.rpk-detail .crumbs span:last-child {
+  padding:0;
+  border-radius:0;
+  background:none;
+  color:var(--link);
+  font-weight:500;
+}
+.crumbs span:not(:last-child) {
+  flex:0 0 12px;
+  width:12px;
+}
+.crumbs span:not(:last-child)::after {
+  width:5px;
+  height:5px;
+  border-color:var(--border);
+}
+.page-hero {
+  padding:38px 24px 52px;
+  border-bottom:1px solid var(--border);
+  background:radial-gradient(ellipse at 50% 0,rgb(var(--surface-rgb) / 0.33333),transparent 75%),var(--surface);
+}
+.page-hero .crumbs {
+  justify-content:center;
+  margin:0 auto 34px;
+}
+.page-hero>.eyebrow {
+  font-size:11px;
+  letter-spacing:1.4px;
+  margin:0 0 17px;
+}
+.page-hero h1 {
+  max-width:900px;
+  margin:0 auto 20px;
+  font:550 clamp(34px,4vw,54px)/1.13 var(--display);
+  letter-spacing:-1.8px;
+  color:var(--foreground);
+}
+.page-hero .lead {
+  max-width:710px;
+  margin:0 auto;
+  font-size:15px;
+  line-height:1.85;
+  color:var(--body-foreground);
+}
+.page-hero>.button {
+  margin-top:27px;
+}
+.service-detail-page {
+  padding-bottom:64px;
+  background:var(--surface);
+}
+.service-detail-page .section {
+  padding:68px max(24px,calc((100vw - 1240px)/2));
+}
+.service-detail-page .service-scope {
+  gap:70px;
+  align-items:start;
+}
+.service-detail-page .delivery-heading h2 {
+  font:500 clamp(27px,3vw,38px)/1.2 var(--display);
+  letter-spacing:-1.1px;
+  margin:0 0 20px;
+}
+.service-detail-page .delivery-heading>p:last-child {
+  font-size:15px;
+  line-height:1.85;
+}
+.service-detail-page .service-scope .content-text {
+  margin:0;
+  color:var(--body-foreground);
+  font-size:15px;
+  line-height:1.9;
+}
+.service-detail-page .service-scope .delivery-note {
+  margin:23px 0;
+  padding:16px 20px;
+  background:var(--surface-hover);
+  border-left:2px solid var(--border);
+  color:var(--body-foreground);
+  font-size:13px;
+  line-height:1.8;
+}
+.service-detail-page .delivery-card,.service-detail-page .agreement-card {
+  border-radius:9px;
+  padding:28px;
+  border-color:var(--border);
+}
+.service-detail-page .delivery-card h3,.service-detail-page .agreement-card h3 {
+  font:500 20px/1.35 var(--display);
+  letter-spacing:-.4px;
+}
+.service-detail-page .delivery-card p,.service-detail-page .agreement-card p {
+  font-size:14px;
+  line-height:1.85;
+}
+.service-detail-page .cta {
+  width:min(1240px,calc(100% - 48px));
+  max-width:1240px;
+  margin:15px auto 0;
+  padding:44px 48px;
+  border:1px solid var(--border);
+  border-radius:12px;
+}
+.service-detail-page .cta h2 {
+  font:500 clamp(27px,3vw,38px)/1.2 var(--display);
+  letter-spacing:-1px;
+}
+@media(max-width:850px) {
+  .service-detail-page .service-scope {grid-template-columns:1fr;gap:15px;}
+}
+@media(max-width:560px) {
+  .page-hero {padding:26px 20px 38px;}
+  .page-hero .crumbs {margin-bottom:26px;gap:8px;font-size:11px;}
+  .page-hero h1 {font-size:35px;letter-spacing:-1.2px;}
+  .page-hero .lead {font-size:14px;line-height:1.8;}
+  .page-hero>.button {margin-top:23px;}
+  .service-detail-page {padding-bottom:40px;}
+  .service-detail-page .section {padding:45px 22px;}
+  .service-detail-page .delivery-heading h2 {font-size:29px;}
+  .service-detail-page .delivery-heading>p:last-child,.service-detail-page .service-scope .content-text {font-size:14px;}
+  .service-detail-page .delivery-card,.service-detail-page .agreement-card {padding:24px;}
+  .service-detail-page .cta {width:calc(100% - 32px);padding:30px 24px;margin-top:0;}
+}

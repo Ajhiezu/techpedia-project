@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Centered hero, three tabs, hidden mascot and required section order",
+    "pass": true
+  },
+  {
+    "name": "Every hero tab selects its real panel and works with arrow/Home/End keys",
+    "pass": true
+  },
+  {
+    "name": "Hero panels remain usable at 320/390/768/1440, with no overflow or CTA collision",
+    "pass": true
+  },
+  {
+    "name": "Light two-column services and FAQ, six process steps, bright cyan conversion",
+    "pass": true
+  },
+  {
+    "name": "Showcase selectors expose the correct original screenshot",
+    "pass": true
+  },
+  {
+    "name": "Services dropdown opens and closes with Escape",
+    "pass": true
+  },
+  {
+    "name": "Four quotes hide draft prices and use correct package messages",
+    "pass": true
+  },
+  {
+    "name": "FAQ keyboard expands and collapses",
+    "pass": true
+  },
+  {
+    "name": "Mobile navigation traps focus and closes with Escape",
+    "pass": true
+  },
+  {
+    "name": "Work and legacy portfolio routes filter genuine categories correctly",
+    "pass": true
+  },
+  {
+    "name": "All original service routes, case studies, and internal layouts remain responsive",
+    "pass": true
+  },
+  {
+    "name": "Case study gallery controls still advance",
+    "pass": true
+  },
+  {
+    "name": "All homepage project images decode, no fabricated articles exposed",
+    "pass": true
+  },
+  {
+    "name": "Service consultation retains real WhatsApp, email and Fastwork",
+    "pass": true
+  },
+  {
+    "name": "Cross-page pricing and legacy hash routing work",
+    "pass": true
+  },
+  {
+    "name": "No runtime exceptions",
+    "pass": true
+  }
+]

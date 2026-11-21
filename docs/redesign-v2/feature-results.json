@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Required homepage section order",
+    "pass": true
+  },
+  {
+    "name": "Four packages hide unapproved numeric prices and prefill the verified WhatsApp",
+    "pass": true
+  },
+  {
+    "name": "Anchor clicks retain the page and reach real sections",
+    "pass": true
+  },
+  {
+    "name": "Native FAQ keyboard interaction",
+    "pass": true
+  },
+  {
+    "name": "Project previews load and match all existing project routes",
+    "pass": true
+  },
+  {
+    "name": "Mobile focus wraps in both directions",
+    "pass": true
+  },
+  {
+    "name": "Cross-page pricing destination survives homepage hydration",
+    "pass": true
+  },
+  {
+    "name": "Full page desktop and mobile screenshots",
+    "pass": true
+  },
+  {
+    "name": "No runtime errors",
+    "pass": true
+  }
+]

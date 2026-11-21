@@ -1,0 +1,107 @@
+/* Color belongs to whole sections: blue introduction, cyan context, purple invitation. */
+.hero.v3-hero.aw-hero {
+  background:var(--brand-700);
+  color:var(--surface);
+}
+.hero.aw-hero h1.aw-title,.hero.aw-hero h1.aw-title em,.aw-title .aw-hero-arrow {
+  color:var(--surface);
+}
+.hero.aw-hero h1.aw-title em {color:var(--cyan-100);}
+.aw-hero-top,.aw-hero-bottom>.lead,.aw-hero-foot,.aw-hero-foot a {color:var(--brand-50);}
+.aw-hero-foot {border-color:rgb(255 255 255 / .22);}
+.aw-hero .button:not(.outline) {
+  background:var(--cyan-100);border-color:var(--cyan-100);color:var(--brand-950);
+}
+.aw-hero .button:not(.outline):hover {background:var(--surface);border-color:var(--surface);color:var(--brand-950);}
+.aw-hero .button.outline {background:transparent;border-color:rgb(255 255 255 / .6);color:var(--surface);}
+.aw-hero .button.outline:hover {background:var(--surface);border-color:var(--surface);color:var(--brand-700);}
+.v3-showcase.aw-study {background:var(--cyan-50);border-color:var(--cyan-100);}
+.aw-screen-link {border-color:var(--cyan-100);}
+.aw-study .v3-showcase-controls button[aria-pressed=true] {
+  background:var(--primary);border-color:var(--primary);color:var(--surface);
+}
+.aw-study .v3-showcase-controls button[aria-pressed=true]:hover,
+.aw-study .v3-showcase-controls button[aria-pressed=true]:focus-visible {
+  background:var(--primary-hover);border-color:var(--primary-hover);color:var(--surface);
+}
+.v3-capabilities {background:var(--cyan-100);border-color:var(--cyan-100);}
+.v3-capabilities>div span {color:var(--brand-800);}
+.v3-process,.v3-internal>.v3-section.v3-process {background:var(--purple-50);}
+.v3-process .eyebrow,.v3-about .eyebrow,.v3-work .eyebrow {color:var(--accent-hover);}
+.v3-process-steps.workflow-grid li {border-color:var(--purple-100);}
+.pricing-card.pricing-featured {background:var(--brand-50);border-color:var(--brand-100);}
+.pricing-featured-badge {background:var(--accent);border-color:var(--accent);color:var(--surface);}
+/* Internal-page introductions have a visible light-blue / cyan field. */
+.page-hero,.legal-page .page-hero,.v3-page-hero,.v3-services-hero {
+  background:linear-gradient(115deg,var(--brand-50),var(--cyan-50));
+  border-bottom:1px solid var(--brand-100);
+}
+.page-hero .eyebrow,.legal-page .page-hero .eyebrow,.v3-page-hero .eyebrow,.v3-services-hero .eyebrow {
+  color:var(--accent-hover);
+}
+.v3-inquiry-panel,.v3-inquiry-panel>div {background:var(--surface);}
+.work-page-intro {background:var(--brand-700);color:var(--surface);}
+.work-page-intro h1 {color:var(--surface);}
+.work-page-intro h1 em {color:var(--cyan-100);}
+.work-page-intro .eyebrow,.work-intro-copy p {color:var(--brand-50);}
+.work-intro-copy>a {color:var(--surface);text-decoration-color:var(--cyan-100);}
+.work-intro-copy>a:hover {color:var(--cyan-100);}
+.work-gallery-preview,.work-gallery-card:nth-child(2n) .work-gallery-preview {
+  background:var(--brand-50);border-color:var(--brand-100);
+}
+.work-gallery-badge {background:var(--purple-100);color:var(--accent-active);}
+.work-gallery-badge.is-demo {background:var(--cyan-100);color:var(--cyan-700);}
+.v3-project-image,.v3-project:nth-child(2) .v3-project-image,
+.v3-project:nth-child(3) .v3-project-image,.v3-project:nth-child(4) .v3-project-image {
+  background:var(--brand-50);border-color:var(--brand-50);
+}
+.service-scope,.scope-estimate,.rpk-brief,.project-facts {background:var(--cyan-50);border-color:var(--cyan-100);}
+.coordinator-mark,.report-header {background:var(--purple-100);color:var(--accent-active);}
+.rpk-detail .rpk-features,.rpk-detail .rpk-outcome {background:var(--brand-50);}
+/* One purple destination repeats across all pages, with legible white content. */
+.v3-cta,.cta {background:var(--accent-hover);color:var(--surface);border-color:var(--accent-hover);}
+.v3-cta h2,.cta h2 {color:var(--surface);}
+.v3-cta .eyebrow,.v3-cta>div>p:not(.eyebrow),.cta .eyebrow,.cta>div>.eyebrow,.cta>div>p:not(.eyebrow) {
+  color:var(--purple-100);
+}
+.v3-cta .button,.cta .button {background:var(--surface);border-color:var(--surface);color:var(--accent-hover);}
+.v3-cta .button:hover,.cta .button:hover {background:var(--purple-100);border-color:var(--purple-100);color:var(--accent-active);}
+.v3-cta-art {border-color:rgb(255 255 255 / .3);}
+.v3-cta-art::after {color:var(--surface);}
+.v3-cta .button:focus-visible,.cta .button:focus-visible,.aw-hero .button:focus-visible {
+  outline:2px solid var(--surface);outline-offset:4px;
+}
+.v3-process-visual>.process-video {
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:9/16;
+  object-fit:contain;
+  background:var(--brand-950);
+  pointer-events:none;
+}
+.v3-inquiry-panel:has(>.services-intro-video) {
+  display:block;
+  padding:0;
+  border:1px solid var(--brand-100);
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 12px 36px rgb(var(--shadow-rgb) / .06);
+}
+.v3-inquiry-panel>.services-intro-video {
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:16/9;
+  object-fit:contain;
+  background:var(--brand-950);
+  pointer-events:none;
+}
+.v3-inquiry-panel:has(>.services-intro-video)>div {padding:26px;}
+.v3-inquiry-panel:has(>.services-intro-video) h2 {font-size:26px;line-height:1.2;}
+.v3-inquiry-panel:has(>.services-intro-video) p {font-size:16px;line-height:1.7;}
+.v3-inquiry-panel:has(>.services-intro-video) .button {min-height:44px;font-size:14px;}
+@media(max-width:560px) {
+  .v3-inquiry-panel:has(>.services-intro-video)>div {padding:22px;}
+  .v3-inquiry-panel:has(>.services-intro-video) h2 {font-size:25px;}
+}

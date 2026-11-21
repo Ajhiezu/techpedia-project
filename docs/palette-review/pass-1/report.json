@@ -1,0 +1,120 @@
+{
+  "errors": [],
+  "routes": [
+    {
+      "route": "/",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/portfolio",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/work",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/about",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/process",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/contact",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/faq",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/privacy-policy",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/terms",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/website-development",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/e-commerce-development",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/custom-software-development",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/erp-business-solutions",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/ui-ux-design",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/maintenance-it-support",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/feature-api-integration",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/desktop-offline-application",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/services/developer-collaboration",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/portfolio/rpk-pustaka",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/portfolio/techcommers",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/portfolio/stayease",
+      "overflow": [],
+      "issues": []
+    },
+    {
+      "route": "/portfolio/tech-resto",
+      "overflow": [],
+      "issues": []
+    }
+  ]
+}

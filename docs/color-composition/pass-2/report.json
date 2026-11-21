@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "Dark hero and purple CTA keyboard focus visible",
+    "Dropdown open/Escape",
+    "Context selector state",
+    "Mobile menu open/Escape",
+    "Project filter and expandable details"
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "issues": []
+    },
+    {
+      "route": "/work/",
+      "issues": []
+    },
+    {
+      "route": "/services/",
+      "issues": []
+    },
+    {
+      "route": "/contact/",
+      "issues": []
+    },
+    {
+      "route": "/portfolio/rpk-pustaka/",
+      "issues": []
+    }
+  ]
+}

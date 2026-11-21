@@ -1,0 +1,640 @@
+[
+  {
+    "slug": "home",
+    "url": "https://zeeframes.com/",
+    "title": "ZeeFrames - UI UX Design Agency",
+    "body": "About\nServices\nAI Solutions\nWork\nIndustries\nInsights\nEN\nWork with us\n\nTrusted by startups to craft $100M+ designs with\n\nCREATIVE INTELLIGENCE IN EVERY PIXEL\n\nNO CODE\n\nWe Craft In| Designs For Businesses Worldwide.\n\nSchedule Call\nLet's Talk 🤙\n© 2026 Work\nOpen\n01\nCREATIVE\n02\nAI-NATIVE\n03\nEND TO END\n\nTRUSTED BY INDUSTRY LEADERS & FAST-GROWING STARTUPS\n\nCase studies\n\nWE ARE GREAT AT\n\nUI UX Design and Product Experience Services\n\nDesigns with Exceptional User Experiences\n\nFOR DIGITAL EXPERIENCES\n\nSa",
+    "sections": [
+      {
+        "class": "hero-section 123456789",
+        "top": 84,
+        "height": 859,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "48px 0px 80px",
+        "font": null
+      },
+      {
+        "class": "videos-section relative overflow-hidden behind-cursor",
+        "top": 943,
+        "height": 806,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "font": null
+      },
+      {
+        "class": "py_80 sm_py_32 relative behind-cursor",
+        "top": 1749,
+        "height": 823,
+        "background": "rgb(250, 249, 244)",
+        "padding": "80px 0px",
+        "heading": "UI UX Design and Product Experience Services",
+        "font": "500 36px / 40px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_80 sm_py_32",
+        "top": 2572,
+        "height": 1833,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px 0px",
+        "heading": "From Idea To Execution",
+        "font": "500 36px / 40px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "ff_inter_tight py_80 sm_py_32 relative behind-cursor",
+        "top": 4405,
+        "height": 2012,
+        "background": "rgb(11, 11, 11)",
+        "padding": "80px 0px",
+        "heading": "Our Creative Showcase",
+        "font": "500 36px / 40px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "yellow-gradient-section",
+        "top": 6417,
+        "height": 414,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Your next great product decision starts with one conversation.",
+        "font": "500 36px / 48px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_80 sm_py_32 relative behind-cursor",
+        "top": 6831,
+        "height": 636,
+        "background": "rgb(11, 11, 11)",
+        "padding": "80px 0px",
+        "heading": "Questions? We’ve Got Answers",
+        "font": "500 36px / 40px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_80 sm_py_32 relative behind-cursor",
+        "top": 7467,
+        "height": 687,
+        "background": "rgb(250, 249, 244)",
+        "padding": "80px 0px",
+        "heading": "Insights That Inspire Vision Forward",
+        "font": "500 36px / 40px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section",
+        "top": 8154,
+        "height": 882,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What Our Customers Say",
+        "font": "600 24px / 32px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "footer-top",
+        "top": 9036,
+        "height": 195,
+        "background": "rgb(26, 26, 26)",
+        "padding": "24px 0px",
+        "heading": "North America",
+        "font": "500 24px \"Inter Tight\", sans-serif"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      null,
+      null,
+      null,
+      null,
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@15.1.2/build/css/intlTelInput.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css",
+      "https://zeeframes.com/frontend-assets/css/home.css",
+      "https://zeeframes.com/frontend-assets/css/common.css"
+    ]
+  },
+  {
+    "slug": "services",
+    "url": "https://zeeframes.com/services",
+    "title": "Our Services | UI UX, Brand & No-Code Design | ZeeFrames",
+    "body": "About\nServices\nAI Solutions\nWork\nIndustries\nInsights\nEN\nWork with us\nHome\nServices\nGrowth-Driven Product Services\n\nFrom early UX research to full product builds, our team covers every stage of your product's journey under one roof.\n\nTRUSTED. CERTIFIED. PROVEN.\n\nReady to build a product  users love?\n\nBook a free 30-minute discovery call with a senior UI UX designer.\n\nSchedule your free call\nLet's Talk\nUI UX Design\n\nCreate intuitive, user-focused interfaces that deliver seamless and engaging digit",
+    "sections": [
+      {
+        "class": "service-hero-sec service-hero-index",
+        "top": 84,
+        "height": 506,
+        "background": "rgb(11, 11, 9)",
+        "padding": "60px 0px 26px",
+        "heading": "Growth-Driven Product Services",
+        "font": "500 48px / 60px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "hero-audience-section",
+        "top": 590,
+        "height": 2905,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "UI UX Design",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "hero-audience-section",
+        "top": 3495,
+        "height": 1188,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Brand Design",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "hero-audience-section",
+        "top": 4683,
+        "height": 1532,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "No Code Development",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section  py_60 sm_py_24",
+        "top": 6215,
+        "height": 528,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What sets our approach apart",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 6743,
+        "height": 1373,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Why choose ZeeFrames as your product design partner",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section",
+        "top": 8116,
+        "height": 886,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What Our Customers Say",
+        "font": "600 24px / 32px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "footer-top",
+        "top": 9002,
+        "height": 195,
+        "background": "rgb(26, 26, 26)",
+        "padding": "24px 0px",
+        "heading": "North America",
+        "font": "500 24px \"Inter Tight\", sans-serif"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      null,
+      "https://zeeframes.com/frontend-assets/css/service-page.css",
+      null,
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@15.1.2/build/css/intlTelInput.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ]
+  },
+  {
+    "slug": "work",
+    "url": "https://zeeframes.com/work",
+    "title": "UI UX & Branding Case Studies | ZeeFrames",
+    "body": "About\nServices\nAI Solutions\nWork\nIndustries\nInsights\nEN\nWork with us\nOur recent work. A sample of products we've shipped worldwide.\nAll work\nWebsites\nUI / UX\nMobile apps\nBranding\nAll categories\nAI\nCreative SaaS\nE-commerce\nEntertainment\nFinTech\nGaming\nHR Tech\nLogistic\nReal Estate\nTransportation\nTRANSPORTATION\nE-Bike Rental App\n\nFind, Unlock and Ride an E-Bike in Under a Minute\n\nFINTECH\nPersonal Budget App\n\nHelping People Track Spending and Save Toward Real Goals\n\nGAMING\nFantasy RPG Game\n\nDesignin",
+    "sections": [
+      {
+        "class": "hero-section py_80 sm_py_48",
+        "top": 84,
+        "height": 316,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "80px 0px",
+        "heading": "Our recent work. A sample of products we've shipped worldwide.",
+        "font": "500 44px / 51.92px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "work-section",
+        "top": 408,
+        "height": 3178,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px 0px 80px",
+        "font": null
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section",
+        "top": 3586,
+        "height": 886,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What Our Customers Say",
+        "font": "600 24px / 32px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "footer-top",
+        "top": 4472,
+        "height": 195,
+        "background": "rgb(26, 26, 26)",
+        "padding": "24px 0px",
+        "heading": "North America",
+        "font": "500 24px \"Inter Tight\", sans-serif"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      null,
+      null,
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@15.1.2/build/css/intlTelInput.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ]
+  },
+  {
+    "slug": "insights",
+    "url": "https://zeeframes.com/insights",
+    "title": "ZeeFrames Insights | UI UX & Branding Articles",
+    "body": "About\nServices\nAI Solutions\nWork\nIndustries\nInsights\nEN\nWork with us\nHome\nInsights\nIDEAS, INSIGHTS & DESIGN INTELLIGENCE\n\nFrom Fintech UX Deep-Dives To AI-Powered Workflows — Explore Real Thinking From The Team Building Products That Convert, Scale, And Endure.\n\nUI UX Design\n13 min read\nNov 11, 2026\nWhy Your AI-Designed Product Looks Like Everyone Else's\n\nAI tools make products fast, but also generic. Learn why AI-designed products look alike and a 5-step process to make yours distinct.\n\nFind it",
+    "sections": [
+      {
+        "class": "insights-hero-section py_80 sm_py_32",
+        "top": 84,
+        "height": 472,
+        "background": "rgb(250, 249, 244)",
+        "padding": "80px 0px",
+        "heading": "IDEAS, INSIGHTS & DESIGN INTELLIGENCE",
+        "font": "500 48px / 60px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "blogs-oversview-section py_60 sm_py_32",
+        "top": 556,
+        "height": 506,
+        "background": "rgb(255, 255, 255)",
+        "padding": "60px 0px",
+        "heading": "Why Your AI-Designed Product Looks Like Everyone Else's",
+        "font": "26px / 34px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "trending-blogs-section py_60",
+        "top": 1062,
+        "height": 2941,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "font": null
+      },
+      {
+        "class": "yellow-gradient-section",
+        "top": 4003,
+        "height": 414,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Your next great product decision starts with one conversation.",
+        "font": "40px / 48px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section",
+        "top": 4417,
+        "height": 882,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What Our Customers Say",
+        "font": "600 24px / 32px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "footer-top",
+        "top": 5299,
+        "height": 195,
+        "background": "rgb(26, 26, 26)",
+        "padding": "24px 0px",
+        "heading": "North America",
+        "font": "500 24px \"Inter Tight\", sans-serif"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      null,
+      null,
+      "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css",
+      "https://zeeframes.com/frontend-assets/css/insight-page.css",
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      null,
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@15.1.2/build/css/intlTelInput.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ]
+  },
+  {
+    "slug": "ai-solutions",
+    "url": "https://zeeframes.com/ai-solutions",
+    "title": "AI Solutions | AI Product & UX Design Agency | ZeeFrames",
+    "body": "About\nServices\nAI Solutions\nWork\nIndustries\nInsights\nEN\nWork with us\nHome\nAI Solutions\nDesigning Better Products With AI\n\nWe combine product strategy, UX/UI expertise, and AI-powered workflows to design, prototype, and improve digital products faster—without compromising quality or user experience.\n\nTRUSTED. CERTIFIED. PROVEN.\n\nLet's Build Your AI Product\n\nTell us what you're building. Get a custom AI design plan in 24 hours.\n\nSchedule your free call\nLet's Talk\nOur Edge\nDesigners built for the A",
+    "sections": [
+      {
+        "class": "service-hero-sec",
+        "top": 84,
+        "height": 565,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px 61px",
+        "heading": "Designing Better Products With AI",
+        "font": "500 48px / 60px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 649,
+        "height": 602,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Designers built for the AI era.",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section py_60 sm_py_24",
+        "top": 1251,
+        "height": 762,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "From AI Ideas to Real Product Experiences",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 2013,
+        "height": 678,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Where Can AI Make a Difference in Your Product?",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 2691,
+        "height": 1245,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Designing Experiences Around Real AI Capabilities",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 3936,
+        "height": 745,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Real software projects we've shipped",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section py_60 sm_py_24 ",
+        "top": 4681,
+        "height": 690,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "Our AI Product Design Process",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 5371,
+        "height": 1137,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Hire AI-Enabled Product Designers",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": " py_60 sm_py_24 ",
+        "top": 6508,
+        "height": 785,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "What clients say",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 7293,
+        "height": 689,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Tools & Technologies We Use",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section py_80 sm_py_24",
+        "top": 7982,
+        "height": 973,
+        "background": "rgb(250, 249, 244)",
+        "padding": "80px 0px",
+        "heading": "Frequently Asked Questions",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "yellow-gradient-section",
+        "top": 8955,
+        "height": 414,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Your next great product decision starts with one conversation.",
+        "font": "40px / 48px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor blogs-section",
+        "top": 9369,
+        "height": 681,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "Insights That Inspire Vision Forward",
+        "font": "700 40px / 40px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section",
+        "top": 10050,
+        "height": 886,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What Our Customers Say",
+        "font": "600 24px / 32px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "footer-top",
+        "top": 10936,
+        "height": 195,
+        "background": "rgb(26, 26, 26)",
+        "padding": "24px 0px",
+        "heading": "North America",
+        "font": "500 24px \"Inter Tight\", sans-serif"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      null,
+      "https://zeeframes.com/frontend-assets/css/service-page.css",
+      null,
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@15.1.2/build/css/intlTelInput.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ]
+  },
+  {
+    "slug": "fintech",
+    "url": "https://zeeframes.com/industries/fintech-design-agency",
+    "title": "Fintech Design Agency | Banking & Fintech UX | ZeeFrames",
+    "body": "About\nServices\nAI Solutions\nWork\nIndustries\nInsights\nEN\nWork with us\nHome\nIndustries\nFintech Design Agency\nFintech Design Agency\n\nZeeFrames is a UI/UX design agency crafting intuitive, high-converting digital products with research-driven UX, polished UI, and AI-powered speed.\n\nTRUSTED. CERTIFIED. PROVEN.\n\nLet's Build Your Fintech\n\nTell us about your product and receive a tailored UX strategy.\n\nSchedule a free call\nLet's Talk\nOur Edge\nDesigners built for the AI era.\n\nAI tools are everywhere. The",
+    "sections": [
+      {
+        "class": "service-hero-sec",
+        "top": 84,
+        "height": 481,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px 61px",
+        "heading": "Fintech Design Agency",
+        "font": "500 48px / 60px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 565,
+        "height": 558,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Designers built for the AI era.",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_80 sm_py_32 bg-base",
+        "top": 1123,
+        "height": 935,
+        "background": "rgb(11, 11, 9)",
+        "padding": "80px 0px",
+        "heading": "Real problems. Real design solutions.",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section  py_60 sm_py_24",
+        "top": 2058,
+        "height": 926,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "Products we design for fintech teams",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": " py_60 sm_py_24 ",
+        "top": 2984,
+        "height": 577,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Fintech use cases we design for",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": " py_60 sm_py_24 ",
+        "top": 3561,
+        "height": 787,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Real software projects we've shipped",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24",
+        "top": 4348,
+        "height": 753,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Fintech sub sectors we know well",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section py_60 sm_py_24 ",
+        "top": 5101,
+        "height": 666,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "Our UI UX Design Process",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": " py_60 sm_py_24 ",
+        "top": 5767,
+        "height": 689,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Tools & Technologies We Use",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": " py_60 sm_py_24 ",
+        "top": 6456,
+        "height": 785,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "What clients say",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "process-section py_80 sm_py_24",
+        "top": 7241,
+        "height": 896,
+        "background": "rgb(250, 249, 244)",
+        "padding": "80px 0px",
+        "heading": "Fintech design FAQs",
+        "font": "500 36px / 44px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "yellow-gradient-section",
+        "top": 8137,
+        "height": 414,
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "60px 0px",
+        "heading": "Your next great product decision starts with one conversation.",
+        "font": "40px / 48px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "py_60 sm_py_24 relative behind-cursor contact-section",
+        "top": 8551,
+        "height": 886,
+        "background": "rgb(250, 249, 244)",
+        "padding": "60px 0px",
+        "heading": "What Our Customers Say",
+        "font": "600 24px / 32px \"Inter Tight\", sans-serif"
+      },
+      {
+        "class": "footer-top",
+        "top": 9437,
+        "height": 195,
+        "background": "rgb(26, 26, 26)",
+        "padding": "24px 0px",
+        "heading": "North America",
+        "font": "500 24px \"Inter Tight\", sans-serif"
+      }
+    ],
+    "css": [
+      "https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+      "https://zeeframes.com/frontend-assets/css/colors.css",
+      "https://zeeframes.com/frontend-assets/css/style.css",
+      "https://zeeframes.com/frontend-assets/css/common.css",
+      "https://zeeframes.com/frontend-assets/css/chatbot.css",
+      null,
+      "https://zeeframes.com/frontend-assets/css/service-page.css",
+      null,
+      "https://zeeframes.com/frontend-assets/css/font-override.css",
+      "https://cdn.jsdelivr.net/npm/intl-tel-input@15.1.2/build/css/intlTelInput.css",
+      "https://zeeframes.com/frontend-assets/css/custom-animations.css"
+    ]
+  }
+]

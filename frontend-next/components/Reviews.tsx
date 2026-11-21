@@ -1,4 +1,3 @@
-import samples from '../../frontend/assets/review-samples.json';
-export default function Reviews(){
- return <section className="reviews-section" aria-labelledby="reviews-title" lang="id"><div className="reviews-heading"><div><p className="eyebrow">PROYEK &amp; KERJA SAMA TIM</p><h2 id="reviews-title">Hasil yang rapi, kerja sama yang nyaman.</h2><p>Ulasan klien</p></div></div><div className="reviews-viewport" tabIndex={0} role="region" aria-label="Contoh ulasan, fokus di sini untuk menjeda gerakan"><div className="reviews-track">{[false,true].map(copy=><div className="reviews-group" key={String(copy)} aria-hidden={copy||undefined}>{samples.map(sample=><figure className="review-card" key={sample.topic}><div className="review-top"><span className="review-stars" role="img" aria-label="Contoh penilaian 5 dari 5 bintang">{'\u2605'.repeat(5)}</span></div><blockquote>{sample.text}</blockquote><figcaption><span className="review-avatar" aria-hidden="true">{sample.initials}</span><div><strong>{sample.name}</strong><small>{sample.topic}</small></div></figcaption></figure>)}</div>)}</div></div></section>;
-}
+// Sample names and ratings have no publication permission or verified source.
+// Preserve the import contract for the alternative frontend without publishing samples.
+export default function Reviews(){return null;}

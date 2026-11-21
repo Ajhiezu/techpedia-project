@@ -1,26 +1,26 @@
-.project-carousel{min-width:0;width:100%;overflow:hidden;background:#fff}
-.project-carousel--full{border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 36px #29283e07}
+.project-carousel{min-width:0;width:100%;overflow:hidden;background:var(--surface)}
+.project-carousel--full{border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 36px rgb(var(--shadow-rgb) / 0.02745)}
 .carousel-track{position:relative;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;cursor:grab;min-width:0;max-width:100%}
 .carousel-track::-webkit-scrollbar{display:none}
 .carousel-track.is-dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}
 .carousel-track:focus-visible{outline:3px solid var(--violet);outline-offset:-3px}
 .carousel-slide{position:relative;flex:0 0 100%;width:100%;min-width:0;margin:0;scroll-snap-align:start;scroll-snap-stop:always}
-.carousel-slide img{display:block;width:100%;height:auto;aspect-ratio:1365/637;object-fit:contain;margin:0;border:0;border-radius:0;background:#f3f7fa;-webkit-user-drag:none;user-select:none}
+.carousel-slide img{display:block;width:100%;height:auto;aspect-ratio:1365/637;object-fit:contain;margin:0;border:0;border-radius:0;background:var(--surface);-webkit-user-drag:none;user-select:none}
 .carousel-slide figcaption{padding:22px 24px}
 .carousel-slide h3{font:700 1.1rem/1.4 'Plus Jakarta Sans',sans-serif;margin:8px 0 10px}
-.carousel-slide p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.8}
+.carousel-slide p{margin:0;color:var(--body-foreground);font-size:.9rem;line-height:1.8}
 .carousel-slide .eyebrow{font-size:.65rem;color:var(--blue)}
 .carousel-slide a{display:inline-flex;gap:8px;margin-top:16px;font-size:.8rem;font-weight:700;color:var(--blue)}
-.project-carousel--compact .carousel-slide figcaption{padding:12px 14px;color:var(--muted);font-size:.72rem}
-.carousel-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px;border-top:1px solid var(--line);background:#fff}
+.project-carousel--compact .carousel-slide figcaption{padding:12px 14px;color:var(--body-foreground);font-size:.72rem}
+.carousel-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 14px;border-top:1px solid var(--line);background:var(--surface)}
 .carousel-buttons{display:flex;gap:6px;flex:none}
-.carousel-arrow{display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid #c5e7ef;border-radius:50%;background:#effbfe;color:var(--deep);font-size:1.2rem;cursor:pointer}
-.carousel-arrow:hover:not(:disabled){background:#d1f5fd;border-color:var(--cyan)}
+.carousel-arrow{display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid var(--border-interactive);border-radius:50%;background:var(--primary);color:var(--deep);font-size:1.2rem;cursor:pointer}
+.carousel-arrow:hover:not(:disabled){background:var(--primary-hover);border-color:var(--cyan)}
 .carousel-arrow:disabled{opacity:.35;cursor:default}
 .carousel-dots{display:flex;justify-content:center;flex-wrap:wrap;gap:0;min-width:0}
 .carousel-dot{display:grid;place-items:center;width:24px;height:44px;padding:0;border:0;background:transparent;cursor:pointer}
-.carousel-dot::after{content:"";width:7px;height:7px;border-radius:50%;background:#d2dce5;transition:background .15s,transform .15s}
+.carousel-dot::after{content:"";width:7px;height:7px;border-radius:50%;background:var(--surface);transition:background .15s,transform .15s}
 .carousel-dot[aria-current=true]::after{background:var(--blue);transform:scale(1.35)}
-.carousel-count{flex:none;min-width:34px;text-align:right;font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.carousel-count{flex:none;min-width:34px;text-align:right;font-size:.72rem;color:var(--body-foreground);font-variant-numeric:tabular-nums}
 @media(max-width:560px){.carousel-slide figcaption{padding:20px}.carousel-controls{padding:10px}.carousel-dot{width:18px}.carousel-buttons{gap:4px}.carousel-arrow{width:44px;height:44px}}
 @media(prefers-reduced-motion:reduce){.carousel-dot::after{transition:none}}

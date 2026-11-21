@@ -1,0 +1,2 @@
+window.TECHPEDIA_GA_ID="";
+window.TECHPEDIA_INDEXABLE=true;

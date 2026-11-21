@@ -1,0 +1,146 @@
+{
+  "pages": 22,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "runtimeErrors": [],
+  "results": [
+    {
+      "route": "/",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/portfolio",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/about",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/process",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/contact",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/faq",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/privacy-policy",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/terms",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/website-development",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/e-commerce-development",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/custom-software-development",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/erp-business-solutions",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/ui-ux-design",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/maintenance-it-support",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/feature-api-integration",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/desktop-offline-application",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/services/developer-collaboration",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/portfolio/rpk-pustaka",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/portfolio/techcommers",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/portfolio/stayease",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    },
+    {
+      "route": "/portfolio/tech-resto",
+      "responsive": true,
+      "darkTheme": true,
+      "primaryPreserved": true
+    }
+  ]
+}

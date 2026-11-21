@@ -1,0 +1,188 @@
+/* Shared color roles. Keep this last in the compiled stylesheet. */
+:root {
+  --page:var(--background);
+  
+  --raised:var(--surface-active);
+  --ink:var(--foreground);
+  
+  --line:var(--border);
+  --cyan:var(--primary);
+  --blue:var(--link);
+  --deep:var(--link);
+  --light:var(--primary-subtle);
+  --brand-hover:var(--primary-hover);
+  
+}
+html,body,.hero.v3-hero.aw-hero,.v3-work,.v3-pricing,.v3-about,
+.v3-capabilities,.v3-services-hero,.v3-page-hero,.not-found {background:var(--surface);color:var(--ink)}
+.header {background:rgb(var(--surface-rgb) / 0.96078);border-color:var(--line)}
+.aw-hero-bottom>.lead,.aw-hero-top,.aw-hero-foot,.v3-heading>p:last-child:not(.eyebrow),
+.v3-project-copy,.v3-project-status,.v3-project-meta,.v3-pricing-terms,
+.v3-about>div:last-child>p {color:var(--link)}
+.aw-hero-foot,.v3-capabilities,.v3-work-bottom,.work-facts {border-color:var(--line)}
+.eyebrow,.v3-light .eyebrow,.v3-about .eyebrow,.text-link {color:var(--link)}
+.text-link:hover,.text-link:focus-visible {color:var(--link-hover);text-decoration-thickness:2px}
+
+/* Primary stays cyan on hover; secondary stays visibly lighter beside it. */
+.button,.header .header-cta,.v3-light .button,.v3-inquiry-panel .button,
+.pricing-featured .button.outline,.service-scope .button,.mobile-nav .button {
+  background:var(--surface);color:var(--primary-foreground);border-color:var(--border-interactive);
+}
+.button:hover,.button:focus-visible,.header .header-cta:hover,.header .header-cta:focus-visible,
+.v3-light .button:hover,.v3-light .button:focus-visible,
+.v3-inquiry-panel .button:hover,.v3-inquiry-panel .button:focus-visible,
+.pricing-featured .button.outline:hover,.pricing-featured .button.outline:focus-visible,
+.service-scope .button:hover,.mobile-nav .button:hover,.mobile-nav .button:focus-visible {
+  background:var(--surface-hover);color:var(--primary-foreground);border-color:var(--border-interactive);
+}
+.button.outline,.button.light,.v3-light .button.outline {
+  background:var(--surface);color:var(--primary-foreground);border-color:var(--border-interactive);
+}
+.button.outline:hover,.button.outline:focus-visible,.button.light:hover,.button.light:focus-visible,
+.v3-light .button.outline:hover,.v3-light .button.outline:focus-visible {
+  background:var(--surface-hover);color:var(--primary-foreground);border-color:var(--border-interactive);
+}
+.pricing-featured .button.outline {background:var(--surface);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.pricing-featured .button.outline:hover,.pricing-featured .button.outline:focus-visible {background:var(--surface-hover);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-cta .button,.cta .button {background:var(--primary);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-cta .button:hover,.v3-cta .button:focus-visible,.cta .button:hover,.cta .button:focus-visible {background:var(--primary-hover);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.button:active {background:var(--primary-active);color:var(--primary-active-foreground)}
+a:focus-visible,button:focus-visible,summary:focus-visible {outline-color:var(--focus-ring)}
+.button:focus-visible,.filter:focus-visible {box-shadow:0 0 0 4px rgb(var(--primary-rgb) / 0.2)}
+
+/* Badge fills are explicit so they never disappear into their parent. */
+.aw-project-type,.v3-project-meta>span,.rpk-project-tag,.demo-badge,.rpk-tags li,
+.team-role-pills li,.pricing-featured-badge {
+  background:var(--primary-subtle);color:var(--link);border:1px solid var(--border);
+}
+.aw-study .aw-project-type {background:var(--primary);color:var(--body-foreground);border-color:var(--border)}
+.pricing-featured-badge {background:var(--primary-subtle);color:var(--link);border-color:var(--border);font-weight:600}
+.rpk-meta .rpk-project-tag {background:var(--primary-subtle);color:var(--link);border-color:var(--border)}
+.v3-project-image,.v3-project:nth-child(2) .v3-project-image,
+.v3-project:nth-child(3) .v3-project-image,.v3-project:nth-child(4) .v3-project-image {
+  background:var(--surface);border-color:var(--border);
+}
+.v3-project-image>span {background:var(--surface);color:var(--body-foreground);border:1px solid var(--border)}
+.v3-project-image:hover>span,.v3-project-image:focus-visible>span {background:var(--surface-hover);color:var(--body-foreground)}
+.aw-study .v3-showcase-controls button {color:var(--primary-foreground);border-color:var(--border-interactive)}
+.aw-study .v3-showcase-controls button[aria-pressed=true] {background:var(--primary);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.aw-study .v3-showcase-controls button:hover,.aw-study .v3-showcase-controls button:focus-visible {background:var(--primary-hover);color:var(--primary-foreground)}
+.aw-study .v3-showcase-controls button[aria-pressed=true]:hover,
+.aw-study .v3-showcase-controls button[aria-pressed=true]:focus-visible {background:var(--primary-hover);color:var(--primary-foreground)}
+.aw-screen-action {background:var(--primary);color:var(--primary-foreground);border:1px solid var(--border-interactive)}
+.aw-screen-link:hover .aw-screen-action,.aw-screen-link:focus-visible .aw-screen-action {background:var(--primary-hover);color:var(--primary-foreground)}
+
+/* Desktop dropdown and mobile navigation share the same white/cyan surfaces. */
+.service-popover {background:var(--surface-hover);color:var(--body-foreground);border-color:var(--border);box-shadow:0 20px 55px rgb(var(--primary-rgb) / 0.14902);top:82px}
+.service-menu-heading {background:var(--surface);border-color:var(--border)}
+.service-menu-heading>span {color:var(--foreground)}
+.service-menu-heading>p {color:var(--foreground)}
+.service-menu-grid>a {background:var(--surface);border-color:transparent}
+.service-menu-grid strong {color:var(--foreground)}
+.service-menu-grid small {color:var(--body-foreground)}
+.service-menu-index {background:var(--primary);color:var(--primary-foreground);border:1px solid var(--border-interactive)}
+.service-menu-arrow {color:var(--body-foreground)}
+.service-menu-grid>a:hover,.service-menu-grid>a:focus-visible {background:var(--surface-hover);border-color:var(--border-interactive)}
+.service-menu-grid>a:hover .service-menu-index,.service-menu-grid>a:focus-visible .service-menu-index {background:var(--primary-hover);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.service-menu-grid>a:hover .service-menu-arrow,.service-menu-grid>a:focus-visible .service-menu-arrow {color:var(--link-hover)}
+.service-popover .service-menu-all {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.service-popover .service-menu-all:hover,.service-popover .service-menu-all:focus-visible {background:var(--surface-hover);color:var(--body-foreground)}
+.desktop-nav .services-menu[aria-expanded=true],.desktop-nav .services-menu:hover {color:var(--body-foreground)}
+.mobile-nav {background:var(--surface);color:var(--body-foreground);border-left:1px solid var(--border);box-shadow:-15px 0 50px rgb(var(--primary-rgb) / 0.14902)}
+.mobile-nav a:not(.button),.mobile-close {color:var(--primary-foreground)}
+.mobile-nav a:not(.button):hover,.mobile-nav a:not(.button):focus-visible {background:var(--primary-hover);color:var(--primary-foreground)}
+.menu-toggle:hover,.mobile-close:hover {background:var(--surface-hover);color:var(--body-foreground)}
+
+/* Light chapters: white and cyan tint, with consistent dark text. */
+.v3-light,.v3-services,.v3-faq,.v3-process,.v3-internal>.v3-section:not(.v3-process) {
+  --ink:var(--foreground);--line:var(--border);--deep:var(--link);
+  background:var(--surface);color:var(--body-foreground);
+}
+.v3-internal>.v3-section:not(.v3-process) {background:var(--surface)}
+.v3-process {background:var(--surface)}
+.v3-process .eyebrow {color:var(--link)}
+.v3-process-visual,.v3-process-visual figcaption {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.v3-process-visual {border:1px solid var(--border)}
+.v3-process-visual>img {background:var(--surface)}
+.v3-process-visual figcaption>span,.v3-process-visual a {color:var(--link)}
+.v3-process-visual p,.v3-process-steps .v3-step-label,.v3-process-steps p:last-child,.v3-step-number {color:var(--link)}
+.v3-process-steps h3,.v3-process-steps li.step-active h3 {color:var(--foreground)}
+.v3-process-steps li>div {border-color:var(--border)}
+.v3-process-steps li.step-active>div {border-color:var(--border)}
+.v3-process-steps li.step-active .v3-step-number {color:var(--link)}
+.v3-service,.v3-service:last-child,.v3-questions details {border-color:var(--border)}
+.v3-round-arrow,.v3-questions summary>.faq-toggle {background:var(--primary);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-service:hover .v3-round-arrow,.v3-service:focus-visible .v3-round-arrow {background:var(--primary-hover);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-questions summary,.v3-questions details>p {color:var(--body-foreground)}
+.v3-questions summary:hover>.faq-toggle,.v3-questions details[open] summary>.faq-toggle {background:var(--surface-hover);color:var(--body-foreground);border-color:var(--border-interactive)}
+.v3-inquiry-panel,.v3-inquiry-panel>div,.v3-internal .v3-related-services article,
+.agreement-card,.feature-panel,.section .card {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.v3-inquiry-panel p,.v3-internal .v3-related-services p {color:var(--body-foreground)}
+.pricing-card,.pricing-card.pricing-featured {border-color:var(--border)}
+.v3-portfolio-list .filter {background:var(--primary);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-portfolio-list .filter.selected {background:var(--primary);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-portfolio-list .filter:hover,.v3-portfolio-list .filter:focus-visible {background:var(--primary-hover);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.v3-portfolio-list .filter.selected:hover,.v3-portfolio-list .filter.selected:focus-visible {background:var(--primary-hover);color:var(--primary-foreground)}
+
+/* Internal pages and case studies use the same readable surfaces. */
+.page-hero,.rpk-detail,.rpk-detail-hero,.service-detail-page {
+  --ink:var(--foreground);--line:var(--border);--deep:var(--link);
+  background:var(--surface-hover);color:var(--body-foreground);border-color:var(--border);
+}
+.page-hero h1,.rpk-detail h1,.rpk-detail-intro .rpk-card-lead {color:var(--foreground)}
+.page-hero .lead,.rpk-detail-intro .lead {color:var(--body-foreground)}
+.page-hero .eyebrow,.rpk-detail-hero .eyebrow {color:var(--link)}
+.crumbs,.crumbs a,.rpk-detail .crumbs,.rpk-detail .crumbs a {color:var(--link)}
+.crumbs span:last-child,.rpk-detail .crumbs span:last-child {background:transparent;color:var(--link)}
+.crumbs a:hover,.rpk-detail .crumbs a:hover {color:var(--link-hover);text-decoration:underline}
+.rpk-brief,.rpk-showcase,.rpk-detail .rpk-outcome,.rpk-end,
+.rpk-detail .rpk-features,.service-scope,.scope-estimate {
+  --ink:var(--foreground);--line:var(--border);
+  background:var(--surface);color:var(--body-foreground);border-color:var(--border);
+}
+.rpk-brief>p,.rpk-brief dt {color:var(--body-foreground)}
+.rpk-brief dd,.rpk-showcase figcaption,.rpk-end p,.scope-estimate p {color:var(--body-foreground)}
+.rpk-detail .rpk-outcome h2,.rpk-end h2 {color:var(--foreground)}
+.rpk-feature {background:var(--surface);border-color:var(--border)}
+.rpk-detail .rpk-feature>span {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.project-carousel,.carousel-controls,.carousel-slide {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.rpk-detail [data-project-carousel] figcaption a,.rpk-detail .carousel-count {color:var(--link)}
+.carousel-arrow {background:var(--primary);color:var(--primary-foreground);border-color:var(--border-interactive)}
+.carousel-arrow:hover:not(:disabled),.carousel-arrow:focus-visible {background:var(--primary-hover);color:var(--primary-foreground)}
+.carousel-arrow:disabled {color:var(--primary-foreground);background:var(--primary)}
+.carousel-dot {background:var(--surface);border-color:var(--border)}
+.carousel-dot[aria-current=true] {background:var(--surface)}
+.agreement-example,.agreement-example>div {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.agreement-example summary,.agreement-example>div strong {color:var(--foreground)}
+.agreement-example[open] summary {background:var(--surface);color:var(--body-foreground)}
+.agreement-example>div>p:not(.example-label),.agreement-example>div li {color:var(--body-foreground)}
+.agreement-example>div .example-label {color:var(--body-foreground)}
+.cta {background:var(--primary);color:var(--body-foreground);border-color:var(--border)}
+.cta h2,.cta p {color:var(--foreground)}
+.back-top {background:var(--surface);color:var(--body-foreground);border:1px solid var(--border)}
+.back-top:hover,.back-top:focus-visible {background:var(--surface-hover);color:var(--body-foreground)}
+/* The footer is the sole deep surface; its text and accents remain explicit. */
+.footer {background:var(--surface-hover);color:var(--body-foreground);--ink:var(--foreground);--line:var(--border)}
+.footer p,.footer a,.footer-bottom {color:var(--link)}
+.footer h2,.footer-wordmark {color:var(--foreground)}
+.footer .brand-name,.footer .brand-name i {color:var(--foreground)!important}
+.footer a:hover,.footer a:focus-visible {color:var(--link-hover)}
+.soft,.muted-bg {background:var(--surface-hover);color:var(--body-foreground);--ink:var(--foreground);--deep:var(--link);--line:var(--border)}
+.card,.delivery-card,.coordinator-card,.progress-report,.contact-form,.report-header {
+  background:var(--surface-hover);color:var(--body-foreground);border-color:var(--border);--ink:var(--foreground);
+}
+.coordinator-card,.report-header {background:var(--surface-hover)}
+.coordinator-card h3,.delivery-card h3,.delivery-heading h2,.progress-guide h3,.report-header h3,.report-row dt {color:var(--foreground)}
+.delivery-card p,.delivery-card small,.coordinator-card>p:not(.eyebrow),.report-row dd,
+.progress-guide p,.progress-guide li,.report-header>p:last-child {color:var(--link)}
+.delivery-heading .eyebrow,.coordinator-card .eyebrow,.report-header .example-label {color:var(--link)}
+.delivery-note {background:var(--surface-hover);color:var(--body-foreground);border-color:var(--border)}
+.cta>div>.eyebrow,.cta>div>p,.cta .eyebrow {color:var(--link)}
+.contact-form input,.contact-form textarea,.contact-form select {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.contact-form input::placeholder,.contact-form textarea::placeholder {color:var(--body-foreground)}
+.rpk-featured,.project-facts {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.project-facts dd {color:var(--body-foreground)}
+.rpk-detail .carousel-slide,.rpk-detail .carousel-slide figcaption,.rpk-detail .carousel-controls {background:var(--surface);color:var(--body-foreground);border-color:var(--border)}
+.rpk-detail .carousel-slide p {color:var(--body-foreground)}
+.rpk-detail .carousel-slide p.eyebrow {color:var(--link)}
+.cta>div>p:not(.eyebrow) {color:var(--link)}

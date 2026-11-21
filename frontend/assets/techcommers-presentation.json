@@ -1,33 +1,79 @@
 {
   "name": "TechCommers",
-  "label": "E-COMMERCE & DASHBOARD ADMIN",
+  "label": "E-COMMERCE & PANEL KENDALI ADMIN",
   "projectTag": "PROYEK DEMO",
   "host": "tech-commers-xi.vercel.app",
   "headline": "Identitas berani. Pengalaman belanja yang terarah.",
-  "intro": "Demo platform e-commerce dengan katalog produk, halaman login, dan dashboard admin. Pendekatan neobrutalism menghadirkan karakter visual yang kuat melalui warna kontras, garis tebal, tipografi tegas, dan bayangan solid.",
+  "intro": "Demo platform e-commerce dengan katalog produk, halaman masuk, dan panel kendali administrator. Pendekatan neobrutalism menghadirkan karakter visual yang kuat melalui warna kontras, garis tebal, tipografi tegas, dan bayangan solid.",
   "projectType": "Platform e-commerce",
   "audience": "Pembeli & administrator",
-  "scope": "Katalog, login & dashboard admin",
-  "caption": "TechCommers · Tampilan landing page",
+  "scope": "Katalog, masuk & panel kendali administrator",
+  "caption": "TechCommers · Tampilan halaman promosi",
   "storyLabel": "KONSEP PROYEK",
   "storyTitle": "Karakter visual yang kuat. Alur belanja yang jelas.",
   "galleryTitle": "Dari etalase hingga pusat pengelolaan.",
-  "galleryIntro": "Tiga tampilan TechCommers memperlihatkan konsistensi desain pada landing page, halaman login, dan dashboard admin.",
+  "galleryIntro": "Tiga tampilan TechCommers memperlihatkan konsistensi desain pada halaman promosi, halaman masuk, dan panel kendali administrator.",
   "featuresTitle": "Dirancang untuk pembeli dan pengelola.",
   "featuresIntro": "Enam aspek yang membentuk pengalaman demo, dari penemuan produk hingga penyajian informasi operasional.",
   "outcomeTitle": "Desain berkarakter. Struktur aplikasi yang terarah.",
-  "tags": ["Katalog produk", "Dashboard admin", "Neobrutalism"],
+  "tags": [
+    "Katalog produk",
+    "Panel kendali administrator",
+    "Neobrutalism"
+  ],
   "features": [
-    {"number": "01", "title": "Landing page promosi", "text": "Banner penawaran dan kategori pilihan membentuk pintu masuk bagi pengunjung untuk mulai menjelajahi produk."},
-    {"number": "02", "title": "Katalog produk", "text": "Katalog menjadi ruang eksplorasi produk, didukung navigasi kategori dan area pencarian yang mudah ditemukan."},
-    {"number": "03", "title": "Halaman login", "text": "Form email dan password disusun dengan hierarki yang jelas, dilengkapi pilihan ingat saya serta tautan pendaftaran dan pemulihan akun."},
-    {"number": "04", "title": "Dashboard admin", "text": "Ringkasan pengguna, toko, produk, dan pesanan menyajikan gambaran aktivitas marketplace dalam satu halaman."},
-    {"number": "05", "title": "Navigasi pengelolaan", "text": "Menu admin mengelompokkan kategori, pesanan, produk, toko, pengguna, voucher, penarikan dana, dan pengaturan platform."},
-    {"number": "06", "title": "Identitas neobrutalism", "text": "Kuning dan biru yang kontras, border hitam, serta bayangan solid menjaga konsistensi visual dari halaman publik hingga area admin."}
+    {
+      "number": "01",
+      "title": "Landing page promosi",
+      "text": "Banner penawaran dan kategori pilihan membentuk pintu masuk bagi pengunjung untuk mulai menjelajahi produk."
+    },
+    {
+      "number": "02",
+      "title": "Katalog produk",
+      "text": "Katalog menjadi ruang eksplorasi produk, didukung navigasi kategori dan area pencarian yang mudah ditemukan."
+    },
+    {
+      "number": "03",
+      "title": "Halaman masuk",
+      "text": "Form email dan kata sandi disusun dengan hierarki yang jelas, dilengkapi pilihan ingat saya serta tautan pendaftaran dan pemulihan akun."
+    },
+    {
+      "number": "04",
+      "title": "Panel kendali administrator",
+      "text": "Ringkasan pengguna, toko, produk, dan pesanan menyajikan gambaran aktivitas marketplace dalam satu halaman."
+    },
+    {
+      "number": "05",
+      "title": "Navigasi pengelolaan",
+      "text": "Menu administrator mengelompokkan kategori, pesanan, produk, toko, pengguna, voucher, penarikan dana, dan pengaturan platform."
+    },
+    {
+      "number": "06",
+      "title": "Identitas neobrutalism",
+      "text": "Kuning dan biru yang kontras, border hitam, serta bayangan solid menjaga konsistensi visual dari halaman publik hingga area administrator."
+    }
   ],
   "gallery": [
-    {"src": "assets/projects/techcommers-landing.png", "title": "Landing page marketplace", "label": "ETALASE & PROMOSI", "text": "Banner diskon, penawaran promosi, pencarian, dan kategori pilihan menyusun titik awal pengalaman belanja.", "alt": "Landing page TechCommers dengan latar kuning, banner diskon, pencarian produk, dan kategori pilihan."},
-    {"src": "assets/projects/techcommers-login-v2.png", "title": "Halaman login", "label": "AKSES AKUN", "text": "Komposisi dua panel menempatkan identitas marketplace berdampingan dengan form login yang terfokus.", "alt": "Halaman login TechCommers dengan panel identitas kuning dan form email serta password pada latar biru."},
-    {"src": "assets/projects/techcommers-dashboard-admin.png", "title": "Dashboard administrator", "label": "PUSAT PENGELOLAAN", "text": "Kartu ringkasan pengguna, toko, produk, dan pesanan dilengkapi navigasi menuju area pengelolaan marketplace.", "alt": "Dashboard admin TechCommers dengan sidebar pengelolaan dan kartu ringkasan pengguna, toko, produk, serta pesanan."}
+    {
+      "src": "assets/projects/techcommers-landing.png",
+      "title": "Landing page marketplace",
+      "label": "ETALASE & PROMOSI",
+      "text": "Banner diskon, penawaran promosi, pencarian, dan kategori pilihan menyusun titik awal pengalaman belanja.",
+      "alt": "Landing page TechCommers dengan latar kuning, banner diskon, pencarian produk, dan kategori pilihan."
+    },
+    {
+      "src": "assets/projects/techcommers-login-v2.png",
+      "title": "Halaman masuk",
+      "label": "AKSES AKUN",
+      "text": "Komposisi dua panel menempatkan identitas marketplace berdampingan dengan form masuk yang terfokus.",
+      "alt": "Halaman masuk TechCommers dengan panel identitas kuning dan form email serta kata sandi pada latar biru."
+    },
+    {
+      "src": "assets/projects/techcommers-dashboard-admin.png",
+      "title": "Panel kendali administrator",
+      "label": "PUSAT PENGELOLAAN",
+      "text": "Kartu ringkasan pengguna, toko, produk, dan pesanan dilengkapi navigasi menuju area pengelolaan marketplace.",
+      "alt": "Panel kendali administrator TechCommers dengan sidebar pengelolaan dan kartu ringkasan pengguna, toko, produk, serta pesanan."
+    }
   ]
 }

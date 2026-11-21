@@ -1,0 +1,163 @@
+{
+  "errors": [],
+  "checks": [
+    "production build",
+    "23 routes",
+    "3 viewport widths",
+    "axe all rules",
+    "dropdown open and Escape",
+    "mobile menu open and Escape",
+    "project filter",
+    "keyboard focus and hover screenshots"
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/portfolio",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/work",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/about",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/process",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/contact",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/faq",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "nodes": [
+            [
+              "article:nth-child(1) > h3"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/privacy-policy",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/terms",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/website-development",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/e-commerce-development",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/custom-software-development",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/erp-business-solutions",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/ui-ux-design",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/maintenance-it-support",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/feature-api-integration",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/desktop-offline-application",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/services/developer-collaboration",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/portfolio/rpk-pustaka",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/portfolio/techcommers",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/portfolio/stayease",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    },
+    {
+      "route": "/portfolio/tech-resto",
+      "overflow": [],
+      "axeRun": "all rules, including color-contrast",
+      "issues": []
+    }
+  ]
+}

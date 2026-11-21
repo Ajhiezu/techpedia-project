@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-17T01:35:02.638Z",
+  "environment": "static HTTP only; /api returns503; artificial QA projects served only inside this runner; actual source includes the owner-supplied RPK Pustaka project",
+  "apiRequests": 0,
+  "cases": [
+    {
+      "name": "Trust journey presents evidence, illustrative progress, coordinator and agreements in order",
+      "status": "PASS"
+    },
+    {
+      "name": "No API calls or unhandled JavaScript exceptions",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "PASS": 2,
+    "FAIL": 0
+  }
+}

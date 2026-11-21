@@ -1,0 +1,29 @@
+const fs=require('node:fs');
+const assert=require('node:assert/strict');
+const {open}=require('./cdp.cjs');
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{
+ const browser=await open({label:'studio-v2-features'}),results=[];
+ const check=async(name,fn)=>{try{await fn();results.push({name,pass:true});}catch(e){results.push({name,pass:false,error:e.message});}};
+ try{
+  await browser.command('Network.enable');
+  await browser.command('Network.setBlockedURLs',{urls:['*fonts.googleapis.com*','*fonts.gstatic.com*']});
+  await browser.command('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+  await browser.command('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});
+  await browser.command('Page.navigate',{url:'http://127.0.0.1:8081/'});
+  for(let i=0;i<100;i++){if(await browser.evaluate('Boolean(window.TechpediaStudio&&document.querySelector(".pricing-card"))'))break;await wait(100);}
+  await check('Required homepage section order',async()=>assert.deepEqual(await browser.evaluate('[...document.querySelectorAll(".studio-home>section[id]")].map(s=>s.id)'),['home','services','process','work','pricing','why','talk','faq','about']));
+  await check('Four packages hide unapproved numeric prices and prefill the verified WhatsApp',async()=>{
+   assert.equal(await browser.evaluate('window.TechpediaPricing.pricingApproved'),false);
+   const packages=await browser.evaluate('[...document.querySelectorAll(".pricing-card")].map(c=>({name:c.querySelector("h3").textContent,text:c.innerText,url:c.querySelector("a").href}))');
+   assert.equal(packages.length,4);for(const p of packages){assert.doesNotMatch(p.text,/Rp\s*[\d.,]+/);const url=new URL(p.url);assert.equal(url.origin,'https://wa.me');assert.equal(url.pathname,'/6287732774899');assert.ok(url.searchParams.get('text').includes(p.name));}
+  });
+  await check('Anchor clicks retain the page and reach real sections',async()=>{for(const id of ['services','work','pricing','about']){await browser.evaluate(`document.querySelector('.desktop-nav a[data-section="${id}"]').click()`);await wait(120);assert.equal(await browser.evaluate('location.hash'),'#'+id);assert.ok(await browser.evaluate(`Math.abs(document.getElementById('${id}').getBoundingClientRect().top-100)<25`));assert.equal(await browser.evaluate('Boolean(document.querySelector(".pricing-card"))'),true);}});
+  await check('Native FAQ keyboard interaction',async()=>{await browser.evaluate('document.querySelector(".studio-questions summary").focus()');await browser.command('Input.dispatchKeyEvent',{type:'keyDown',key:'Enter',code:'Enter',text:'\r',windowsVirtualKeyCode:13});await browser.command('Input.dispatchKeyEvent',{type:'keyUp',key:'Enter',code:'Enter',windowsVirtualKeyCode:13});assert.equal(await browser.evaluate('document.querySelector(".studio-questions details").open'),true);});
+  await check('Project previews load and match all existing project routes',async()=>{const data=await browser.evaluate('(async()=>{const imgs=[...document.querySelectorAll(".work-image img")];imgs.forEach(i=>i.loading="eager");await Promise.all(imgs.map(i=>i.decode()));return imgs.map(i=>({width:i.naturalWidth,url:i.closest("a").pathname}));})()');assert.equal(data.length,4);for(const p of data){assert.ok(p.width>0);assert.ok(fs.existsSync('frontend'+p.url+'index.html'));}});
+  await check('Mobile focus wraps in both directions',async()=>{await browser.command('Emulation.setDeviceMetricsOverride',{width:390,height:900,deviceScaleFactor:1,mobile:true});await browser.evaluate('document.querySelector(".menu-toggle").click()');await browser.evaluate('document.querySelector(".mobile-nav a:last-child").focus()');await browser.command('Input.dispatchKeyEvent',{type:'keyDown',key:'Tab',code:'Tab',windowsVirtualKeyCode:9});assert.equal(await browser.evaluate('document.activeElement.className'),'mobile-close');await browser.command('Input.dispatchKeyEvent',{type:'keyDown',key:'Tab',code:'Tab',windowsVirtualKeyCode:9,modifiers:8});assert.equal(await browser.evaluate('document.activeElement.textContent'),"Let's Talk");await browser.evaluate('document.querySelector(".mobile-close").click()');});
+  await check('Cross-page pricing destination survives homepage hydration',async()=>{await browser.command('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});await browser.command('Page.navigate',{url:'http://127.0.0.1:8081/contact/'});await wait(400);await browser.evaluate('document.querySelector(".desktop-nav a[data-section=pricing]").click()');await wait(800);assert.equal(await browser.evaluate('location.hash'),'#pricing');assert.ok(await browser.evaluate('Math.abs(document.getElementById("pricing").getBoundingClientRect().top-100)<25'));});
+  await check('Full page desktop and mobile screenshots',async()=>{for(const [name,width] of [['desktop',1440],['mobile',390]]){await browser.command('Emulation.setDeviceMetricsOverride',{width,height:1000,deviceScaleFactor:1,mobile:width<500});await browser.evaluate('document.querySelectorAll(".work-image img").forEach(i=>i.loading="eager");scrollTo(0,0)');await wait(100);const layout=await browser.command('Page.getLayoutMetrics');const shot=await browser.command('Page.captureScreenshot',{captureBeyondViewport:true,clip:{x:0,y:0,width,height:layout.cssContentSize.height,scale:1}});fs.writeFileSync(`docs/redesign-v2/full-${name}.png`,Buffer.from(shot.data,'base64'));}});
+  await check('No runtime errors',async()=>assert.deepEqual(browser.errors,[]));
+ }finally{await browser.close();fs.writeFileSync('docs/redesign-v2/feature-results.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));if(results.some(r=>!r.pass))process.exitCode=1;}
+})().catch(e=>{console.error(e);process.exitCode=1;});

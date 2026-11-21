@@ -1,0 +1,57 @@
+/* Original artwork with the complete name on one readable baseline. */
+.header .desktop-nav {justify-self:center;}
+.header .brand,.footer .brand {
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+  text-decoration:none;
+}
+.header .brand-logo,.footer .brand-logo {
+  display:block;
+  width:46px;
+  height:46px;
+  flex:0 0 46px;
+  margin:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  filter:none;
+  mix-blend-mode:normal;
+  transform:none;
+}
+.header .brand .brand-name,.footer .brand .brand-name {
+  display:block;
+  font:700 23px/1.25 Inter,Arial,sans-serif;
+  letter-spacing:-.7px;
+  white-space:nowrap;
+  color:var(--brand-950)!important;
+}
+.header .brand .brand-name i,.footer .brand .brand-name i {
+  display:inline;
+  margin:0;
+  font:500 23px/1.25 Inter,Arial,sans-serif;
+  font-style:normal;
+  letter-spacing:-.7px;
+  text-transform:none;
+  color:var(--brand-600)!important;
+}
+.header .brand:hover,.footer .brand:hover {text-decoration:none;}
+.header .brand:hover .brand-name {color:var(--brand-700)!important;}
+.footer .brand .brand-name {font-size:24px;color:var(--surface)!important;}
+.footer .brand .brand-name i {font-size:24px;color:var(--cyan-100)!important;}
+.footer .brand-logo {width:48px;height:48px;flex-basis:48px;filter:invert(1) grayscale(1);mix-blend-mode:screen;}
+@media(max-width:1050px) and (min-width:851px) {
+  .header .brand {gap:10px;}
+  .header .brand-logo {width:40px;height:40px;flex-basis:40px;}
+  .header .brand .brand-name,.header .brand .brand-name i {font-size:20px;}
+}
+@media(max-width:600px) {
+  .header {grid-template-columns:1fr auto;}
+  .header .header-cta {display:none;}
+  .header .brand {gap:11px;}
+  .header .brand-logo {width:40px;height:40px;flex-basis:40px;}
+  .header .brand .brand-name,.header .brand .brand-name i {font-size:20px;letter-spacing:-.6px;}
+  .header .menu-toggle {justify-self:end;}
+}
